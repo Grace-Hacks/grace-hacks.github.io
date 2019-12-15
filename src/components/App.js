@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import NavigationBar from './NavigationBar/NavigationBar';
+import logo from '../assets/logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <NavigationBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Everything works!
         </p>
         <a
           className="App-link"
