@@ -1,4 +1,6 @@
 import React from 'react';
+import './bootstrap/dist/css/bootstrap.css';
+
 import NavigationBar from './NavigationBar/NavigationBar';
 import logo from '../assets/logo.svg';
 import './App.css';
