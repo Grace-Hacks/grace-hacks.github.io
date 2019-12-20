@@ -2,7 +2,7 @@ import React from 'react';
 
 function FAQ() {
   return (
-     <div>"FAQ" Section!</div>
+     <div id="faq-section">"FAQ" Section!</div>
   );
 }
 

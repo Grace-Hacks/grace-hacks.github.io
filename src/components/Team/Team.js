@@ -2,7 +2,7 @@ import React from 'react';
 
 function Team() {
   return (
-     <div>"Team" Section!</div>
+     <div id="team-section">"Team" Section!</div>
   );
 }
 

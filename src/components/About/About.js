@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-     <div>"About" Section!</div>
+     <div id="about-section">"About" Section!</div>
   );
 }
 

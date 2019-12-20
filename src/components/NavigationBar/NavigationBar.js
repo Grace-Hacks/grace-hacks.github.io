@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-
+import { Link, animateScroll } from 'react-scroll';
 
 function NavigationBar() {
   return (
@@ -9,14 +9,12 @@ function NavigationBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">About</Nav.Link>
-          <Nav.Link href="#link">FAQ</Nav.Link>
-          <Nav.Link href="#link">Team</Nav.Link>
-          <Nav.Link href="#link">Sponsors</Nav.Link>
-          <Nav.Link href="#link">Contacts</Nav.Link>
+          <Link activeClass="active" to="about-section" spy={ true } smooth={ true } offset={ -70 } duration= { 500 }>About</Link>
+          <Link activeClass="active" to="faq-section" spy={ true } smooth={ true } offset={ -70 } duration= { 500 }>FAQ</Link>
+          <Link activeClass="active" to="team-section" spy={ true } smooth={ true } offset={ -70 } duration= { 500 }>Team</Link>
+          <Link activeClass="active" to="sponsors-section" spy={ true } smooth={ true } offset={ -70 } duration= { 500 }>Sponsors</Link>
+          <Link activeClass="active" to="contacts-section" spy={ true } smooth={ true } offset={ -70 } duration= { 500 }>Contacts</Link>
         </Nav>
-
       </Navbar.Collapse>
 
     </Navbar>
