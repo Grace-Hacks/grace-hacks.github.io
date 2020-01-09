@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Jumbotron, Container, Button } from 'react-bootstrap';
+import { Jumbotron, Button } from 'react-bootstrap';
 
 import NavigationBar from './NavigationBar/NavigationBar';
 import About from './About/About';
