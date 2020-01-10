@@ -3,7 +3,7 @@ import { Accordion, Card } from 'react-bootstrap';
 
 function FAQ() {
   return (
-    <Accordion>
+    <Accordion id="faq-section">
       <Card className="mx-auto" style={{ width: '40rem' }}>
         <Accordion.Toggle as={Card.Header} eventKey="0">
           What is a hackathon?
