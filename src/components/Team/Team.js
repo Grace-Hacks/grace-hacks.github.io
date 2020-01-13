@@ -12,6 +12,9 @@ function Team() {
         <h1> TEAM </h1>
 
         <Row style={{paddingTop:"20px"}}>
+
+        <Row style={{paddingTop:"10px"}}>
+
             <Col>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top"/>
@@ -30,6 +33,7 @@ function Team() {
                     <Card.Img variant="top"/>
                     <img src={require('./Navya.jpeg')} width = "287px" height = "300px" alt="Card image"/>
                     <Card.Body>
+
                         <Card.Title><Button variant="primary">Navya Rao</Button></Card.Title>
                         <Card.Text>
                             Co-Founder and PR Lead
@@ -82,6 +86,11 @@ function Team() {
                     <Card.Title><Button variant="primary">Namratha Prithviraj</Button></Card.Title>
                         <Card.Text>
                             Sponsorship Team Lead
+
+                    <Card.Title><Button variant="primary">Saniya Doshi</Button></Card.Title>
+                        <Card.Text>
+                            Founder and Executive Lead
+
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -91,6 +100,58 @@ function Team() {
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Body>
+
+                    <Card.Title><Button variant="primary">Navya Rao</Button></Card.Title>
+                        <Card.Text>
+                            Co-founder and PR Team Lead
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+
+            <Col>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                    <Card.Title><Button variant="primary">Shivika Sivakumar</Button></Card.Title>
+                        <Card.Text>
+                            Co-founder and Tech Team Lead
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+        </Row>
+
+        <Row style={{paddingTop:"10px"}}>
+            <Col>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                    <Card.Title><Button variant="primary">Kelly Fesler</Button></Card.Title>
+                        <Card.Text>
+                            Logistics Team Lead
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+
+            <Col>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+                    <Card.Title><Button variant="primary">Namratha Prithviraj</Button></Card.Title>
+                        <Card.Text>
+                            Sponsorship Team Lead
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+
+            <Col>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Body>
+
                     <Card.Title><Button variant="primary">Sathya Gadhiraju</Button></Card.Title>
                         <Card.Text>
                             PR Team Member
@@ -100,11 +161,18 @@ function Team() {
             </Col>
         </Row>
 
+
         <Row style={{paddingTop:"20px"}}>
             <Col>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top"/>
                     <img src={require('./Tim.jpeg')} width = "287px" height = "300px" alt="Card image"/>
+
+        <Row style={{paddingTop:"10px"}}>
+            <Col>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+
                     <Card.Body>
                         <Card.Title><Button variant="primary">Tim Nguyen</Button></Card.Title>
                         <Card.Text>
@@ -116,8 +184,12 @@ function Team() {
 
             <Col>
                 <Card style={{ width: '18rem' }}>
+
                     <Card.Img variant="top"/>
                     <img src={require('./Desi.jpeg')} width = "287px" height = "300px" alt="Card image"/>
+
+                    <Card.Img variant="top" src="holder.js/100px180" />
+
                     <Card.Body>
                         <Card.Title><Button variant="primary">Desiderio Ascencio</Button></Card.Title>
                         <Card.Text>
@@ -129,8 +201,12 @@ function Team() {
 
             <Col>
                 <Card style={{ width: '18rem' }}>
+
                     <Card.Img variant="top"/>
                     <img src={require('./Deeksha.jpeg')} width = "287px" height = "300px" alt="Card image"/>
+
+                    <Card.Img variant="top" src="holder.js/100px180" />
+
                     <Card.Body>
                         <Card.Title><Button variant="primary">Deeksha Manjunath</Button></Card.Title>
                         <Card.Text>
@@ -141,11 +217,18 @@ function Team() {
                 </Card>
             </Col>
         </Row>
+
         <Row style={{paddingTop:"20px"}}>
             <Col>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top"/>
                     <img src={require('./Anu.jpeg')} width = "287px" height = "300px" alt="Card image"/>
+
+        <Row style={{paddingTop:"10px"}}>
+            <Col>
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src="holder.js/100px180" />
+
                     <Card.Body>
                     <Card.Title><Button variant="primary">Anupreet Singh</Button></Card.Title>
                         <Card.Text>
