@@ -9,7 +9,7 @@ function Team() {
 
     <Container style={{paddingTop:"15px"}} id="team-section">
 
-        <h1> TEAM </h1>
+        <h1> Meet our TEAM </h1>
 
         <Row style={{paddingTop:"20px"}}>
             <Col>
@@ -126,22 +126,7 @@ function Team() {
                     </Card.Body>
                 </Card>
             </Col>
-
-            <Col>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top"/>
-                    <img src={require('./Deeksha.jpeg')} width = "287px" height = "300px" alt="Card image"/>
-                    <Card.Body>
-                        <Card.Title><Button variant="primary">Deeksha Manjunath</Button></Card.Title>
-                        <Card.Text>
-                            Sponsorship Team Member
-                        </Card.Text>
-                        
-                    </Card.Body>
-                </Card>
-            </Col>
-        </Row>
-        <Row style={{paddingTop:"20px"}}>
+            
             <Col>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top"/>
