@@ -1,38 +1,14 @@
-/*!
-  Copyright (c) 2017 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/
+/*
+  object-assign
+  (c) Sindre Sorhus
+  @license MIT
+  */
 
 /*
 object-assign
 (c) Sindre Sorhus
 @license MIT
 */
-
-/** @license React v16.8.1
-   * react-is.production.min.js
-   *
-   * Copyright (c) Facebook, Inc. and its affiliates.
-   *
-   * This source code is licensed under the MIT license found in the
-   * LICENSE file in the root directory of this source tree.
-   */
-
-/** @license React v16.8.1
-    * react-is.development.js
-    *
-    * Copyright (c) Facebook, Inc. and its affiliates.
-    *
-    * This source code is licensed under the MIT license found in the
-    * LICENSE file in the root directory of this source tree.
-    */
-
-/*
-  object-assign
-  (c) Sindre Sorhus
-  @license MIT
-  */
 
 /*!
    * isobject <https://github.com/jonschlinkert/isobject>
@@ -41,8 +17,14 @@ object-assign
    * Released under the MIT License.
    */
 
-/** @license React v16.12.0
- * react.production.min.js
+/*!
+  Copyright (c) 2017 Jed Watson.
+  Licensed under the MIT License (MIT), see
+  http://jedwatson.github.io/classnames
+*/
+
+/** @license React v0.18.0
+ * scheduler.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -59,11 +41,29 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v0.18.0
- * scheduler.production.min.js
+/** @license React v16.12.0
+ * react.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+/** @license React v16.8.1
+    * react-is.development.js
+    *
+    * Copyright (c) Facebook, Inc. and its affiliates.
+    *
+    * This source code is licensed under the MIT license found in the
+    * LICENSE file in the root directory of this source tree.
+    */
+
+/** @license React v16.8.1
+   * react-is.production.min.js
+   *
+   * Copyright (c) Facebook, Inc. and its affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   */
