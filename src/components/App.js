@@ -9,8 +9,6 @@ import Team from './Team/Team';
 import Sponsors from './Sponsors/Sponsors';
 import Contacts from './Contacts/Contacts';
 import Footer from './Footer/Footer';
-import * as typeformEmbed from '@typeform/embed'
-import {Component} from 'react'; 
 import { ReactTypeformEmbed } from 'react-typeform-embed';
 import NewWindow from 'react-new-window'
 
@@ -29,10 +27,10 @@ function App() {
 
           <p>
             <Button variant="primary">
-              REGISTER!  
+              REGISTER!
             </Button>
           </p>
-          
+
           <NewWindow>
             window.open(<ReactTypeformEmbed url="https://shivikasivakumar.typeform.com/to/fmrvAY"/>)
           </NewWindow>
