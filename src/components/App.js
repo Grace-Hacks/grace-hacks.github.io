@@ -16,7 +16,7 @@ import './App.css';
 
 function App() {
     return (
-      <div className="App">
+      <div className="app-container">
         <NavigationBar />
 
         <script src="https://embed.typeform.com/embed.js"></script>
