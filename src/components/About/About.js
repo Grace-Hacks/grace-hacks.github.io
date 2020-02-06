@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 
 function About() {
   return (
-    <Card id="about-section" className="mx-auto" border="primary" style={{ width: '30rem' }}>
+    <Card id="about-section" className="mx-auto col-md-9" border="primary">
       <Card.Header as="h5">Our Mission</Card.Header>
       <Card.Body>
         <Card.Title>Create With Confidence.</Card.Title>
