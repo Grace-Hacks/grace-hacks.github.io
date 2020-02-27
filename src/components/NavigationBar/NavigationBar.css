@@ -1,0 +1,39 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #413F3F;
+  color: #C4C4C4;
+  padding: 0px 25px;
+  height: 90px;
+  font-size: 55px;
+  line-height: 54px;
+}
+
+.nav-title, .nav-title:hover {
+  color: #C4C4C4;
+  text-decoration: none;
+}
+
+.nav-info {
+  display: flex;
+  align-items: center;
+}
+
+.nav-faq {
+  margin-right: 55px;
+  cursor: pointer;
+}
+
+.nav-apply {
+  margin-right: 55px;
+  cursor: pointer;
+}
+
+.nav-icon {
+  width: 55px;
+  height: 55px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  cursor: pointer;
+}
