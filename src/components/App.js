@@ -19,7 +19,7 @@ function App() {
       <div className="app-container">
         <NavigationBar />
 
-        <script src="https://embed.typeform.com/embed.js"></script>
+        {/* <script src="https://embed.typeform.com/embed.js"></script>
 
         <Jumbotron style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '75vh', textAlign: "left" }}>
           <h1>GraceHacks @ UCSC</h1>
@@ -35,13 +35,13 @@ function App() {
             window.open(<ReactTypeformEmbed url="https://shivikasivakumar.typeform.com/to/fmrvAY"/>)
           </NewWindow>
 
-        </Jumbotron>
+        </Jumbotron> */}
 
         <About />
-        <FAQ />
+        {/* <FAQ />
         <Team />
-        <Sponsors />
-        <Contacts />
+        <Sponsors /> */}
+        {/* <Contacts /> */}
         <Footer />
       </div>
     );
