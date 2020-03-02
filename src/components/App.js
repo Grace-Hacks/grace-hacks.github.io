@@ -19,6 +19,18 @@ function App() {
       <div className="app-container">
         <NavigationBar />
 
+        <div className="title">
+          <div id="letterU">U</div>
+          <div id="letterCf">C</div>
+          <div id="letterS">S</div>
+          <div id="letterC">C</div>
+          <div id="word">GraceHacks</div>
+        </div>
+
+        <div id="event"> April 11th 2020 Oakes Learning Center </div>
+
+        <div id="register"> REGISTER </div> 
+
         {/* <script src="https://embed.typeform.com/embed.js"></script>
 
         <Jumbotron style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', height: '75vh', textAlign: "left" }}>
