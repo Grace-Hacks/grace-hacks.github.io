@@ -18,7 +18,7 @@
   left: 0px;
   top: 98px;
 
-  background: url("GraceHacks.png");
+  background: url('../assets/VCR.ttf');
   background-size: 630px 600px;
 }
 
@@ -34,7 +34,6 @@
   left: 163px;
   top: 417px;
 
-  font-family: VCR OSD Mono;
   font-style: normal;
   font-weight: normal;
   font-size: 111px;
@@ -66,7 +65,6 @@
   left: 299px;
   top: 417px;
 
-  font-family: VCR OSD Mono;
   font-style: normal;
   font-weight: normal;
   font-size: 111px;
@@ -98,7 +96,6 @@
   left: 442px;
   top: 415px;
 
-  font-family: VCR OSD Mono;
   font-style: normal;
   font-weight: normal;
   font-size: 111px;
@@ -130,7 +127,6 @@
   left: 581px;
   top: 417px;
 
-  font-family: VCR OSD Mono;
   font-style: normal;
   font-weight: normal;
   font-size: 111px;
@@ -162,7 +158,6 @@
   left: 725px;
   top: 412px;
 
-  font-family: VCR OSD Mono;
   font-style: normal;
   font-weight: normal;
   font-size: 111px;
@@ -182,7 +177,7 @@
   margin-bottom: 25px;
 }
 
-#event 
+#event
 {
   display: flex;
   justify-content: center;
@@ -194,7 +189,6 @@
   left: 597px;
   top: 462px;
 
-  font-family: VCR OSD Mono;
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
@@ -217,7 +211,6 @@
   left: 1015px;
   top: 635px;
 
-  font-family: VCR OSD Mono;
   font-style: normal;
   font-weight: normal;
   font-size: 66px;
