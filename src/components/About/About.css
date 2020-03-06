@@ -8,7 +8,7 @@
 
 .about-title {
   display: flex;
-  text-align: center;
+  justify-content: center;
   background: #413F3F;
   border-radius: 25px;
   font-size: 77px;
