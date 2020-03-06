@@ -29,7 +29,9 @@ function App() {
 
         <div id="event"> April 11th 2020 Oakes Learning Center </div>
 
-        <div id="register"> REGISTER </div>
+        <a href = "https://tinyurl.com/GH-app" target="_blank">
+          <div id="register"> REGISTER </div>
+        </a>
 
         {/* <script src="https://embed.typeform.com/embed.js"></script>
 
