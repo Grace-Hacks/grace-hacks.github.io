@@ -52,10 +52,10 @@ function App() {
         </Jumbotron> */}
 
         <About />
-        {/* <FAQ />
-        <Team />
-        <Sponsors /> */}
-        {/* <Contacts /> */}
+        <FAQ />
+        {/* <Team />
+        <Sponsors />
+        <Contacts />  */}
         <Footer />
       </div>
     );
