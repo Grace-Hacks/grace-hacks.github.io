@@ -2,7 +2,6 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Container, Row, Col } from 'reactstrap';
 import { Button } from 'reactstrap';
-import {Link} from 'react-router-dom';
 
 function Team() {
   return (
@@ -15,7 +14,7 @@ function Team() {
             <Col>
                 <Card className="mx-auto"style={{ width: '18rem' }}>
                     <Card.Img variant="top"/>
-                    <img src={require('./Saniya.png')} width = "287px" height = "300px" alt="Card image"/>
+                    <img src={require('./Saniya.png')} width = "287px" height = "300px" alt="Card"/>
                     <Card.Body>
                     <Card.Title><Button variant="primary">Saniya Doshi</Button></Card.Title>
                         <Card.Text>
@@ -30,7 +29,7 @@ function Team() {
           <Col>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top"/>
-                  <img src={require('./Navya.png')} width = "287px" height = "300px" alt="Card image"/>
+                  <img src={require('./Navya.png')} width = "287px" height = "300px" alt="Card"/>
                   <Card.Body>
                     <Card.Title><Button variant="primary">Navya Rao</Button></Card.Title>
                     <Card.Text>
@@ -51,7 +50,7 @@ function Team() {
           <Col>
               <Card style={{ width: '18rem' }}>
                   <Card.Img variant="top"/>
-                  <img src={require('./Shivika.png')} width = "287px" height = "300px" alt="Card image"/>
+                  <img src={require('./Shivika.png')} width = "287px" height = "300px" alt="Card"/>
                   <Card.Body>
                   <Card.Title><Button variant="primary">Shivika Sivakumar</Button></Card.Title>
                       <Card.Text>
@@ -64,7 +63,7 @@ function Team() {
           <Col>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top"/>
-                <img src={require('./Kelly.png')} width = "287px" height = "300px" alt="Card image"/>
+                <img src={require('./Kelly.png')} width = "287px" height = "300px" alt="Card"/>
                 <Card.Body>
                 <Card.Title><Button variant="primary">Kelly Fesler</Button></Card.Title>
                     <Card.Text>
@@ -79,7 +78,7 @@ function Team() {
           <Col>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top"/>
-                <img src={require('./Namratha.png')} width = "287px" height = "300px" alt="Card image"/>
+                <img src={require('./Namratha.png')} width = "287px" height = "300px" alt="Card"/>
                 <Card.Body>
                 <Card.Title><Button variant="primary">Namratha Prithviraj</Button></Card.Title>
                     <Card.Text>
@@ -92,7 +91,7 @@ function Team() {
           <Col>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top"/>
-                  <img src={require('./Sathya.png')} width = "287px" height = "300px" alt="Card image"/>
+                  <img src={require('./Sathya.png')} width = "287px" height = "300px" alt="Card"/>
                   <Card.Body>
                     <Card.Title><Button variant="primary">Sathya Gadhiraju</Button></Card.Title>
                       <Card.Text>
@@ -105,7 +104,7 @@ function Team() {
             <Col>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top"/>
-                    <img src={require('./Tim.png')} width = "287px" height = "300px" alt="Card image"/>
+                    <img src={require('./Tim.png')} width = "287px" height = "300px" alt="Card"/>
                     <Card.Body>
                         <Card.Title><Button variant="primary">Tim Nguyen</Button></Card.Title>
                         <Card.Text>
@@ -120,7 +119,7 @@ function Team() {
             <Col>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top"/>
-                    <img src={require('./Desi.png')} width = "287px" height = "300px" alt="Card image"/>
+                    <img src={require('./Desi.png')} width = "287px" height = "300px" alt="Card"/>
                     <Card.Body>
                         <Card.Title><Button variant="primary">Desiderio Ascencio</Button></Card.Title>
                         <Card.Text>
@@ -133,7 +132,7 @@ function Team() {
             <Col>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top"/>
-                    <img src={require('./Anu.png')} width = "287px" height = "300px" alt="Card image"/>
+                    <img src={require('./Anu.png')} width = "287px" height = "300px" alt="Card"/>
                     <Card.Body>
                     <Card.Title><Button variant="primary">Anupreet Singh</Button></Card.Title>
                         <Card.Text>
@@ -146,7 +145,7 @@ function Team() {
             <Col>
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top"/>
-                  <img src={require('./Simran.png')} width = "287px" height = "300px" alt="Card image"/>
+                  <img src={require('./Simran.png')} width = "287px" height = "300px" alt="Card"/>
                   <Card.Body>
                     <Card.Title><Button variant="primary">Simran Gunsi</Button></Card.Title>
                     <Card.Text>

@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Jumbotron, Button } from 'react-bootstrap';
 
 import NavigationBar from './NavigationBar/NavigationBar';
 import About from './About/About';
@@ -9,8 +8,6 @@ import Team from './Team/Team';
 import Sponsors from './Sponsors/Sponsors';
 import Contacts from './Contacts/Contacts';
 import Footer from './Footer/Footer';
-import { ReactTypeformEmbed } from 'react-typeform-embed';
-import NewWindow from 'react-new-window'
 
 import './App.css';
 
@@ -29,7 +26,7 @@ function App() {
 
         <div id="event"> April 11th 2020 Oakes Learning Center </div>
 
-        <a href = "https://tinyurl.com/GH-app" target="_blank">
+        <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer">
           <div id="register"> REGISTER </div>
         </a>
 
