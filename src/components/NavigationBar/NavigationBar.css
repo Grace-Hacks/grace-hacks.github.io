@@ -10,9 +10,9 @@
   line-height: 54px;
 }
 
-.nav-title, .nav-title:hover {
-  color: #C4C4C4;
-  text-decoration: none;
+a, a:hover, a:focus, a:active {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .nav-info {

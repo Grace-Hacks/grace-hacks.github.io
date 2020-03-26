@@ -36,3 +36,11 @@
 .middle {
   margin: 0px 55px;
 }
+
+.footer-message {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: black;
+  padding: 10px 25px;
+}
