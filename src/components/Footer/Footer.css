@@ -22,19 +22,17 @@
 .footer-social {
   display: flex;
   justify-content: space-between;
+  width: 35%;
   margin-bottom: 25px;
 }
 
-.footer-icon {
+
+a .footer-icon {
   width: 95px;
   height: 95px;
   background: #C4C4C4;
   border-radius: 50%;
   cursor: pointer;
-}
-
-.middle {
-  margin: 0px 55px;
 }
 
 .footer-message {
