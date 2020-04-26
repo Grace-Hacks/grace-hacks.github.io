@@ -17,8 +17,8 @@ function Footer() {
         <a href="mailto:ucsc.gracehacks@gmail.com" target="_blank" rel="noopener noreferrer"><img class="footer-icon" src={email} alt="email"/></a>
       </div>
       <div class="footer-message">
-        <div>Made with <span role='img' aria-label='hearts'>❤️❤️❤️</span> by <span role='img' aria-label='snails'>🐌🐌🐌</span> in Santa Cruz.</div>
-        <div>© 2020 GraceHacks. All rights reserved.</div>
+        <div class="made">Made with <span role='img' aria-label='hearts'>❤️❤️❤️</span> by <span role='img' aria-label='snails'>🐌🐌🐌</span> in Santa Cruz.</div>
+        <div class="rights">© 2020 GraceHacks. All rights reserved.</div>
       </div>
     </div>
   );

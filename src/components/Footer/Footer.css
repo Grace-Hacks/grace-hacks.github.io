@@ -21,17 +21,19 @@
 
 .footer-social {
   display: flex;
-  justify-content: space-between;
-  width: 35%;
+  padding: 0px 20%;
+  justify-content: center;
   margin-bottom: 25px;
+  width: 100%;
+  flex-wrap: wrap;
 }
-
 
 a .footer-icon {
   width: 95px;
   height: 95px;
   background: #C4C4C4;
   border-radius: 50%;
+  margin: 15px;
   cursor: pointer;
 }
 
@@ -39,6 +41,10 @@ a .footer-icon {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  color: black;
+  color: white;
   padding: 10px 25px;
+}
+
+.rights {
+  text-align: right;
 }
