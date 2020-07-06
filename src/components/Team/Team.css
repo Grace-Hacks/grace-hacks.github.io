@@ -1,0 +1,66 @@
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 85px 0px;
+}
+
+.team-title {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.word {
+  display: flex;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 25px 25px 0px;
+  padding: 5px 30px;
+
+  color: #EBEBEB;
+  font-size: 111px;
+  line-height: 108px;
+  background: #413F3F;
+  border-radius: 25px;
+}
+
+.spacer {
+  margin-right: 60px;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.picture {
+  border-radius: 25px;
+}
+
+.name {
+  font-size: 35px;
+  line-height: 34px;
+  text-align: center;
+  color: #8F8F8F;
+
+  background: #EBEBEB;
+  border-radius: 25px;
+}
+
+.position {
+  font-size: 35px;
+  line-height: 34px;
+}
+
+.pronouns {
+  font-size: 24px;
+  line-height: 23px;
+}

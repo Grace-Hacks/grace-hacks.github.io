@@ -50,8 +50,8 @@ function App() {
 
         <About />
         <FAQ />
-        {/* <Team />
-        <Sponsors />
+        <Team />
+        {/* <Sponsors />
         <Contacts />  */}
         <Footer />
       </div>
