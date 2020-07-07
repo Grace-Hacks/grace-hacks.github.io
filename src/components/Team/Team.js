@@ -20,82 +20,66 @@ function Team() {
       </div>
       <div class="team-row">
         <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
-        </div>
-        <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
-        </div>
-        <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
+          <img src={require("./Saniya.png")} alt="GraceHacks member" />
+          <div class="name">Saniya Doshi</div>
+          <div class="position">Executive Lead</div>
+          <div class="pronouns">she/her/hers</div>
         </div>
       </div>
       <div class="team-row">
         <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
+          <img src={require("./Desi.png")} alt="GraceHacks member" />
+          <div class="name">Desiderio Ascencio</div>
+          <div class="position">Logistics Lead</div>
+          <div class="pronouns">he/him/his</div>
         </div>
         <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
-        </div>
-        <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
+          <img src={require("./Anu.png")} alt="GraceHacks member" />
+          <div class="name">Anupreet Singh</div>
+          <div class="position">Logistics</div>
+          <div class="pronouns">she/her/hers</div>
         </div>
       </div>
       <div class="team-row">
         <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
+          <img src={require("./Navya.png")} alt="GraceHacks member" />
+          <div class="name">Navya Rao</div>
+          <div class="position">Public Relations Lead</div>
+          <div class="pronouns">she/her/hers</div>
         </div>
         <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
-        </div>
-        <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
+          <img src={require("./Sathya.png")} alt="GraceHacks member" />
+          <div class="name">Sathya Gadhiraju</div>
+          <div class="position">Public Relations</div>
+          <div class="pronouns">she/her/hers</div>
         </div>
       </div>
       <div class="team-row">
         <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
+          <img src={require("./Tim.png")} alt="GraceHacks member" />
+          <div class="name">Tim Nguyen</div>
+          <div class="position">Tech Lead</div>
+          <div class="pronouns">he/him/his</div>
         </div>
         <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
+          <img src={require("./Jennie.jpg")} alt="GraceHacks member" />
+          <div class="name">Jennie Nguyen</div>
+          <div class="position">Tech</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
+      </div>
+      <div class="team-row">
+        <div class="member">
+          <img src={require("./Namratha.png")} alt="GraceHacks member" />
+          <div class="name">Namratha Prithviraj</div>
+          <div class="position">Sponsorship Lead</div>
+          <div class="pronouns">she/her/hers</div>
         </div>
         <div class="member">
-          <div class="picture"></div>
-          <div class="name"></div>
-          <div class="position"></div>
-          <div class="pronouns"></div>
+          <img src={require("./Simran.png")} alt="GraceHacks member" />
+          <div class="name">Simran Gunsi</div>
+          <div class="position">Design Lead</div>
+          <div class="pronouns">she/her/hers</div>
         </div>
       </div>
     </div>
