@@ -24,7 +24,7 @@ function App() {
           <div id="word">GraceHacks</div>
         </div>
 
-        <div id="event"> April 11th 2020 Oakes Learning Center </div>
+        <div id="event"> October 17th & 18th - Online @ 11AM</div>
 
         <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer">
           <div id="register"> REGISTER </div>
