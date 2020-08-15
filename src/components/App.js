@@ -51,8 +51,8 @@ function App() {
         <About />
         <FAQ />
         <Team />
-        {/* <Sponsors />
-        <Contacts />  */}
+        <Sponsors />
+        {/*<Contacts />  */}
         <Footer />
       </div>
     );
