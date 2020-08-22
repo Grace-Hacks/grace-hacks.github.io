@@ -21,10 +21,10 @@ function App() {
 
         <div class="header">
           <div className="title">
-            <div id="letterU">U</div>
-            <div id="letterU">C</div>
-            <div id="letterU">S</div>
-            <div id="letterU">C</div>
+            <div id="letter">U</div>
+            <div id="letter">C</div>
+            <div id="letter">S</div>
+            <div id="letter">C</div>
             <div id="word">GraceHacks</div>
           </div>
 
