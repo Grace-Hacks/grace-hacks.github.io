@@ -1,0 +1,60 @@
+.sponsors-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 0px;
+}
+
+.sponsors-title {
+	display: flex;
+	justify-content: center;
+}
+
+
+.box {
+  display: flex;
+  justify-content: center;
+
+  width: 1370px;
+  height: 197px;
+  left: 35px;
+  top: 4326px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #A57ED4;
+  color: #FFF;
+  font-size: 44px;
+  text-align: center;
+}
+
+.sponsors-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+
+}
+
+img {
+  width: 275px;
+  margin-bottom: 7px;
+  background-size: cover;
+  border-radius: 0%;
+  margin: 20px;
+}
+
+.x-large-logo {
+}
+
+.large-logo {
+
+}
+
+.medium-logo {
+
+}
+
+.small-logo {
+
+}
+
