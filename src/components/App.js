@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import NavigationBar from './NavigationBar/NavigationBar';
-import GraceHacks from '../assets/GraceHacks.png'
+import Header from './Header/Header';
 import About from './About/About';
 import FAQ from './FAQ/FAQ';
 import Team from './Team/Team';
@@ -16,26 +16,7 @@ function App() {
     return (
       <div className="app-container">
         <NavigationBar />
-
-        <img class="header-image" src={GraceHacks}></img>
-
-        <div class="header">
-          <div className="title">
-            <div id="letter">U</div>
-            <div id="letter">C</div>
-            <div id="letter">S</div>
-            <div id="letter">C</div>
-            <div id="word">GraceHacks</div>
-          </div>
-
-        <div id="event"> October 17th & 18th - Online @ 11AM PST</div>
-
-          {/* <div class="button"> */}
-            <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer" class="button">
-              <div id="register"> REGISTER </div>
-            </a>
-            {/* </div> */}
-        </div>
+        <Header />
 
         {/* <script src="https://embed.typeform.com/embed.js"></script>
 
