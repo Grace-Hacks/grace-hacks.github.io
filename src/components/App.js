@@ -24,7 +24,7 @@ function App() {
           <div id="word">GraceHacks</div>
         </div>
 
-        <div id="event"> October 17th & 18th - Online @ 11AM</div>
+        <div id="event"> October 17th & 18th - Online @ 11AM PST</div>
 
         <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer">
           <div id="register"> REGISTER </div>
