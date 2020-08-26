@@ -13,7 +13,7 @@ function Header() {
         <div id="letter">C</div>
         <div id="word">GraceHacks</div>
       </div>
-      <div id="event"> October 17th & 18th - Online @ 11AM</div>
+      <div id="event"> October 17th & 18th - Online @ 11AM PST</div>
       <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer" class="button">
         <div id="register"> REGISTER </div>
       </a>
