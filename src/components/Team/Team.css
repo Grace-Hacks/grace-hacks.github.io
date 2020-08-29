@@ -12,10 +12,6 @@
   margin-bottom: 20px;
 }
 
-.word {
-  display: flex;
-}
-
 .letter {
   display: flex;
   justify-content: center;
@@ -41,7 +37,7 @@
   margin-bottom: 35px;
 }
 
-img {
+.picture {
   width: 275px;
   border-radius: 50%;
   margin-bottom: 7px;

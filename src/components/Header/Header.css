@@ -7,7 +7,7 @@
     z-index: 0;
     width: 40%;
     height: 40%;
-    margin: 20px 0 0 7%;
+    margin: 20px 0 0 5%;
 }
   
 .title {
@@ -16,11 +16,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
     margin: -25% 0 0 0;
 }
   
-#letter {
+.letterHeader {
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -29,13 +28,13 @@
     font-size: 7vw;
     color: #EBEBEB;
     background: #413F3F;
-    border-radius: 10%;
+    border-radius: 25px;
   
-    margin-right: 1%;
-    padding: 0% 2% 0% 2%;
+    margin: 0px 25px 25px 10px;
+    padding: 5px 30px;
 }
   
-  #word {
+.word {
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -44,13 +43,13 @@
     font-size: 7vw;
     color: #EBEBEB;
     background: #413F3F;
-    border-radius: 3%;
+    border-radius: 25px;
   
-    margin-left: 3%;
-    padding: 0% 2% 0% 2%;
+    margin: 0px 25px 25px 0px;
+    padding: 5px 30px;
 }
   
-#event {
+.event {
     z-index: 1;
     display: flex;
     justify-content: flex-end;
@@ -71,7 +70,7 @@
     margin: 0 7% 0 6%;
 }
   
-#register {
+.register {
     z-index: 1;
     display: flex;
     justify-content: center;
