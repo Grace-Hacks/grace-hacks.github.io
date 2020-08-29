@@ -7,7 +7,7 @@
     z-index: 0;
     width: 40%;
     height: 40%;
-    margin: 20px 0 0 5%;
+    margin: 20px 0 0 60px;
 }
   
 .title {
@@ -16,7 +16,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: -25% 0 0 0;
+    margin: -25% 4% 0 4%;
+    /* border: 2px solid green; */
 }
   
 .letterHeader {
@@ -25,13 +26,15 @@
     justify-content: center;
     align-items: center;
   
-    font-size: 7vw;
+    font-size: 7.5vw;
+    line-height: 100%;
     color: #EBEBEB;
     background: #413F3F;
     border-radius: 25px;
+    /* border-radius: 5%; */
   
-    margin: 0px 25px 25px 10px;
-    padding: 5px 30px;
+    margin: 0px 2% 25px 0px;
+    padding: 0.5% 1.5%;
 }
   
 .word {
@@ -40,13 +43,14 @@
     justify-content: center;
     align-items: center;
   
-    font-size: 7vw;
+    font-size: 7.5vw;
+    line-height: 100%;
     color: #EBEBEB;
     background: #413F3F;
     border-radius: 25px;
-  
-    margin: 0px 25px 25px 0px;
-    padding: 5px 30px;
+
+    margin: 0px 0px 25px 4.5%;
+    padding: 0.5% 1.5%;
 }
   
 .event {
@@ -58,7 +62,7 @@
     font-size: 35px;
     color: #E0E0E0;
   
-    margin: 75px 7% 25px 6%;
+    margin: 50px 7% 25px 6%;
 }
   
 .button {
