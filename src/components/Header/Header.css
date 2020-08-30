@@ -7,7 +7,7 @@
     z-index: 0;
     width: 40%;
     height: 40%;
-    margin: 20px 0 0 60px;
+    margin: 20px 0 0 4%;
 }
   
 .title {
@@ -17,7 +17,6 @@
     align-items: center;
     flex-wrap: wrap;
     margin: -25% 4% 0 4%;
-    /* border: 2px solid green; */
 }
   
 .letterHeader {
@@ -31,10 +30,9 @@
     color: #EBEBEB;
     background: #413F3F;
     border-radius: 25px;
-    /* border-radius: 5%; */
   
-    margin: 0px 2% 25px 0px;
-    padding: 0.5% 1.5%;
+    margin: 0px 1.5% 25px 0px;
+    padding: 0.5% 2%;
 }
   
 .word {
@@ -49,8 +47,8 @@
     background: #413F3F;
     border-radius: 25px;
 
-    margin: 0px 0px 25px 4.5%;
-    padding: 0.5% 1.5%;
+    margin: 0px 0px 25px 4%;
+    padding: 0.5% 2%;
 }
   
 .event {
@@ -62,7 +60,7 @@
     font-size: 35px;
     color: #E0E0E0;
   
-    margin: 50px 7% 25px 6%;
+    margin: 50px 6.5% 25px 6%;
 }
   
 .button {
@@ -71,7 +69,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 0 7% 0 6%;
+    margin: 0 6.5% 0 6%;
 }
   
 .register {
