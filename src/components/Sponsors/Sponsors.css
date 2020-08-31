@@ -6,10 +6,10 @@
 }
 
 .sponsors-title {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
 
 .box {
   display: flex;
@@ -19,8 +19,8 @@
   top: 4326px;
   margin: auto;
   margin-bottom: 20px;
-  background-color: #A57ED4;
-  color: #FFF;
+  background-color: #a57ed4;
+  color: #fff;
   font-size: 44px;
   text-align: center;
 }
@@ -31,7 +31,7 @@
   left: 472px;
   top: 4562px;
 
-  background: #EBEBEB;
+  background: #ebebeb;
   border-radius: 25px;
   font-size: 35px;
 }
@@ -40,7 +40,6 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 20px;
-
 }
 
 img {
@@ -55,13 +54,10 @@ img {
 }
 
 .large-logo {
-
 }
 
 .medium-logo {
-
 }
 
 .small-logo {
-
-}  
+}
