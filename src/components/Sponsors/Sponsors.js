@@ -1,10 +1,8 @@
 import React from 'react';
-import React from 'react';
 import './Sponsors.css';
 
 function Sponsors() {
   return (
-    <div>Hi Maritza!</div>
     <div class="sponsors-container">
       <div class="sponsors-title">
         <div class="word">
