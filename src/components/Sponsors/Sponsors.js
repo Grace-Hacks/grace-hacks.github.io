@@ -52,8 +52,8 @@ function Sponsors() {
       <div class="sponsors-row">
         <div class="small-logo">
           <img src={require("./desmos.png")} alt="Desmos" />
-          <img src={require("./GirlsMakeGames.png")} alt="Girls Make Games" />
           <img src={require("./CloudSploit.png")} alt="CloudSploit" />
+          <img src={require("./GirlsMakeGames.png")} alt="Girls Make Games" />
           <img src={require("./Sentry.png")} alt="Sentry" />
         </div>
       </div>
@@ -72,8 +72,8 @@ function Sponsors() {
 
       <div class="sponsors-row">
         <div class="x-small-logo">
-          <img src={require("./AICamp.png")} alt="AI Camp" />
           <img src={require("./SCWorks.jpg")} alt="Santa Cruz Works" />
+          <img src={require("./AICamp.png")} alt="AI Camp" />
           <img src={require("./HVMN.png")} alt="HVMN" />
         </div>
       </div>
