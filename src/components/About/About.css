@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 125px 0px;
-  padding: 600px 144px 0px;
+  margin: 8.6vw 0px;
+  padding: 4.1vw 10vw 0px;
 }
 
 .about-title {
@@ -12,21 +12,21 @@
   justify-content: center;
   background: #413F3F;
   border-radius: 25px;
-  font-size: 77px;
-  line-height: 75px;
+  font-size: 5.3vw;
+  line-height: 5.3vw;
   color: #C5C5C5;
-  padding: 34px;
+  padding: 1.5vw 5.6vw;
 }
 
 .about-subtitle {
-  font-size: 35px;
-  line-height: 34px;
+  font-size: 2.3vw;
+  line-height: 2.3vw;
   color: #FFFFFF;
-  margin: 35px 0px;
+  margin: 2.3vw 0px;
 }
 
 .about-description {
-  font-size: 35px;
-  line-height: 34px;
+  font-size: 2.3vw;
+  line-height: 2.3vw;
   color: #FFFFFF;
 }
