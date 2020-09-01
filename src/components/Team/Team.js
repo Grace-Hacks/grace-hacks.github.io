@@ -39,6 +39,18 @@ function Team() {
           <div class="position">Logistics</div>
           <div class="pronouns">she/her/hers</div>
         </div>
+        <div class="member">
+          <img src={require("./Mackenzi.png")} alt="GraceHacks member" />
+          <div class="name">Mackenzi Rauls</div>
+          <div class="position">Logistics</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
+        <div class="member">
+          <img src={require("./Merilyn.png")} alt="GraceHacks member" />
+          <div class="name">Merilyn Kuo</div>
+          <div class="position">Logistics</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
       </div>
       <div class="team-row">
         <div class="member">
@@ -62,8 +74,8 @@ function Team() {
           <div class="pronouns">he/him/his</div>
         </div>
         <div class="member">
-          <img src={require("./Jennie.jpg")} alt="GraceHacks member" />
-          <div class="name">Jennie Nguyen</div>
+          <img src={require("./Sarah.png")} alt="GraceHacks member" />
+          <div class="name">Sarah Avila</div>
           <div class="position">Tech</div>
           <div class="pronouns">she/her/hers</div>
         </div>
@@ -76,9 +88,21 @@ function Team() {
           <div class="pronouns">she/her/hers</div>
         </div>
         <div class="member">
+          <img src={require("./Swetha.png")} alt="GraceHacks member" />
+          <div class="name">Swetha Thiru</div>
+          <div class="position">Sponsorship</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
+        <div class="member">
           <img src={require("./Simran.png")} alt="GraceHacks member" />
           <div class="name">Simran Gunsi</div>
           <div class="position">Design Lead</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
+        <div class="member">
+          <img src={require("./Rishika.png")} alt="GraceHacks member" />
+          <div class="name">Rishika Singh</div>
+          <div class="position">Project Manager</div>
           <div class="pronouns">she/her/hers</div>
         </div>
       </div>
