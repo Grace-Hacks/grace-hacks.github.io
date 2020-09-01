@@ -31,7 +31,7 @@
     background: #413F3F;
     border-radius: 20%;
   
-    margin: 0px 1.5% 25px 0px;
+    margin: 0 1.5% 0 0px;
     padding: 0.5% 2%;
 }
   
@@ -47,7 +47,7 @@
     background: #413F3F;
     border-radius: 2vw;
 
-    margin: 0px 0px 25px 4%;
+    margin: 0 0 0 4%;
     padding: 0.5% 2%;
 }
   
@@ -56,11 +56,12 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    text-align: right;
 
-    font-size: 35px;
+    font-size: 2.1vw;
     color: #E0E0E0;
   
-    margin: 50px 6.5% 25px 6%;
+    margin: 3% 6% 0 6%;
 }
   
 .button {
@@ -69,7 +70,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 0 6.5% 0 6%;
+    margin: 1% 6% 0 6%;
 }
   
 .register {
@@ -77,14 +78,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 428px;
+    /* width: 428px; */
 
-    font-size: 66px;
-    line-height: 70px;
+    font-size: 2.5vw;
+    line-height: 100%;
     color: #413F3F;
     background: #EBEBEB;
-    border-radius: 25px;
+    border-radius: 1vw;
   
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
+    padding: 1% 3%;
 }
   
