@@ -5,16 +5,18 @@ function Sponsors() {
   return (
     <div class="sponsors-container">
       <div class="sponsors-title">
-        {/* <div class="word"> */}
-        <div class="letter">S</div>
-        <div class="letter">P</div>
-        <div class="letter">O</div>
-        <div class="letter">N</div>
-        <div class="letter">S</div>
-        <div class="letter">O</div>
-        <div class="letter">R</div>
-        <div class="letter">S</div>
-        {/* </div> */}
+        <div class="word">
+          <div class="letter">S</div>
+          <div class="letter">P</div>
+          <div class="letter">O</div>
+          <div class="letter">N</div>
+        </div>
+        <div class="word">
+          <div class="letter">S</div>
+          <div class="letter">O</div>
+          <div class="letter">R</div>
+          <div class="letter">S</div>
+        </div>
       </div>
 
       <div class="sponsors-row">
