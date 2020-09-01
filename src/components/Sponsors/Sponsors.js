@@ -31,50 +31,56 @@ function Sponsors() {
 
       <div class="sponsors-row">
         <div class="x-large-logo">
-          <img src={require("./Nutanix.png")} alt="Nutanix" />
-          <img src={require("./CDKGlobal.jpg")} alt="CDKGlobal" />
-          <img src={require("./Salesforce.png")} alt="Salesforce" />
-          <img src={require("./CBTech.jpg")} alt="CBTech" />
+          <img src={require("./images/Nutanix.png")} alt="Nutanix" />
+          <img src={require("./images/CDKGlobal.jpg")} alt="CDKGlobal" />
+          <img src={require("./images/Salesforce.png")} alt="Salesforce" />
+          <img src={require("./images/CBTech.jpg")} alt="CBTech" />
         </div>
       </div>
 
       <div class="sponsors-row">
         <div class="large-logo">
-          <img src={require("./RStudio.png")} alt="RStudio" />
-          <img src={require("./balsamiq.png")} alt="Balsamiq" />
-          <img src={require("./Linode.png")} alt="Linode" />
+          <img src={require("./images/RStudio.png")} alt="RStudio" />
+          <img src={require("./images/balsamiq.png")} alt="Balsamiq" />
+          <img src={require("./images/Linode.png")} alt="Linode" />
         </div>
         <div class="medium-logo">
-          <img src={require("./Kingston.png")} alt="Kingston Technology" />
-        </div>
-      </div>
-
-      <div class="sponsors-row">
-        <div class="small-logo">
-          <img src={require("./desmos.png")} alt="Desmos" />
-          <img src={require("./CloudSploit.png")} alt="CloudSploit" />
-          <img src={require("./GirlsMakeGames.png")} alt="Girls Make Games" />
-          <img src={require("./Sentry.png")} alt="Sentry" />
-        </div>
-      </div>
-
-      <div class="sponsors-row">
-        <div class="small-logo">
-          <img src={require("./StickerGiant.png")} alt="Sticker Giant" />
           <img
-            src={require("./MouserElectronics.webp")}
+            src={require("./images/Kingston.png")}
+            alt="Kingston Technology"
+          />
+        </div>
+      </div>
+
+      <div class="sponsors-row">
+        <div class="small-logo">
+          <img src={require("./images/desmos.png")} alt="Desmos" />
+          <img src={require("./images/CloudSploit.png")} alt="CloudSploit" />
+          <img
+            src={require("./images/GirlsMakeGames.png")}
+            alt="Girls Make Games"
+          />
+          <img src={require("./images/Sentry.png")} alt="Sentry" />
+        </div>
+      </div>
+
+      <div class="sponsors-row">
+        <div class="small-logo">
+          <img src={require("./images/StickerGiant.png")} alt="Sticker Giant" />
+          <img
+            src={require("./images/MouserElectronics.webp")}
             alt="Mouser Electronics"
           />
-          <img src={require("./Heroku.jpeg")} alt="Heroku" />
-          <img src={require("./MakeyMakey.png")} alt="Makey Makey" />
+          <img src={require("./images/Heroku.jpeg")} alt="Heroku" />
+          <img src={require("./images/MakeyMakey.png")} alt="Makey Makey" />
         </div>
       </div>
 
       <div class="sponsors-row">
         <div class="x-small-logo">
-          <img src={require("./SCWorks.jpg")} alt="Santa Cruz Works" />
-          <img src={require("./AICamp.png")} alt="AI Camp" />
-          <img src={require("./HVMN.png")} alt="HVMN" />
+          <img src={require("./images/SCWorks.jpg")} alt="Santa Cruz Works" />
+          <img src={require("./images/AICamp.png")} alt="AI Camp" />
+          <img src={require("./images/HVMN.png")} alt="HVMN" />
         </div>
       </div>
     </div>

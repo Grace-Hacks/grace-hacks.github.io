@@ -6,9 +6,14 @@
 }
 
 .sponsors-title {
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .box {
@@ -50,7 +55,7 @@ img {
   margin: 20px;
 }
 
-.x-large-logo {
+/* .x-large-logo {
 }
 
 .large-logo {
@@ -60,4 +65,4 @@ img {
 }
 
 .small-logo {
-}
+} */
