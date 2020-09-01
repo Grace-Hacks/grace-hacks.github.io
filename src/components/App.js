@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import NavigationBar from './NavigationBar/NavigationBar';
+import GraceHacks from '../assets/GraceHacks.png'
 import About from './About/About';
 import FAQ from './FAQ/FAQ';
 import Team from './Team/Team';
@@ -16,19 +17,25 @@ function App() {
       <div className="app-container">
         <NavigationBar />
 
-        <div className="title">
-          <div id="letterU">U</div>
-          <div id="letterCf">C</div>
-          <div id="letterS">S</div>
-          <div id="letterC">C</div>
-          <div id="word">GraceHacks</div>
-        </div>
+        <img class="header-image" src={GraceHacks}></img>
+
+        <div class="header">
+          <div className="title">
+            <div id="letterU">U</div>
+            <div id="letterU">C</div>
+            <div id="letterU">S</div>
+            <div id="letterU">C</div>
+            <div id="word">GraceHacks</div>
+          </div>
 
         <div id="event"> October 17th & 18th - Online @ 11AM PST</div>
 
-        <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer">
-          <div id="register"> REGISTER </div>
-        </a>
+          {/* <div class="button"> */}
+            <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer" class="button">
+              <div id="register"> REGISTER </div>
+            </a>
+            {/* </div> */}
+        </div>
 
         {/* <script src="https://embed.typeform.com/embed.js"></script>
 

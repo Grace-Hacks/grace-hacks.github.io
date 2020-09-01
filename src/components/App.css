@@ -13,16 +13,39 @@
   font-family: 'VCRFont';
 }
 
+.header-image {
+  width: 700px;
+  height: 1000px;
+  z-index: 0;
+  border: 2px solid red;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 1;
+  margin: -400px 7% 0 7%;
+  /* border: 1px solid black; */
+}
+
 .title
 {
-  position: absolute;
-  width: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 774px;
+  /* margin-top: 321px; */
+  /* position: absolute; */
+  /* width: 630px;
   height: 600px;
   left: 0px;
-  top: 98px;
+  top: 98px; */
+  /* width: 100%; */
 
-  background: url('../assets/gracehacks.png');
-  background-size: 630px 600px;
+  /* background: url('../assets/GraceHacks.png'); */
+  /* background-size: 630px 600px; */
 }
 
 #letterU
@@ -31,11 +54,11 @@
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  /* position: absolute;
   width: 66px;
   height: 108px;
   left: 163px;
-  top: 417px;
+  top: 417px; */
 
   font-style: normal;
   font-weight: normal;
@@ -44,16 +67,18 @@
 
   color: #EBEBEB;
 
-  position: absolute;
+  /* position: absolute;
   width: 126px;
   height: 115px;
   left: 136px;
-  top: 230px;
+  top: 230px; */
 
   background: #413F3F;
   border-radius: 25px;
 
   margin-bottom: 25px;
+  margin-right: 15px;
+  padding: 10px 30px 10px;
 }
 
 #letterCf
@@ -62,11 +87,11 @@
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  /* position: absolute;
   width: 66px;
   height: 108px;
   left: 299px;
-  top: 417px;
+  top: 417px; */
 
   font-style: normal;
   font-weight: normal;
@@ -75,11 +100,11 @@
 
   color: #EBEBEB;
 
-  position: absolute;
+  /* position: absolute;
   width: 126px;
   height: 115px;
   left: 274px;
-  top: 230px;
+  top: 230px; */
 
   background: #413F3F;
   border-radius: 25px;
@@ -93,11 +118,11 @@
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  /* position: absolute;
   width: 66px;
   height: 108px;
   left: 442px;
-  top: 415px;
+  top: 415px; */
 
   font-style: normal;
   font-weight: normal;
@@ -106,11 +131,11 @@
 
   color: #EBEBEB;
 
-  position: absolute;
+  /* position: absolute;
   width: 126px;
   height: 115px;
   left: 412px;
-  top: 230px;
+  top: 230px; */
 
   background: #413F3F;
   border-radius: 25px;
@@ -124,11 +149,11 @@
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  /* position: absolute;
   width: 66px;
   height: 108px;
   left: 581px;
-  top: 417px;
+  top: 417px; */
 
   font-style: normal;
   font-weight: normal;
@@ -137,11 +162,11 @@
 
   color: #EBEBEB;
 
-  position: absolute;
+  /* position: absolute;
   width: 126px;
   height: 115px;
   left: 550px;
-  top: 230px;
+  top: 230px; */
 
   background: #413F3F;
   border-radius: 25px;
@@ -155,11 +180,11 @@
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  /* position: absolute;
   width: 651px;
   height: 108px;
   left: 725px;
-  top: 412px;
+  top: 412px; */
 
   font-style: normal;
   font-weight: normal;
@@ -168,29 +193,31 @@
 
   color: #EBEBEB;
 
-  position: absolute;
+  /* position: absolute;
   width: 677px;
   height: 128px;
   left: 712px;
-  top: 220px;
+  top: 220px; */
 
   background: #413F3F;
   border-radius: 25px;
 
   margin-bottom: 25px;
+  margin-left: 36px;
+  padding: 10px 30px 10px;
 }
 
 #event
 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 
-  position: absolute;
+  /* position: absolute;
   width: 759px;
   height: 34px;
   left: 597px;
-  top: 462px;
+  top: 462px; */
 
   font-style: normal;
   font-weight: normal;
@@ -202,17 +229,25 @@
   margin-bottom: 25px;
 }
 
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 #register
 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 428px;
 
-  position: absolute;
+  /* position: absolute;
   width: 310px;
   height: 64px;
   left: 1015px;
-  top: 635px;
+  top: 635px; */
 
   font-style: normal;
   font-weight: normal;
@@ -221,11 +256,11 @@
 
   color: #413F3F;
 
-  position: absolute;
+  /* position: absolute;
   width: 428px;
   height: 91px;
   left: 956px;
-  top: 512px;
+  top: 512px; */
 
   background: #EBEBEB;
   border-radius: 25px;
