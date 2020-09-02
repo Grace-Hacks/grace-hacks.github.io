@@ -12,6 +12,10 @@
   margin-bottom: 20px;
 }
 
+.word {
+  display: flex;
+}
+
 .letter {
   display: flex;
   justify-content: center;
