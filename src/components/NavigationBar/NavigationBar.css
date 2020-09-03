@@ -4,10 +4,10 @@
   align-items: center;
   background: #413F3F;
   color: #C4C4C4;
-  padding: 0px 25px;
-  height: 90px;
-  font-size: 55px;
-  line-height: 54px;
+  padding: 0px 1.7vw;
+  height: 6.3vw;
+  font-size: 3.8vw;
+  line-height: 3.8vw;
 }
 
 a, a:hover, a:focus, a:active {
@@ -20,19 +20,15 @@ a, a:hover, a:focus, a:active {
   align-items: center;
 }
 
-.nav-faq {
-  margin-right: 55px;
-  cursor: pointer;
-}
 
 .nav-apply {
-  margin-right: 55px;
+  margin-right: 3.8vw;
   cursor: pointer;
 }
 
 .nav-icon {
-  width: 55px;
-  height: 55px;
+  width: 3.8vw;
+  height: 3.8vw;
   background: #C4C4C4;
   border-radius: 50%;
   cursor: pointer;
