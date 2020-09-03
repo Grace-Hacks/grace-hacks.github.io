@@ -25,6 +25,18 @@ function Team() {
           <div class="position">Executive Lead</div>
           <div class="pronouns">she/her/hers</div>
         </div>
+        <div class="member">
+          <img src={require("./Simran.png")} alt="GraceHacks member" />
+          <div class="name">Simran Gunsi</div>
+          <div class="position">Design Lead</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
+        <div class="member">
+          <img src={require("./Rishika.png")} alt="GraceHacks member" />
+          <div class="name">Rishika Singh</div>
+          <div class="position">Project Manager</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
       </div>
       <div class="team-row">
         <div class="member">
@@ -54,20 +66,6 @@ function Team() {
       </div>
       <div class="team-row">
         <div class="member">
-          <img src={require("./Navya.png")} alt="GraceHacks member" />
-          <div class="name">Navya Rao</div>
-          <div class="position">Public Relations Lead</div>
-          <div class="pronouns">she/her/hers</div>
-        </div>
-        <div class="member">
-          <img src={require("./Sathya.png")} alt="GraceHacks member" />
-          <div class="name">Sathya Gadhiraju</div>
-          <div class="position">Public Relations</div>
-          <div class="pronouns">she/her/hers</div>
-        </div>
-      </div>
-      <div class="team-row">
-        <div class="member">
           <img src={require("./Tim.png")} alt="GraceHacks member" />
           <div class="name">Tim Nguyen</div>
           <div class="position">Tech Lead</div>
@@ -79,8 +77,32 @@ function Team() {
           <div class="position">Tech</div>
           <div class="pronouns">she/her/hers</div>
         </div>
+        <div class="member">
+          <img src={require("./Brina.png")} alt="GraceHacks member" />
+          <div class="name">Brina Bodnar</div>
+          <div class="position">Tech</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
+        <div class="member">
+          <img src={require("./Maritza.png")} alt="GraceHacks member" />
+          <div class="name">Maritza Padilla</div>
+          <div class="position">Tech</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
       </div>
       <div class="team-row">
+        <div class="member">
+          <img src={require("./Navya.png")} alt="GraceHacks member" />
+          <div class="name">Navya Rao</div>
+          <div class="position">Public Relations Lead</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
+        <div class="member">
+          <img src={require("./Sathya.png")} alt="GraceHacks member" />
+          <div class="name">Sathya Gadhiraju</div>
+          <div class="position">Public Relations</div>
+          <div class="pronouns">she/her/hers</div>
+        </div>
         <div class="member">
           <img src={require("./Namratha.png")} alt="GraceHacks member" />
           <div class="name">Namratha Prithviraj</div>
@@ -91,18 +113,6 @@ function Team() {
           <img src={require("./Swetha.png")} alt="GraceHacks member" />
           <div class="name">Swetha Thiru</div>
           <div class="position">Sponsorship</div>
-          <div class="pronouns">she/her/hers</div>
-        </div>
-        <div class="member">
-          <img src={require("./Simran.png")} alt="GraceHacks member" />
-          <div class="name">Simran Gunsi</div>
-          <div class="position">Design Lead</div>
-          <div class="pronouns">she/her/hers</div>
-        </div>
-        <div class="member">
-          <img src={require("./Rishika.png")} alt="GraceHacks member" />
-          <div class="name">Rishika Singh</div>
-          <div class="position">Project Manager</div>
           <div class="pronouns">she/her/hers</div>
         </div>
       </div>
