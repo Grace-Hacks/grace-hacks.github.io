@@ -12,6 +12,10 @@
   margin-bottom: 20px;
 }
 
+.word {
+  display: flex;
+}
+
 .letter {
   display: flex;
   justify-content: center;
@@ -75,4 +79,5 @@
 .pronouns {
   font-size: 24px;
   line-height: 23px;
+  margin-bottom: 25px;
 }

@@ -11,8 +11,7 @@ function Header() {
         <div class="letterHeader">C</div>
         <div class="letterHeader">S</div>
         <div class="letterHeader">C</div>
-        {/* <div class="spacer"></div> */}
-        <div class="word">GraceHacks</div>
+        <div class="gracehacks">GraceHacks</div>
       </div>
       <div class="event"> October 17th & 18th - Online @ 11AM PST</div>
       <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer" class="button">

@@ -5,16 +5,20 @@ function Team() {
   return (
     <div class="team-container">
       <div class="team-title">
-        <div class="letter">T</div>
-        <div class="letter">H</div>
-        <div class="letter">E</div>
+        <div class="word">
+          <div class="letter">T</div>
+          <div class="letter">H</div>
+          <div class="letter">E</div>
+        </div>
 
         <div class="spacer"></div>
 
-        <div class="letter">T</div>
-        <div class="letter">E</div>
-        <div class="letter">A</div>
-        <div class="letter">M</div>
+        <div class="word">
+          <div class="letter">T</div>
+          <div class="letter">E</div>
+          <div class="letter">A</div>
+          <div class="letter">M</div>
+        </div>
       </div>
       <div class="team-row">
         <div class="member">
@@ -24,13 +28,13 @@ function Team() {
           <div class="pronouns">she/her/hers</div>
         </div>
         <div class="member">
-          <img src={require("./Simran.png")} alt="GraceHacks member" />
+          <img class="picture" src={require("./Simran.png")} alt="GraceHacks member" />
           <div class="name">Simran Gunsi</div>
           <div class="position">Design Lead</div>
           <div class="pronouns">she/her/hers</div>
         </div>
         <div class="member">
-          <img src={require("./Rishika.png")} alt="GraceHacks member" />
+          <img class="picture" src={require("./Rishika.png")} alt="GraceHacks member" />
           <div class="name">Rishika Singh</div>
           <div class="position">Project Manager</div>
           <div class="pronouns">she/her/hers</div>
