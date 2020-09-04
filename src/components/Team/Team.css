@@ -20,14 +20,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 25px 25px 0px;
-  padding: 5px 30px;
+  margin: 0px 2vw 2vw 0px;
+  height: 8vw;
+  width: 8vw;
 
   color: #EBEBEB;
-  font-size: 111px;
+  font-size: 8vw;
   line-height: 108px;
   background: #413F3F;
-  border-radius: 25px;
+  border-radius: 1.7vw;
 }
 
 .spacer {
