@@ -4,7 +4,6 @@
   align-items: center;
   text-align: center;
   margin: 9.5vw 0px;
-  /* padding: 0 10vw; */
   padding: 0 9.5vw;
 }
 
@@ -12,7 +11,6 @@
   display: flex;
   justify-content: center;
   background: #413F3F;
-  /* border-radius: 25px; */
   border-radius: 2vw;
   font-size: 5.3vw;
   line-height: 5.3vw;
