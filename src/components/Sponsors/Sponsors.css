@@ -9,56 +9,50 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 1%;
 }
 
 .box {
   display: flex;
-  justify-content: center;
-
-  left: 35px;
-  top: 4326px;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 1%;
   background-color: #a57ed4;
   color: #fff;
   font-size: 44px;
   text-align: center;
 }
 
-.button {
-  flex-wrap: wrap;
-  width: 556px;
-  left: 472px;
-  top: 4562px;
-
-  background: #ebebeb;
+.bg-button {
+  padding: 5px 5px;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  background: #FFFFFF;
   border-radius: 25px;
   font-size: 35px;
 }
+
 .sponsors-row {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  margin: 20px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 1%; 
 }
 
-img {
-  width: 275px;
-  margin-bottom: 7px;
-  background-size: cover;
-  border-radius: 0%;
-  margin: 20px;
+.icon {
+   width: 275px;
+   margin-bottom: 7px;
+   background-size: cover;
+   border-radius: 0%;
+   margin: 20px;
 }
 
 /* .x-large-logo {
 }
-
 .large-logo {
 }
-
 .medium-logo {
 }
-
 .small-logo {
 } */
