@@ -1,64 +1,59 @@
 .sponsors-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto auto 25px;
 }
 
 .sponsors-title {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box {
-  display: flex;
-  justify-content: center;
-
-  left: 35px;
-  top: 4326px;
-  margin: auto;
-  margin-bottom: 20px;
-  background-color: #a57ed4;
-  color: #fff;
-  font-size: 44px;
-  text-align: center;
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    margin: 20px;
+    padding: 25px 0px;
+    border-radius: 10px;
 }
 
-.button {
-  flex-wrap: wrap;
-  width: 556px;
-  left: 472px;
-  top: 4562px;
-
-  background: #ebebeb;
-  border-radius: 25px;
-  font-size: 35px;
+.bg-button {
+    font-size: 35px;
+    padding: 5px;
+    margin: auto auto 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
 }
+
 .sponsors-row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 
-img {
-  width: 275px;
-  margin-bottom: 7px;
-  background-size: cover;
-  border-radius: 0%;
-  margin: 20px;
+.icon {
+    background-size: cover;
+    border-radius: 0px;
+    margin: 20px;
 }
 
-/* .x-large-logo {
+.x-large-logo {
+  width: 277px;
 }
-
 .large-logo {
+  width: 203px;
 }
-
 .medium-logo {
+  width: 154px;
 }
-
 .small-logo {
-} */
+  width: 127px;
+} 
+.x-small-logo {
+  width: 71px;
+}
