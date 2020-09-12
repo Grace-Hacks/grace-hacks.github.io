@@ -3,11 +3,9 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Header",
     "\\src\\components\\Sponsors",
-    "\\src\\components\\Sponsors\\images",
-    "\\src\\components\\Team"
+    "\\src\\components\\Sponsors\\images"
   ],
-  "SelectedNode": "\\src\\components\\Header\\Header.js",
+  "SelectedNode": "\\src\\components\\Sponsors\\images",
   "PreviewInSolutionExplorer": false
 }
