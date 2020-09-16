@@ -1,59 +1,63 @@
 .sponsors-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: auto auto 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto auto 25px;
 }
 
 .sponsors-title {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box {
-    display: flex;
-    background: rgba(255, 255, 255, 0.1);
-    color: rgb(255, 255, 255);
-    font-size: 44px;
-    margin: 20px;
-    padding: 25px 0px;
-    border-radius: 10px;
+  display: flex;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255);
+  font-size: 44px;
+  margin: 20px;
+  padding: 25px 0px;
+  border-radius: 10px;
 }
 
 .bg-button {
-    font-size: 35px;
-    padding: 5px;
-    margin: auto auto 25px;
-    background: rgb(255, 255, 255);
-    border-radius: 25px;
+  font-size: 35px;
+  padding: 5px;
+  margin: auto auto 25px;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
 }
 
 .sponsors-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 }
 
 .icon {
-    background-size: cover;
-    border-radius: 0px;
-    margin: 20px;
+  background-size: cover;
+  border-radius: 0px;
+  margin: 20px;
 }
 
 .x-large-logo {
-  width: 277px;
+  width: 225px;
 }
 .large-logo {
-  width: 203px;
+  width: 233px;
 }
 .medium-logo {
-  width: 154px;
+  width: 184px;
 }
 .small-logo {
-  width: 127px;
-} 
+  width: 157px;
+}
 .x-small-logo {
-  width: 71px;
+  width: 101px;
+}
+
+.CBT-logo {
+  width: 180px;
 }
