@@ -33,31 +33,33 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
-}
-
-.icon {
-  background-size: cover;
-  border-radius: 0px;
-  margin: 20px;
 }
 
 .x-large-logo {
   width: 225px;
+  margin: 20px 40px;
 }
+
 .large-logo {
   width: 233px;
+  margin: 20px 50px;
 }
+
 .medium-logo {
   width: 184px;
+  margin: 20px 40px;
 }
+
 .small-logo {
   width: 157px;
+  margin: 20px 40px;
 }
 .x-small-logo {
   width: 101px;
+  margin: 20px 40px;
 }
 
 .CBT-logo {
   width: 180px;
+  margin: 20px 40px;
 }

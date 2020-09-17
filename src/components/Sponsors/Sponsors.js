@@ -25,22 +25,22 @@ function Sponsors() {
       <div class="sponsors-row">
         <img
           src={require("./images/CDKGlobal.svg")}
-          class="icon x-large-logo"
+          class="x-large-logo"
           alt="CDKGlobal"
         />
         <img
           src={require("./images/Salesforce.svg")}
-          class="icon x-large-logo"
+          class="x-large-logo"
           alt="Salesforce"
         />
         <img
           src={require("./images/Nutanix.svg")}
-          class="icon x-large-logo"
+          class="x-large-logo"
           alt="Nutanix"
         />
         <img
           src={require("./images/CBT.svg")}
-          class="icon CBT-logo"
+          class="CBT-logo"
           alt="CBTech"
         />
       </div>
@@ -48,17 +48,17 @@ function Sponsors() {
       <div class="sponsors-row">
         <img
           src={require("./images/Linode.svg")}
-          class="icon large-logo"
+          class="large-logo"
           alt="Linode"
         />
         <img
           src={require("./images/Balsamiq.svg")}
-          class="icon large-logo"
+          class="large-logo"
           alt="Balsamiq"
         />
         <img
           src={require("./images/RStudio.svg")}
-          class="icon large-logo"
+          class="large-logo"
           alt="RStudio"
         />
       </div>
@@ -66,27 +66,27 @@ function Sponsors() {
       <div class="sponsors-row">
         <img
           src={require("./images/MouserElectronics.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="Mouser Electronics"
         />
         <img
           src={require("./images/Girls-Make-Games.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="Girls Make Games"
         />
         <img
           src={require("./images/Makey-Makey.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="Makey Makey"
         />
         <img
           src={require("./images/Desmos.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="Desmos"
         />
         <img
           src={require("./images/Heroku.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="Heroku"
         />
       </div>
@@ -94,40 +94,40 @@ function Sponsors() {
       <div class="sponsors-row">
         <img
           src={require("./images/Sticker-Giant.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="Sticker Giant"
         />
         <img
           src={require("./images/Kingston.svg")}
-          class="icon medium-logo"
+          class="small-logo"
           alt="Kingston"
         />
         <img
           src={require("./images/Sentry.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="Sentry"
         />
         <img
           src={require("./images/HVMN.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="HVMN"
         />
         <img
           src={require("./images/CloudSploit.svg")}
-          class="icon small-logo"
+          class="small-logo"
           alt="CloudSploit"
         />
       </div>
 
-      <div class="sponsor-row">
+      <div class="sponsors-row">
         <img
           src={require("./images/AI-Camp.svg")}
-          class="icon x-small-logo"
+          class="x-small-logo"
           alt="AI Camp"
         />
         <img
           src={require("./images/SCW.svg")}
-          class="icon x-small-logo"
+          class="x-small-logo"
           alt="Santa Cruz Works"
         />
       </div>
