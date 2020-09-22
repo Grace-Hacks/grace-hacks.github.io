@@ -1,16 +1,16 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import GraceHacks from '../../assets/GraceHacks.png'
 
 function Header() {
   return (
     <div class="header-container">
-      <img class="header-image" src={GraceHacks}></img>
+      <img class="image" src={GraceHacks}></img>
       <div class="title">
-        <div class="letterHeader">U</div>
-        <div class="letterHeader">C</div>
-        <div class="letterHeader">S</div>
-        <div class="letterHeader">C</div>
+        <div class="letter">U</div>
+        <div class="letter">C</div>
+        <div class="letter">S</div>
+        <div class="letter">C</div>
         <div class="gracehacks">GraceHacks</div>
       </div>
       <div class="event"> October 17th & 18th - Online @ 11AM PST</div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
 
 import NavigationBar from './NavigationBar/NavigationBar';
 import Header from './Header/Header';
@@ -10,7 +9,7 @@ import Sponsors from './Sponsors/Sponsors';
 import Contacts from './Contacts/Contacts';
 import Footer from './Footer/Footer';
 
-import './App.css';
+import './App.scss';
 
 function App() {
     return (
