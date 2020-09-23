@@ -38,11 +38,12 @@
   .message {
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
+    line-height: 25px;
     width: 100%;
     color: white;
-    padding: 10px 25px;
-    .rights {
-      text-align: right;
+    .text {
+      padding: 15px 25px;
     }
   }
 }
