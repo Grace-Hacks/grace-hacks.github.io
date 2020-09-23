@@ -1,0 +1,78 @@
+.team-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 85px 0px;
+  .title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    .word {
+      display: flex;
+      .letter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 2vw 2vw 0px;
+        height: 8vw;
+        width: 8vw;
+
+        color: #EBEBEB;
+        font-size: 8vw;
+        line-height: 108px;
+        background: #413F3F;
+        border-radius: 1.7vw;
+      }
+    }
+    .spacer {
+      margin-right: 60px;
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    .member {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      min-widtH: 431px;
+      margin: 0px 30px;
+      .picture {
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+        margin-bottom: 7px;
+      }
+
+      .name {
+        font-size: 35px;
+        line-height: 34px;
+        text-align: center;
+        color: #8F8F8F;
+        width: fit-content;
+
+        background: #EBEBEB;
+        border-radius: 25px;
+        padding: 10px 15px;
+        margin-bottom: 12px;
+      }
+
+      .position {
+        font-size: 35px;
+        line-height: 34px;
+        margin-bottom: 5px;
+      }
+
+      .pronouns {
+        font-size: 24px;
+        line-height: 23px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}

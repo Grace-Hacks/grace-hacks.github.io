@@ -11,4 +11,10 @@
   #6A2BB9;
   font-family: 'VCRFont';
   width: 100%;
+  overflow: hidden;
+
+  a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: inherit;
+  }
 }
