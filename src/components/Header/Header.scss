@@ -1,19 +1,19 @@
 .header-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 130px;
+  margin: 2% 0px 10% 0px;
   .image {
     z-index: 0;
-    width: 45%;
-    height: 45%;
-    margin: 20px 0px 0px 4%;
+    width: 41%;
+    height: 41%;
+    margin: 20px 0px 0px 6%;
   }
 
   .title {
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
-    margin: -23% 15% 0px 15%;
+    margin: -21.8% 0px 0px 15%;
 
     .letter {
       z-index: 1;
@@ -25,9 +25,9 @@
       line-height: 100%;
       color: #EBEBEB;
       background: #413F3F;
-      border-radius: 1.5vw;
+      border-radius: 2vw;
 
-      margin: 0px 2.5% 0px 0px;
+      margin: 0px 1.5% 0px 0px;
       padding: 1% 2.3%;
     }
 
@@ -41,7 +41,7 @@
       line-height: 100%;
       color: #EBEBEB;
       background: #413F3F;
-      border-radius: 1.5vw;
+      border-radius: 2vw;
 
       margin: 0px 0px 0px 3.5%;
       padding: 0.5% 2%;
@@ -55,10 +55,10 @@
     align-items: center;
     text-align: right;
 
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     color: #E0E0E0;
 
-    margin: 1.5% 0px 0px 24%;
+    margin: 1.5% 0px 0px 28.5%;
   }
 
   .button {
@@ -67,7 +67,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1.5% 0px 0px 9.5%;
+    margin: 1.5% 0px 0px 13%;
 
     .register {
       z-index: 1;
@@ -82,7 +82,7 @@
       border-radius: 1vw;
       box-shadow: 2px 5px 5px #906c8e;
 
-      padding: 0.7% 2%;
+      padding: 0.7% 2.3%;
     }
   }
 }
