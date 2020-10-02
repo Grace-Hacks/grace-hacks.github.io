@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.scss';
 import GraceHacks from '../../assets/GraceHacks.png'
+import Button from '@material-ui/core/Button';
 
 function Header() {
   return (
@@ -15,7 +16,7 @@ function Header() {
       </div>
       <div class="event"> October 17th-18th 11AM PST</div>
       <a href = "https://tinyurl.com/GH-app" target="_blank" rel="noopener noreferrer" class="button">
-        <div class="register"> REGISTER </div>
+        <Button variant="contained" class="register">REGISTER</Button>
       </a>
     </div>
   );
