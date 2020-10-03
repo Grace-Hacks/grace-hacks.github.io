@@ -1,7 +1,8 @@
 .header-container {
   display: flex;
   flex-direction: column;
-  margin: 2% 0px 10% 0px;
+  margin: 1.5% 0px 10% 0px;
+
   .image {
     z-index: 0;
     width: 41%;
@@ -55,10 +56,11 @@
     align-items: center;
     text-align: right;
 
+    font-family: "Avenir";
     font-size: 1.8vw;
     color: #E0E0E0;
 
-    margin: 1.5% 0px 0px 28.5%;
+    margin: 1.5% 0px 0px 25.5%;
   }
 
   .button {
@@ -67,11 +69,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // margin: 1.5% 35% 0px 45%;
-    margin: 1.5% 0px 0px 51.5%;
     width: 10%;
     height: 5%;
-    //border: 2px solid red;
+    margin: 1.5% 0px 0px 51.5%;
 
     .register {
       z-index: 1;
@@ -79,15 +79,14 @@
       justify-content: center;
       align-items: center;
 
+      font-family: 'VCRFont';
       font-size: 1.6vw;
-      line-height: 100%;
       color: #EBEBEB;
       background: #413F3F;;
       border-radius: 1vw;
       box-shadow: 2px 5px 5px #906c8e;
 
-      // padding: 0.7% 2.3%;
-      padding: 7% 20% 5% 20%;
+      padding: 5% 20%;
       cursor: pointer;
     }
   }
