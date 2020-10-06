@@ -34,8 +34,13 @@
     flex-wrap: wrap;
     font-family: Avenir;
 
+    @media only screen and (max-width: 720px) {
+      justify-content: center;
+    }
+
     .text {
       padding: 25px 15px;
+      text-align: center;
     }
   }
 }
