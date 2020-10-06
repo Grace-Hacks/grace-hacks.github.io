@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Sponsors",
-    "\\src\\components\\Sponsors\\images"
+    "\\src\\components\\FAQ",
+    "\\src\\components\\Sponsors"
   ],
-  "SelectedNode": "\\src\\components\\Sponsors\\images\\AI-Camp.svg",
+  "SelectedNode": "\\src\\components\\Sponsors\\Sponsors.js",
   "PreviewInSolutionExplorer": false
 }
