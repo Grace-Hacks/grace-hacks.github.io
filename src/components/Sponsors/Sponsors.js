@@ -16,8 +16,8 @@ function Sponsors() {
       </div>
 
       <div class="box">
-        We are still looking for sponsors for GraceHacks 2020. Please reach out
-        to us if you're interested in helping make this hackathon a success.
+        We are still accepting sponsors for GraceHacks 2020. Please reach out to
+        us if you're interested in helping make this hackathon a success.
       </div>
 
       <div class="bg-button">SPONSOR GRACE HACKS TODAY!</div>
@@ -38,11 +38,7 @@ function Sponsors() {
           class="x-large-logo"
           alt="Nutanix"
         />
-        <img
-          src={require("./images/CBT.svg")}
-          class="CBT-logo"
-          alt="CBTech"
-        />
+        <img src={require("./images/CBT.svg")} class="CBT-logo" alt="CBTech" />
       </div>
 
       <div class="sponsors-row">
@@ -107,11 +103,7 @@ function Sponsors() {
           class="small-logo"
           alt="Sentry"
         />
-        <img
-          src={require("./images/HVMN.svg")}
-          class="small-logo"
-          alt="HVMN"
-        />
+        <img src={require("./images/HVMN.svg")} class="small-logo" alt="HVMN" />
         <img
           src={require("./images/CloudSploit.svg")}
           class="small-logo"
