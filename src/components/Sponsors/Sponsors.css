@@ -16,8 +16,11 @@
   background: rgba(255, 255, 255, 0.1);
   color: rgb(255, 255, 255);
   font-size: 44px;
-  margin: 20px;
-  padding: 25px 0px;
+  /* margin: 20%; */
+  margin-left: 10.5%;
+  margin-right: 12%;
+  margin-bottom: 2%;
+  /* padding: 25px 50px 50px 0px; */
   border-radius: 10px;
 }
 
