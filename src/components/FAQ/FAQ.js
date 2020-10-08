@@ -18,7 +18,7 @@ function FAQ() {
   };
 
   return (
-    <div class="faq-section">
+    <div class="faq-section" id="faq">
       <div class="row" style={{minHeight: "515px"}}>
         <div class="module">
           <div class="title" onClick={() => {toggleState("one")}}>What is a hackathon?</div>

@@ -2,25 +2,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #413F3F;
-  color: #C4C4C4;
-  padding: 0px 1.7vw;
-  height: 6.3vw;
-  font-size: 3.8vw;
-  line-height: 3.8vw;
-  .info {
+  background: #E3A1D4;
+  color: white;
+  padding: 10px 66px 10px 5%;
+  font-size: 28px;
+  height: 90px;
+
+  .logo {
     display: flex;
     align-items: center;
-  }
-  .apply {
-    margin-right: 3.8vw;
-    cursor: pointer;
-  }
-  .icon {
-    width: 3.8vw;
-    height: 3.8vw;
-    background: #C4C4C4;
-    border-radius: 50%;
-    cursor: pointer;
+    height: 100%;
+    font-size: 22px;
+    .image {
+      height: 100%;
+    }
+    .title {
+      margin-left: -65px;
+      margin-right: 15px;
+    }
   }
 }
