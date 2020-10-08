@@ -5,16 +5,15 @@
 
   .image {
     z-index: 0;
-    width: 41%;
-    height: 41%;
-    margin: 20px 0px 0px 6%;
+    width: 650px;
+    margin: 30px 0px 0px 10%;
   }
 
   .title {
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
-    margin: -21.8% 0px 0px 15%;
+    margin: -340px 0px 0px 19%;
 
     .letter {
       z-index: 1;
@@ -22,14 +21,14 @@
       justify-content: center;
       align-items: center;
 
-      font-size: 4.5vw;
+      font-size: 65px;
       line-height: 100%;
       color: #EBEBEB;
       background: #413F3F;
-      border-radius: 2vw;
+      border-radius: 25px;
 
-      margin: 0px 1.5% 0px 0px;
-      padding: 1% 2.3%;
+      margin-right: 20px;
+      padding: 10px 22px;
     }
 
     .gracehacks {
@@ -38,14 +37,14 @@
       justify-content: center;
       align-items: center;
 
-      font-size: 4.5vw;
+      font-size: 65px;
       line-height: 100%;
       color: #EBEBEB;
       background: #413F3F;
-      border-radius: 2vw;
+      border-radius: 25px;
 
-      margin: 0px 0px 0px 3.5%;
-      padding: 0.5% 2%;
+      margin-left: 40px;
+      padding: 10px 22px;
     }
   }
 
@@ -57,37 +56,37 @@
     text-align: right;
 
     font-family: "Avenir";
-    font-size: 1.8vw;
+    font-size: 30px;
     color: #E0E0E0;
 
-    margin: 1.5% 0px 0px 25.5%;
+    margin: 16px 0px 16px 310px;
   }
 
-  .button {
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 10%;
-    height: 5%;
-    margin: 1.5% 0px 0px 51.5%;
+  // .button {
+  //   z-index: 1;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   width: 10%;
+  //   height: 5%;
+  //   margin: 1.5% 0px 0px 51.5%;
 
-    .register {
-      z-index: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+  //   .register {
+  //     z-index: 1;
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
 
-      font-family: 'VCRFont';
-      font-size: 1.6vw;
-      color: #EBEBEB;
-      background: #413F3F;;
-      border-radius: 1vw;
-      box-shadow: 2px 5px 5px #906c8e;
+  //     font-family: 'VCRFont';
+  //     font-size: 1.6vw;
+  //     color: #EBEBEB;
+  //     background: #413F3F;;
+  //     border-radius: 1vw;
+  //     box-shadow: 2px 5px 5px #906c8e;
 
-      padding: 5% 20%;
-      cursor: pointer;
-    }
-  }
+  //     padding: 5% 20%;
+  //     cursor: pointer;
+  //   }
+  // }
 }
