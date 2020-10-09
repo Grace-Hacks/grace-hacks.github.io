@@ -15,7 +15,8 @@ function Header() {
         fontFamily: "inherit",
         color: "#413f3f !important",
         width: "185px",
-        marginLeft: "250px"
+        marginLeft: "250px",
+        flexWrap: "wrap"
       }
     }));
     
