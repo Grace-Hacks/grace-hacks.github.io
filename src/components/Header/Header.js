@@ -8,11 +8,14 @@ function Header() {
 
   const useStyles = makeStyles((theme) => ({
     register: {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         fontSize: "25px",
         fontFamily: "inherit",
         color: "#413f3f !important",
         width: "185px",
-        marginLeft: "800px"
+        marginLeft: "250px"
       }
     }));
     
