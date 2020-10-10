@@ -7,19 +7,12 @@ import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
 import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
 
 import { ExpandMore } from '@material-ui/icons';
-import { AccordionSummary } from '@material-ui/core';
 
 const Accordion = withStyles({
   root: {
     width: '69%',
-    borderRadius: '25px',
-    margin: 'auto',
     margin: '20px 0',
-
     boxShadow: 'none',
-    '&:not(:last-child)': {
-      borderBottom: 0,
-    },
 
     '&:before': {
       display: 'none',
@@ -32,12 +25,23 @@ const Accordion = withStyles({
   expanded: {},
 })(MuiAccordion);
 
+const AccordionSummary = withStyles({
+  root: {
+    background: '#EBEBEB',
+    borderRadius: '25px',
+    fontSize: '35px',
+    lineHeight: '34px',
+    color: '#000000',
+  },
+  expanded: {},
+})(MuiAccordionSummary);
+
 const AccordionDetails = withStyles((theme) => ({
   root: {
     fontSize: '22px',
     lineHeight: '30px',
     fontFamily: '"Nunito", sans-serif',
-    color: '#FFFFFF',
+    //color: '#FFFFFF',
   },
 }))(MuiAccordionDetails);
 
@@ -50,7 +54,7 @@ function FAQ() {
       <div class="letter">Q</div>
     </div>
 
-    <div>
+    <div class="faq-section">
     <Accordion>
       <AccordionSummary  expandIcon={<ExpandMore />}>What is a hackathon?</AccordionSummary>
       <AccordionDetails>A hackathon is a place where you can collaborate with others and express your creativity to create a product that solves some real-world problem. At GraceHacks, students of all different backgrounds and experiences will gather together to develop an idea and realize that solution all within the span of 12 hours!</AccordionDetails>
