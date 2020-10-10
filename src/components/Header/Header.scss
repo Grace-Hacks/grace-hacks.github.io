@@ -1,101 +1,74 @@
 .header-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: 140px 30px;
+  margin: 175px 0px;
+  flex-wrap: wrap;
 
-  .image {
-    z-index: 0;
-    width: 650px;
-    margin: 30px 550px 0px 30px;
-  }
-
-  .title {
-    z-index: 1;
-    display: flex;
+  .left-column {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: -340px 0px 0px 0px;
-
-    .letter {
-      z-index: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      font-size: 65px;
-      line-height: 100%;
-      color: #EBEBEB;
-      background: #413F3F;
-      border-radius: 25px;
-
-      margin-right: 20px;
-      padding: 10px 22px;
-    }
-
-    .gracehacks {
-      z-index: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      font-size: 65px;
-      line-height: 100%;
-      color: #EBEBEB;
-      background: #413F3F;
-      border-radius: 25px;
-
-      margin-left: 40px;
-      padding: 10px 22px;
-    }
-  }
-
-  .event {
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
-    flex-wrap: wrap;
-
-    font-family: "Avenir";
-    font-size: 30px;
-    color: #E0E0E0;
-
-    margin: 16px 0px 16px 450px;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .header-container {
-    margin: 140px 30px 8% 30px;
 
     .image {
-      width: 70%;
-      margin: 4% 60% 0 5%;
+      z-index: 0;
+      width: 620px;
     }
+  
+    .title {
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: -325px 0px 0px 50px; 
+  
+      .letter {
+        z-index: 1;
+  
+        font-size: 65px;
+        line-height: 100%;
+        color: #EBEBEB;
+        background: #413F3F;
+        border-radius: 25px;
+  
+        margin-right: 20px;
+        padding: 10px 22px;
+      }
+    }
+  }
+
+  .right-column {
+    display: flex;
+    flex-direction: column;
 
     .title {
-      margin: -37% 0px 0px 0px;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 255px 0px 0px 0px;
 
-      .letter {
-        font-size: 6.5vw;
-        border-radius: 2.7vw;
-        margin-right: 4%;
-        padding: 2% 4%;
-      }
       .gracehacks {
-        font-size: 6.5vw;
-        border-radius: 2.8vw;
-        margin-left: 7%;
-        padding: 2% 4%;
+        z-index: 1;
+
+        font-size: 65px;
+        line-height: 100%;
+        color: #EBEBEB;
+        background: #413F3F;
+        border-radius: 25px;
+
+        padding: 10px 22px;
       }
     }
+  
 
     .event {
-      margin: 2% 0 2% 50%;
-      font-size: 3vw;
+      z-index: 1;
+
+      font-family: "Avenir";
+      font-size: 30px;
+      color: #E0E0E0;
+
+      margin: 16px 0px 16px 20px;
     }
   }
 }
