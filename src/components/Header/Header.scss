@@ -1,36 +1,26 @@
 .header-container {
   display: flex;
   justify-content: center;
-  margin: 175px 0px;
+  margin: 175px 0px 2vw;
   flex-wrap: wrap;
 
   .left-column {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     .image {
-      z-index: 0;
       width: 620px;
     }
-  
+
     .title {
-      z-index: 1;
       display: flex;
       justify-content: center;
-      align-items: center;
-      margin: -325px 0px 0px 50px; 
-  
+      margin: -325px 0px 0px 50px;
+
       .letter {
-        z-index: 1;
-  
         font-size: 65px;
         line-height: 100%;
         color: #EBEBEB;
         background: #413F3F;
         border-radius: 25px;
-  
-        margin-right: 20px;
+        margin: 0px 10px;
         padding: 10px 22px;
       }
     }
@@ -39,35 +29,20 @@
   .right-column {
     display: flex;
     flex-direction: column;
-
-    .title {
-      z-index: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 255px 0px 0px 0px;
-
-      .gracehacks {
-        z-index: 1;
-
-        font-size: 65px;
-        line-height: 100%;
-        color: #EBEBEB;
-        background: #413F3F;
-        border-radius: 25px;
-
-        padding: 10px 22px;
-      }
+    .gracehacks {
+      font-size: 65px;
+      line-height: 100%;
+      color: #EBEBEB;
+      background: #413F3F;
+      border-radius: 25px;
+      margin-top: 255px;
+      padding: 10px 22px;
     }
-  
 
     .event {
-      z-index: 1;
-
       font-family: "Avenir";
       font-size: 30px;
       color: #E0E0E0;
-
       margin: 16px 0px 16px 20px;
     }
   }
