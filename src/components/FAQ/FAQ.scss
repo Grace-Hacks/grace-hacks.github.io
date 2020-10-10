@@ -2,6 +2,20 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  .letter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 2vw 2vw 0px;
+        height: 8vw;
+        width: 8vw;
+
+        color: #EBEBEB;
+        font-size: 8vw;
+        line-height: 108px;
+        background: #413F3F;
+        border-radius: 1.7vw;
+      }
 }
 
 .faq-section {
