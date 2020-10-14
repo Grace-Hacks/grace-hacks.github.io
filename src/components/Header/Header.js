@@ -14,7 +14,7 @@ function Header() {
         xs: 0,
         sm: 600,
         md: 960,
-        lg: 1100,
+        lg: 1110,
         xl: 1920,
       },
     },
