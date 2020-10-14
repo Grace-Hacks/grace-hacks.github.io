@@ -20,33 +20,18 @@ function Header() {
     },
   })
 
-  console.log(customTheme);
-
   const useStyles = makeStyles(() => ({
-    registerDesktop: {
+    register: {
       fontSize: "25px",
       fontFamily: "inherit",
       color: "#413f3f !important",
-      width: "185px",
-      marginLeft: "21px",
       [customTheme.breakpoints.down("lg")]: {
-          display: "none",
+        width: "330px",
+        marginLeft: "10px",
       },
       [customTheme.breakpoints.up("lg")]: {
-        display: "flex",
-      },
-    },
-    registerMobile: {
-      fontSize: "25px",
-      fontFamily: "inherit",
-      color: "#413f3f !important",
-      width: "330px",
-      marginLeft: "10px",
-      [customTheme.breakpoints.down("lg")]: {
-        display: "flex",
-      },
-      [customTheme.breakpoints.up("lg")]: {
-        display: "none",
+        width: "185px",
+        marginLeft: "21px",
       },
     },
   }));
@@ -65,8 +50,7 @@ function Header() {
       <div class="right-column">
         <div class="gracehacks">GraceHacks</div>
         <div class="event"> October 17th-18th 11AM PST</div>
-        <Button variant="contained" href="https://tinyurl.com/GH-app" className={useStyles().registerDesktop}>REGISTER</Button>
-        <Button variant="contained" href="https://tinyurl.com/GH-app" className={useStyles().registerMobile}>REGISTER</Button>
+        <Button variant="contained" href="https://tinyurl.com/GH-app" className={useStyles().register}>REGISTER</Button>
       </div>
     </div>
   );
