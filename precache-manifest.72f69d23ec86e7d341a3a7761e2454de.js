@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ada4b3e00c8098938ad68cd09bf1b0b6",
+    "revision": "bf158c76f65c32d82412286518edb8b4",
     "url": "/index.html"
   },
   {
-    "revision": "0f64a029f06854dc9cad",
-    "url": "/static/css/2.89f067aa.chunk.css"
+    "revision": "00ac27b44a821051758e",
+    "url": "/static/css/main.fabc6ba7.chunk.css"
   },
   {
-    "revision": "bfac81de1ab4117b243c",
-    "url": "/static/css/main.e03a1030.chunk.css"
+    "revision": "76476395b11fb33b041d",
+    "url": "/static/js/2.f161e748.chunk.js"
   },
   {
-    "revision": "0f64a029f06854dc9cad",
-    "url": "/static/js/2.ac567ae2.chunk.js"
+    "revision": "3adc01bea76e7956dc3633ee898f6936",
+    "url": "/static/js/2.f161e748.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bfc08a62983de46a4daec9f8c3c657d8",
-    "url": "/static/js/2.ac567ae2.chunk.js.LICENSE.txt"
-  },
-  {
-    "revision": "bfac81de1ab4117b243c",
-    "url": "/static/js/main.b26e0236.chunk.js"
+    "revision": "00ac27b44a821051758e",
+    "url": "/static/js/main.4026004c.chunk.js"
   },
   {
     "revision": "1edccf9486f86c2d2ce3",
@@ -32,6 +28,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Anu.b792b359.png"
   },
   {
+    "revision": "ecb0c2ae369ba2a89d9a1ec2a1b3187b",
+    "url": "/static/media/Avenir.ecb0c2ae.otf"
+  },
+  {
     "revision": "1bd8162a72c80e9f34e39ff3eb0f4b66",
     "url": "/static/media/Brina.1bd8162a.png"
   },
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Desi.cccd754c.png"
   },
   {
-    "revision": "af0c9df8573c917d4f270a17cc976132",
-    "url": "/static/media/GraceHacks.af0c9df8.png"
+    "revision": "cf75a4412751253549b63f7bc8b856a0",
+    "url": "/static/media/GraceHacks.cf75a441.png"
   },
   {
     "revision": "578f3d9197661325eacc8927f5f68df3",
@@ -94,21 +94,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5fcd6c657ffa8a6791632c705f0944ea",
     "url": "/static/media/VCR.5fcd6c65.ttf"
-  },
-  {
-    "revision": "44cfc8b8cd5221979d0b531fc30e9835",
-    "url": "/static/media/email.44cfc8b8.png"
-  },
-  {
-    "revision": "5dc28a7b37f9188f835896839c4946aa",
-    "url": "/static/media/facebook.5dc28a7b.png"
-  },
-  {
-    "revision": "ea6e45edaae17ac98b3b86bc7a5a5bc5",
-    "url": "/static/media/instagram.ea6e45ed.png"
-  },
-  {
-    "revision": "6105ff47b760ac4b919ccdfd6623961b",
-    "url": "/static/media/linkedin.6105ff47.png"
   }
 ]);
