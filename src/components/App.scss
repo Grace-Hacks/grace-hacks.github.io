@@ -3,6 +3,11 @@
   src: url('../assets/VCR.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/Avenir.otf') format('truetype');
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
