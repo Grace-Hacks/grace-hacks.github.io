@@ -30,7 +30,7 @@ function FAQ() {
         </div>
         <div class="module">
           <div class="title" onClick={() => {toggleState("three")}}>Who can attend?</div>
-          <div class="answer" id="three">All female-identifying or non-binary college students (both undergraduates and graduates) are invited to attend, even with no prior experience necessary!</div>
+          <div class="answer" id="three">Female and non-binary students (undergraduate and graduate) are invited to attend, even with no prior experience necessary! If you are male-identifying and interested, please reach out to us directly for more information about how to participate.</div>
         </div>
       <div class="module">
         <div class="title" onClick={() => {toggleState("four")}}>How much does it cost?</div>
