@@ -19,8 +19,6 @@ function Sponsors() {
         We are no longer accepting sponsors for GraceHacks 2020.
       </div>
 
-      <div class="bg-button">SPONSOR GRACE HACKS TODAY!</div>
-
       <div class="sponsors-row">
         <img
           src={require("./images/CDKGlobal.svg")}
