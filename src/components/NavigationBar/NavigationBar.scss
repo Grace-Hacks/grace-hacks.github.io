@@ -1,0 +1,24 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E3A1D4;
+  color: white;
+  padding: 10px 66px 10px 5%;
+  font-size: 28px;
+  height: 90px;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 22px;
+    .image {
+      height: 100%;
+    }
+    .title {
+      margin-left: -65px;
+      margin-right: 15px;
+    }
+  }
+}

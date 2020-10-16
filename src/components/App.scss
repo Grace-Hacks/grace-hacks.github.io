@@ -3,6 +3,11 @@
   src: url('../assets/VCR.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/Avenir.otf') format('truetype');
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -11,4 +16,10 @@
   #6A2BB9;
   font-family: 'VCRFont';
   width: 100%;
+  overflow: hidden;
+
+  a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: inherit;
+  }
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Team.css';
+import './Team.scss';
 
 function Team() {
   return (
     <div class="team-container">
-      <div class="team-title">
+      <div class="title">
         <div class="word">
           <div class="letter">T</div>
           <div class="letter">H</div>
@@ -20,7 +20,7 @@ function Team() {
           <div class="letter">M</div>
         </div>
       </div>
-      <div class="team-row">
+      <div class="row">
         <div class="member">
           <img class="picture" src={require("./Saniya.png")} alt="GraceHacks member" />
           <div class="name">Saniya Doshi</div>
@@ -40,7 +40,7 @@ function Team() {
           <div class="pronouns">she/her/hers</div>
         </div>
       </div>
-      <div class="team-row">
+      <div class="row">
         <div class="member">
           <img class="picture" src={require("./Desi.png")} alt="GraceHacks member" />
           <div class="name">Desiderio Ascencio</div>
@@ -66,7 +66,7 @@ function Team() {
           <div class="pronouns">she/her/hers</div>
         </div>
       </div>
-      <div class="team-row">
+      <div class="row">
         <div class="member">
           <img class="picture" src={require("./Tim.png")} alt="GraceHacks member" />
           <div class="name">Tim Nguyen</div>
@@ -92,7 +92,7 @@ function Team() {
           <div class="pronouns">she/her/hers</div>
         </div>
       </div>
-      <div class="team-row">
+      <div class="row">
         <div class="member">
           <img class="picture" src={require("./Navya.png")} alt="GraceHacks member" />
           <div class="name">Navya Rao</div>
