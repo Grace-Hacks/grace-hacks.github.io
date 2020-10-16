@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 25px;
+  padding: 10px 25px 0 25px;
   @media screen and (max-width: 1465px) {
     &:last-child {
       flex-direction: column-reverse;
@@ -19,10 +19,12 @@
 
   .info {
     max-width: 630px;
+    margin-left: 30px;
     @media screen and (max-width: 700px) {
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-left: 0px;
     }
     .title {
       font-size: 30px;
@@ -32,7 +34,7 @@
       background: #413f3f;
       border-radius: 13px;
       padding: 10px 22px;
-      margin-bottom: 20px;
+      margin: 20px 0px;
       &:last-child {
         width: fit-content;
         margin: auto;
