@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fabc6ba7.chunk.css",
-    "main.js": "/static/js/main.4026004c.chunk.js",
-    "main.js.map": "/static/js/main.4026004c.chunk.js.map",
+    "main.css": "/static/css/main.96e6bcc7.chunk.css",
+    "main.js": "/static/js/main.70fa10f1.chunk.js",
+    "main.js.map": "/static/js/main.70fa10f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a4b3e555.js",
     "runtime-main.js.map": "/static/js/runtime-main.a4b3e555.js.map",
-    "static/js/2.f161e748.chunk.js": "/static/js/2.f161e748.chunk.js",
-    "static/js/2.f161e748.chunk.js.map": "/static/js/2.f161e748.chunk.js.map",
+    "static/js/2.51457fa5.chunk.js": "/static/js/2.51457fa5.chunk.js",
+    "static/js/2.51457fa5.chunk.js.map": "/static/js/2.51457fa5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.72f69d23ec86e7d341a3a7761e2454de.js": "/precache-manifest.72f69d23ec86e7d341a3a7761e2454de.js",
+    "precache-manifest.5c87226c2e9d2f81b200b2f3aac965e7.js": "/precache-manifest.5c87226c2e9d2f81b200b2f3aac965e7.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fabc6ba7.chunk.css.map": "/static/css/main.fabc6ba7.chunk.css.map",
-    "static/js/2.f161e748.chunk.js.LICENSE.txt": "/static/js/2.f161e748.chunk.js.LICENSE.txt",
+    "static/css/main.96e6bcc7.chunk.css.map": "/static/css/main.96e6bcc7.chunk.css.map",
+    "static/js/2.51457fa5.chunk.js.LICENSE.txt": "/static/js/2.51457fa5.chunk.js.LICENSE.txt",
     "static/media/Anu.png": "/static/media/Anu.b792b359.png",
     "static/media/App.scss": "/static/media/VCR.5fcd6c65.ttf",
     "static/media/Brina.png": "/static/media/Brina.1bd8162a.png",
@@ -28,12 +28,14 @@
     "static/media/Sathya.png": "/static/media/Sathya.23dc8c25.png",
     "static/media/Simran.png": "/static/media/Simran.77e3694f.png",
     "static/media/Swetha.png": "/static/media/Swetha.f6b85662.png",
-    "static/media/Tim.png": "/static/media/Tim.09fea910.png"
+    "static/media/Tim.png": "/static/media/Tim.09fea910.png",
+    "static/media/keyboard.png": "/static/media/keyboard.d9c4a881.png",
+    "static/media/landscape.png": "/static/media/landscape.98e363ac.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a4b3e555.js",
-    "static/js/2.f161e748.chunk.js",
-    "static/css/main.fabc6ba7.chunk.css",
-    "static/js/main.4026004c.chunk.js"
+    "static/js/2.51457fa5.chunk.js",
+    "static/css/main.96e6bcc7.chunk.css",
+    "static/js/main.70fa10f1.chunk.js"
   ]
 }
