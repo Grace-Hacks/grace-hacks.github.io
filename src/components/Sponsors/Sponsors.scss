@@ -1,0 +1,88 @@
+.sponsors-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+
+  .sponsors-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    .letter {
+      text-align: center;
+      margin: 0 15px; 
+      padding: 10px 25px;
+
+      color: #EBEBEB;
+      font-size: 60px;
+      background: #413F3F;
+      border-radius: 25px;
+      @media only screen and (max-width: 1200px) {
+        border-radius: 30%;
+        font-size: 5vw;
+        margin: 0px 6%;
+        padding: 4% 8.7%;
+      }
+      @media only screen and (max-width: 600px) {
+        border-radius: 12px;
+        font-size: 30px;
+        margin: 0px 5px;
+        padding: 5px 12px;
+      }
+    }
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    width: 1050px;
+    font-family: Avenir;
+    font-size: 38px;
+    border-radius: 10px;
+    padding: 17px 23px;
+    margin-bottom: 30px;
+    @media only screen and (max-width: 1200px) {
+      font-size: 27px;
+      width: 80%;
+    }
+  }
+  
+  .sponsors-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .x-large-logo {
+      width: 225px;
+      margin: 20px 40px;
+    }
+    .large-logo {
+      width: 233px;
+      margin: 20px 50px;
+    }
+    .medium-logo {
+      width: 184px;
+      margin: 20px 40px;
+    }
+    .small-logo {
+      width: 157px;
+      margin: 20px 40px;
+    }
+    .x-small-logo {
+      width: 101px;
+      margin: 20px 40px;
+    }
+    .CBT-logo {
+      width: 180px;
+      margin: 20px 40px;
+    }
+    
+  }
+}
+
