@@ -3,6 +3,11 @@
   src: url('../assets/VCR.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Nunito';
+  src: url('../assets/Nunito.ttf') format('truetype');
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
