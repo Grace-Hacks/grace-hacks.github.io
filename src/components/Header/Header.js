@@ -22,7 +22,7 @@ function Header() {
 
   const useStyles = makeStyles(() => ({
     register: {
-      fontSize: "25px",
+      fontSize: "20px",
       fontFamily: "inherit",
       color: "#413f3f !important",
       [customTheme.breakpoints.down("lg")]: {
@@ -50,7 +50,7 @@ function Header() {
       <div class="right-column">
         <div class="gracehacks">GraceHacks</div>
         <div class="event"> October 17th-18th 11AM PST</div>
-        <Button variant="contained" href="https://tinyurl.com/GH-app" className={useStyles().register}>REGISTER</Button>
+        <Button variant="contained" href="mailto:ucsc.gracehacks@gmail.com" className={useStyles().register}>Bring Your Company to 2021</Button>
       </div>
     </div>
   );
