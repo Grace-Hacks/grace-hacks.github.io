@@ -8,7 +8,7 @@ import './About.scss';
 function About() {
   return (
     <div class="about-container" id="mission">
-      <div class="about-section" id="mission">
+      <div class="about-section">
         <img class="image" src={Keyboard}></img>
         <div class="info">
           <div class="title">Create with Confidence</div>

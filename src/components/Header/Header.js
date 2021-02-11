@@ -49,7 +49,7 @@ function Header() {
       </div>
       <div class="right-column">
         <div class="gracehacks">GraceHacks</div>
-        <div class="event"> October 17th-18th 11AM PST</div>
+        <div class="event"> October 17th-18th 2020</div>
         <Button variant="contained" href="mailto:ucsc.gracehacks@gmail.com" className={useStyles().register}>Bring Your Company to 2021</Button>
       </div>
     </div>
