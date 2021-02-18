@@ -16,7 +16,7 @@ function Sponsors() {
       </div>
 
       <div class="box">
-        We are no longer accepting sponsors for GraceHacks 2020.
+        Thank you to our sponsors for making GraceHacks 2020 a success!
       </div>
 
       <div class="sponsors-row">
