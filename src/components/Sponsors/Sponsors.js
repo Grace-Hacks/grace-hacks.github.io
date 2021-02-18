@@ -3,7 +3,7 @@ import "./Sponsors.scss";
 
 function Sponsors() {
   return (
-    <div class="sponsors-container">
+    <div class="sponsors-container" id="sponsors">
       <div class="sponsors-title">
         <div class="letter">S</div>
         <div class="letter">P</div>
