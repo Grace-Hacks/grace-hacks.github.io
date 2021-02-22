@@ -22,7 +22,7 @@ function Header() {
 
   const useStyles = makeStyles(() => ({
     register: {
-      fontSize: "20px",
+      fontSize: "22px",
       fontFamily: "inherit",
       color: "#413f3f !important",
       [customTheme.breakpoints.down("lg")]: {
@@ -30,7 +30,7 @@ function Header() {
         marginLeft: "10px",
       },
       [customTheme.breakpoints.up("lg")]: {
-        width: "185px",
+        width: "400px",
         marginLeft: "21px",
       },
     },
