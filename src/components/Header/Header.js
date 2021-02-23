@@ -22,15 +22,18 @@ function Header() {
 
   const useStyles = makeStyles(() => ({
     register: {
-      fontSize: "22px",
       fontFamily: "inherit",
       color: "#413f3f !important",
+      textAlign: "center",
+      borderRadius: "25px", 
       [customTheme.breakpoints.down("lg")]: {
-        width: "330px",
+        fontSize: "18px",
+        width: "330px", 
         marginLeft: "10px",
       },
       [customTheme.breakpoints.up("lg")]: {
-        width: "400px",
+        fontSize: "22px",
+        width: "390px",
         marginLeft: "21px",
       },
     },
