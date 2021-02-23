@@ -37,7 +37,7 @@ function FAQ() {
   }));
 
   return (
-    <div class="faq-section">
+    <div class="faq-section" id="faq">
       <div class="word">
         <div class="letter">F</div>
         <div class="letter">A</div>

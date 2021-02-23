@@ -22,15 +22,18 @@ function Header() {
 
   const useStyles = makeStyles(() => ({
     register: {
-      fontSize: "20px",
       fontFamily: "inherit",
       color: "#413f3f !important",
+      textAlign: "center",
+      borderRadius: "25px", 
       [customTheme.breakpoints.down("lg")]: {
-        width: "330px",
+        fontSize: "18px",
+        width: "330px", 
         marginLeft: "10px",
       },
       [customTheme.breakpoints.up("lg")]: {
-        width: "185px",
+        fontSize: "22px",
+        width: "390px",
         marginLeft: "21px",
       },
     },
@@ -49,7 +52,7 @@ function Header() {
       </div>
       <div class="right-column">
         <div class="gracehacks">GraceHacks</div>
-        <div class="event"> October 17th-18th 11AM PST</div>
+        <div class="event"> October 17th-18th 2020</div>
         <Button variant="contained" href="mailto:ucsc.gracehacks@gmail.com" className={useStyles().register}>Bring Your Company to 2021</Button>
       </div>
     </div>
