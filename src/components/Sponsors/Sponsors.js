@@ -1,5 +1,26 @@
 import React from "react";
 import "./Sponsors.scss";
+import CDKGlobal from "../../assets/Sponsors/CDKGlobal.svg"
+import Salesforce from "../../assets/Sponsors/Salesforce.svg"
+import Nutanix from "../../assets/Sponsors/Nutanix.svg"
+import CBT from "../../assets/Sponsors/CBT.svg"
+import Linode from "../../assets/Sponsors/Linode.svg"
+import Balsamiq from "../../assets/Sponsors/Balsamiq.svg"
+import RStudio from "../../assets/Sponsors/RStudio.svg"
+import MouserElectronics from "../../assets/Sponsors/MouserElectronics.svg"
+import GirlsMakeGames from "../../assets/Sponsors/Girls-Make-Games.svg"
+import MakeyMakey from "../../assets/Sponsors/Makey-Makey.svg"
+import Desmos from "../../assets/Sponsors/Desmos.svg"
+import Heroku from "../../assets/Sponsors/Heroku.svg"
+import StickerGiant from "../../assets/Sponsors/Sticker-Giant.svg"
+import Kingston from "../../assets/Sponsors/Kingston.svg"
+import Sentry from "../../assets/Sponsors/Sentry.svg"
+import HVMN from "../../assets/Sponsors/HVMN.svg"
+import CloudSploit from "../../assets/Sponsors/CloudSploit.svg"
+import AICamp from "../../assets/Sponsors/AI-Camp.svg"
+import SCW from "../../assets/Sponsors/SCW.svg"
+import { Markunread } from "@material-ui/icons";
+
 
 function Sponsors() {
   return (
@@ -21,36 +42,36 @@ function Sponsors() {
 
       <div class="sponsors-row">
         <img
-          src={require("./images/CDKGlobal.svg")}
+          src={CDKGlobal}
           class="x-large-logo"
           alt="CDKGlobal"
         />
         <img
-          src={require("./images/Salesforce.svg")}
+          src={Salesforce}
           class="x-large-logo"
           alt="Salesforce"
         />
         <img
-          src={require("./images/Nutanix.svg")}
+          src={Nutanix}
           class="x-large-logo"
           alt="Nutanix"
         />
-        <img src={require("./images/CBT.svg")} class="CBT-logo" alt="CBTech" />
+        <img src={CBT} class="CBT-logo" alt="CBTech" />
       </div>
 
       <div class="sponsors-row">
         <img
-          src={require("./images/Linode.svg")}
+          src={Linode}
           class="large-logo"
           alt="Linode"
         />
         <img
-          src={require("./images/Balsamiq.svg")}
+          src={Balsamiq}
           class="large-logo"
           alt="Balsamiq"
         />
         <img
-          src={require("./images/RStudio.svg")}
+          src={RStudio}
           class="large-logo"
           alt="RStudio"
         />
@@ -58,27 +79,27 @@ function Sponsors() {
 
       <div class="sponsors-row">
         <img
-          src={require("./images/MouserElectronics.svg")}
+          src={MouserElectronics}
           class="small-logo"
           alt="Mouser Electronics"
         />
         <img
-          src={require("./images/Girls-Make-Games.svg")}
+          src={GirlsMakeGames}
           class="small-logo"
           alt="Girls Make Games"
         />
         <img
-          src={require("./images/Makey-Makey.svg")}
+          src={MakeyMakey}
           class="small-logo"
           alt="Makey Makey"
         />
         <img
-          src={require("./images/Desmos.svg")}
+          src={Desmos}
           class="small-logo"
           alt="Desmos"
         />
         <img
-          src={require("./images/Heroku.svg")}
+          src={Heroku}
           class="small-logo"
           alt="Heroku"
         />
@@ -86,23 +107,27 @@ function Sponsors() {
 
       <div class="sponsors-row">
         <img
-          src={require("./images/Sticker-Giant.svg")}
+          src={StickerGiant}
           class="small-logo"
           alt="Sticker Giant"
         />
         <img
-          src={require("./images/Kingston.svg")}
+          src={Kingston}
           class="small-logo"
           alt="Kingston"
         />
         <img
-          src={require("./images/Sentry.svg")}
+          src={Sentry}
           class="small-logo"
           alt="Sentry"
         />
-        <img src={require("./images/HVMN.svg")} class="small-logo" alt="HVMN" />
+        <img 
+          src={HVMN} 
+          class="small-logo" 
+          alt="HVMN" 
+        />
         <img
-          src={require("./images/CloudSploit.svg")}
+          src={CloudSploit}
           class="small-logo"
           alt="CloudSploit"
         />
@@ -110,12 +135,12 @@ function Sponsors() {
 
       <div class="sponsors-row">
         <img
-          src={require("./images/AI-Camp.svg")}
+          src={AICamp}
           class="x-small-logo"
           alt="AI Camp"
         />
         <img
-          src={require("./images/SCW.svg")}
+          src={SCW}
           class="x-small-logo"
           alt="Santa Cruz Works"
         />
