@@ -3,6 +3,7 @@ import React from 'react';
 import NavigationBar from './NavigationBar/NavigationBar';
 import Header from './Header/Header';
 import About from './About/About';
+import Events from './Events/Events';
 import FAQ from './FAQ/FAQ';
 import Team from './Team/Team';
 import Sponsors from './Sponsors/Sponsors';
@@ -17,6 +18,7 @@ function App() {
         <NavigationBar />
         <Header />
         <About />
+        <Events />
         <FAQ />
         <Team />
         <Sponsors />

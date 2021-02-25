@@ -65,6 +65,7 @@ function NavigationBar() {
         </div>
         <div className={useStyles().info}>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#mission">MISSION</AnchorLink></Button>
+          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#events">EVENTS</AnchorLink></Button>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#sponsors">SPONSORS</AnchorLink></Button>
         </div>
