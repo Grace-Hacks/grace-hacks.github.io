@@ -1,6 +1,9 @@
 import React from 'react';
 import './Header.scss';
-import GraceHacks from '../../assets/GraceHacks.png'
+import Calendar from '../../assets/Calendar.svg'
+import Location from '../../assets/Location.svg'
+import Lotus from '../../assets/Lotus.svg'
+import Arrow from '../../assets/Header-Arrow.svg'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { createMuiTheme } from '@material-ui/core/styles';
@@ -23,9 +26,9 @@ function Header() {
   const useStyles = makeStyles(() => ({
     register: {
       fontFamily: "inherit",
-      color: "#413f3f !important",
+      background: "linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%) !important",
       textAlign: "center",
-      borderRadius: "25px", 
+      borderRadius: "20px", 
       [customTheme.breakpoints.down("lg")]: {
         fontSize: "18px",
         width: "330px", 
@@ -41,20 +44,26 @@ function Header() {
 
   return (
     <div class="header-container">
-      <div class="left-column">
-        <img class="image" src={GraceHacks}></img>
-        <div class="title">
-          <div class="letter">U</div>
-          <div class="letter">C</div>
-          <div class="letter">S</div>
-          <div class="letter">C</div>
+      <div class="row">
+        <div class="left-column">
+          <div class="gracehacks">GraceHacks</div>
+          <div class="info-row">
+            <img class="image" src={Calendar}></img>
+            <div class="event">November 13-14th</div>
+          </div>
+          <div class="info-row">
+            <img class="image" src={Location}></img>
+            <div class="event">UCSC Stevenson Event Center</div>
+          </div>
+          <Button variant="contained" href="mailto:ucsc.gracehacks@gmail.com" class="button">
+            <div class="button-text">Apply</div>
+          </Button>
+        </div>
+        <div class="right-column">
+          <img class="image" src={Lotus}></img>
         </div>
       </div>
-      <div class="right-column">
-        <div class="gracehacks">GraceHacks</div>
-        <div class="event"> October 17th-18th 2020</div>
-        <Button variant="contained" href="mailto:ucsc.gracehacks@gmail.com" className={useStyles().register}>Bring Your Company to 2021</Button>
-      </div>
+      <img class="image" src={Arrow}></img>
     </div>
   );
 }
