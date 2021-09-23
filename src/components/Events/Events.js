@@ -3,28 +3,29 @@ import './Events.scss';
 import Python from '../../assets/Python.png'
 
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from '@material-ui/core';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 const useStyles = makeStyles((theme) => ({
     root: {
-      maxWidth: 500, //345
-      borderRadius: 60,
+      minWidth: 258,
+      maxWidth: 336, //345
+      borderRadius: 20,
+      margin: 10,
+      height: "100%",
     },
     header: {
         display: "flex",
-        textAlign: "center",
     },
     description: {
         display: "flex",
-        textAlign: "center",
-        fontSize: "15px",
-        marginRight: "20px",
-        marginLeft: "20px",
+        fontSize: "11px",
     },
     media: {
     height: "10px",
@@ -33,35 +34,91 @@ const useStyles = makeStyles((theme) => ({
   }));
 
 function Events() {
+    const responsive = {
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 3,
+          slidesToSlide: 1 // optional, default to 1.
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 485 },
+          items: 2,
+          slidesToSlide: 1 // optional, default to 1.
+        },
+        mobile: {
+          breakpoint: { max: 485, min: 0 },
+          items: 1,
+          slidesToSlide: 1 // optional, default to 1.
+        }
+      };
     const classes = useStyles();
     return (
-        <div class="events-container" id="events">
+        <div className="events-container" id="events">
             <div class="word">
-                <div class="letter">E</div>
-                <div class="letter">V</div>
-                <div class="letter">E</div>
-                <div class="letter">N</div>
-                <div class="letter">T</div>
-                <div class="letter">S</div>
+                events
             </div>
-
-            <Card className={classes.root}>
-                <CardHeader className={classes.header}
-                    title="Introduction to Python Workshop"
-                    subheader="February 24th, 2021 • 7pm"
-                />
-                <CardMedia
-                    className={classes.media}
-                    image={Python}
-                    title="picture"
-                />
-                <CardContent className={classes.description}>
-                    <Typography variant="body1" color="textPrimary" component="p">
-                    Interested in learning Python? Join us for a virtual workshop and learn the basics of Python programming such as statements, functions, and more.
-                    Apply your knowledge with interactive examples and a mini project!
-                    </Typography>
-                </CardContent>
-            </Card>
+            
+            <Carousel responsive={responsive}>
+                <Card className={classes.root}>
+                    <CardHeader className={classes.header}
+                        title="StemDiv Python Workshops"
+                        subheader="july 10th - august 20th, 2021"
+                    />
+                    <CardContent className={classes.description}>
+                        <Typography variant="body1" color="textPrimary" component="p">
+                        Partnered with StemDiv program at UCSC to run Python workshops. Hosted 8 total for beginners. View presentation slides&nbsp;
+                        <Link href="#" className="cardLink">
+                            here
+                        </Link>
+                        !
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <Card className={classes.root}>
+                    <CardHeader className={classes.header}
+                        title="2021 Hackathon"
+                        subheader="november 20th - 21st, 2021"
+                    />
+                    <CardContent className={classes.description}>
+                        <Typography variant="body1" color="textPrimary" component="p">
+                        Sample text about annual hackathon here. Sample text about annual hackathon here. Sample text about annual hackathon here.<br></br><br></br>View the event schedule&nbsp;
+                        <Link href="#" className="cardLink">
+                            here
+                        </Link>
+                        ! <br></br><br></br>Sign up to join the hackathon&nbsp;
+                        <Link href="#" className="cardLink">
+                            here
+                        </Link>
+                        !
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <Card className={classes.root}>
+                    <CardHeader className={classes.header}
+                        title="Introduction to Python Workshop"
+                        subheader="February 24th, 2021 • 7pm"
+                    />
+                    <CardContent className={classes.description}>
+                        <Typography variant="body1" color="textPrimary" component="p">
+                        Interested in learning Python? Join us for a virtual workshop and learn the basics of Python programming such as statements, functions, and more.
+                        Apply your knowledge with interactive examples and a mini project!
+                        </Typography>
+                    </CardContent>
+                </Card>
+                
+                <Card className={classes.root}>
+                    <CardHeader className={classes.header}
+                        title="Introduction to Python Workshop"
+                        subheader="February 24th, 2021 • 7pm"
+                    />
+                    <CardContent className={classes.description}>
+                        <Typography variant="body1" color="textPrimary" component="p">
+                        Interested in learning Python? Join us for a virtual workshop and learn the basics of Python programming such as statements, functions, and more.
+                        Apply your knowledge with interactive examples and a mini project!
+                        </Typography>
+                    </CardContent>
+                </Card>
+            </Carousel>
         </div>
   );
 }
