@@ -27,6 +27,9 @@ const useStyles = makeStyles((theme) => ({
     display: "none",
     color: "#F2A7AD",
     transform: "scale(1.7)",
+    padding: "0px 0px",
+    maxWidth: "30px",
+    minWidth: "30px",
     [theme.breakpoints.down("md")]: {
       display: "flex",
     },
@@ -80,7 +83,7 @@ function NavigationBar() {
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#sponsors">SPONSORS</AnchorLink></Button>
         </div>
-        <Button className={useStyles().menuIcon}onClick={handleClick}><MenuIcon/></Button>
+        <Button className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
         <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
           <MenuItem onClick={handleClose}><AnchorLink href="#mission" className={useStyles().menuItem}>MISSION</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#events" className={useStyles().menuItem}>EVENTS</AnchorLink></MenuItem>
