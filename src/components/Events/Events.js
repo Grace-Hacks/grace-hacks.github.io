@@ -16,12 +16,13 @@ const useStyles = makeStyles((theme) => ({
     root: {
       minWidth: 258,
       maxWidth: 336, //345
-      borderRadius: 20,
       margin: 10,
-      height: "100%",
     },
     header: {
         display: "flex",
+    },
+    subheader: {
+        color: "#8586A9",
     },
     description: {
         display: "flex",
@@ -54,26 +55,12 @@ function Events() {
     const classes = useStyles();
     return (
         <div className="events-container" id="events">
-            <div class="word">
+            <div className="word">
                 events
             </div>
             
             <Carousel responsive={responsive}>
-                <Card className={classes.root}>
-                    <CardHeader className={classes.header}
-                        title="StemDiv Python Workshops"
-                        subheader="july 10th - august 20th, 2021"
-                    />
-                    <CardContent className={classes.description}>
-                        <Typography variant="body1" color="textPrimary" component="p">
-                        Partnered with StemDiv program at UCSC to run Python workshops. Hosted 8 total for beginners. View presentation slides&nbsp;
-                        <Link href="#" className="cardLink">
-                            here
-                        </Link>
-                        !
-                        </Typography>
-                    </CardContent>
-                </Card>
+            <div className="cardContainer">
                 <Card className={classes.root}>
                     <CardHeader className={classes.header}
                         title="2021 Hackathon"
@@ -93,23 +80,46 @@ function Events() {
                         </Typography>
                     </CardContent>
                 </Card>
+                </div>
+
+                <div className="cardContainer">
                 <Card className={classes.root}>
                     <CardHeader className={classes.header}
-                        title="Introduction to Python Workshop"
-                        subheader="February 24th, 2021 • 7pm"
+                        title="StemDiv Python Workshops"
+                        subheader="july 10th - august 20th, 2021"
                     />
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
-                        Interested in learning Python? Join us for a virtual workshop and learn the basics of Python programming such as statements, functions, and more.
-                        Apply your knowledge with interactive examples and a mini project!
+                        Partnered with StemDiv program at UCSC to run Python workshops. Hosted 8 total for beginners. <br></br><br></br>View presentation slides&nbsp;
+                        <Link href="#" className="cardLink">
+                            here
+                        </Link>
+                        !
                         </Typography>
                     </CardContent>
                 </Card>
+                </div>
                 
+                <div className="cardContainer">
                 <Card className={classes.root}>
                     <CardHeader className={classes.header}
-                        title="Introduction to Python Workshop"
-                        subheader="February 24th, 2021 • 7pm"
+                        title="Build Your Own Website Workshop"
+                        subheader="may 19th, 2021 • 7pm"
+                    />
+                    <CardContent className={classes.description}>
+                        <Typography variant="body1" color="textPrimary" component="p">
+                        Interested in learning how to make your own personal website? Join our workshop!
+                        Come and learn how to design and program your own website!
+                        </Typography>
+                    </CardContent>
+                </Card>
+                </div>
+                
+                <div className="cardContainer">
+                <Card className={classes.root}>
+                    <CardHeader className={classes.header}
+                        title="Python Workshop 2"
+                        subheader="february 24th, 2021 • 7pm"
                     />
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
@@ -118,6 +128,23 @@ function Events() {
                         </Typography>
                     </CardContent>
                 </Card>
+                </div>
+
+                <div className="cardContainer">
+                <Card className={classes.root}>
+                    <CardHeader className={classes.header}
+                        title="Python Workshop 1"
+                        subheader="february 24th, 2021 • 7pm"
+                    />
+                    <CardContent className={classes.description}>
+                        <Typography variant="body1" color="textPrimary" component="p">
+                        Interested in learning Python? Join us for a virtual workshop and learn the basics of Python programming such as statements, functions, and more.
+                        Apply your knowledge with interactive examples and a mini project!
+                        </Typography>
+                    </CardContent>
+                </Card>
+                </div>
+
             </Carousel>
         </div>
   );
