@@ -25,22 +25,16 @@ import { Markunread } from "@material-ui/icons";
 function Sponsors() {
   return (
     <div class="sponsors-container" id="sponsors">
+
       <div class="sponsors-title">
-        <div class="letter">S</div>
-        <div class="letter">P</div>
-        <div class="letter">O</div>
-        <div class="letter">N</div>
-        <div class="letter">S</div>
-        <div class="letter">O</div>
-        <div class="letter">R</div>
-        <div class="letter">S</div>
-      </div>
+        sponsors
+    </div>
 
       <div class="box">
-        Thank you to our sponsors for making GraceHacks 2020 a success!
-      </div>
+        We are still looking for sponsors for GraceHacks 2020. Please reach out to us if you're interested in helping us make this hackathon a success!
+    </div>
 
-      <div class="sponsors-row">
+      {/* <div class="sponsors-row">
         <img
           src={CDKGlobal}
           class="x-large-logo"
@@ -121,10 +115,10 @@ function Sponsors() {
           class="small-logo"
           alt="Sentry"
         />
-        <img 
-          src={HVMN} 
-          class="small-logo" 
-          alt="HVMN" 
+        <img
+          src={HVMN}
+          class="small-logo"
+          alt="HVMN"
         />
         <img
           src={CloudSploit}
@@ -144,8 +138,8 @@ function Sponsors() {
           class="x-small-logo"
           alt="Santa Cruz Works"
         />
-      </div>
-    </div>
+      </div> */}
+    </div >
   );
 }
 

@@ -9,16 +9,16 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    text-align: left;
+    margin-right: 850px;
+    font-family: Avenir;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 67px;
+    letter-spacing: 0em;
+    color: #425D9FBF;
 
-    .letter {
-      text-align: center;
-      margin: 0 15px; 
-      padding: 10px 25px;
-
-      color: #EBEBEB;
-      font-size: 60px;
-      background: #413F3F;
-      border-radius: 25px;
       @media only screen and (max-width: 1200px) {
         border-radius: 30%;
         font-size: 5vw;
@@ -31,7 +31,6 @@
         margin: 0px 5px;
         padding: 5px 10px;
       }
-    }
   }
 
   .box {
@@ -39,7 +38,7 @@
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.25);
     color: rgb(255, 255, 255);
     width: 1050px;
     font-family: Avenir;
