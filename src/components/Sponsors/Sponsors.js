@@ -31,7 +31,7 @@ function Sponsors() {
     </div>
 
       <div class="box">
-        We are still looking for sponsors for GraceHacks 2020. Please reach out to us if you're interested in helping us make this hackathon a success!
+        We are still looking for sponsors for GraceHacks 2021. Please reach out to us if you're interested in helping us make this hackathon a success!
     </div>
 
       {/* <div class="sponsors-row">
