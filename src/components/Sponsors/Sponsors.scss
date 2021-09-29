@@ -1,42 +1,33 @@
 .sponsors-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-right: 196px;
+  margin-left: 122px;
   margin-bottom: 80px;
+  padding: 10px 25px 0 25px;
+  @media screen and (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
   .sponsors-title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    text-align: left;
-    margin-right: 850px;
+    font-size: 45px;
     font-family: Avenir;
-    font-size: 55px;
+    line-height: 45px;
+    color: #425D9FBF;
     font-style: normal;
     font-weight: 900;
     line-height: 67px;
     letter-spacing: 0em;
-    color: rgba(66, 93, 159, 0.75);
-
-      @media only screen and (max-width: 1200px) {
-        border-radius: 30%;
-        font-size: 5vw;
-        margin: 0px 6%;
-        padding: 4% 8.7%;
-        margin-right: 80%;
-      }
-      @media only screen and (max-width: 500px) {
-        border-radius: 12px;
-        margin: 0px 5px;
-        padding: 5px 10px;
-        margin-right: 70%;
-      }
+    text-align: left;
   }
 
   .box {
     display: flex;
     justify-content: center;
+    align-self: center;
     text-align: center;
     flex-wrap: wrap;
     background: rgba(255, 255, 255, 0.25);
