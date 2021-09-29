@@ -1,37 +1,20 @@
 .team-container {
   text-align: center;
   padding: 85px 0px;
+  margin-right: 196px;
+  margin-left: 122px;
+  font-family: Avenir;
   .title {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    .word {
-      display: flex;
-      margin-bottom: 50px;
-      .letter {
-        text-align: center;
-        margin: 0 15px; 
-        padding: 10px 25px;
-
-        color: #EBEBEB;
-        font-size: 60px;
-        background: #413F3F;
-        border-radius: 25px;
-        @media only screen and (max-width: 550px) {
-          border-radius: 20px;
-          font-size: 50px;
-          margin: 0px 7px;
-          padding: 8px 20px;
-        }
-      }
-    }
-    .spacer {
-      margin: 0 30px;
-      @media only screen and (max-width: 866px) {
-        display: none;
-      }
-    }
+    font-size: 45px;
+    font-family: Avenir;
+    line-height: 45px;
+    color: #425D9FBF;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
   }
   .row {
     display: flex;
@@ -45,6 +28,7 @@
         width: 100%;
         border-radius: 50%;
         margin-bottom: 25px;
+        background: white;
       }
       .name {
         font-size: 25px;
