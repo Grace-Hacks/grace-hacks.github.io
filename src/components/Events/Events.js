@@ -42,12 +42,12 @@ function Events() {
           slidesToSlide: 1 // optional, default to 1.
         },
         tablet: {
-          breakpoint: { max: 1024, min: 485 },
+          breakpoint: { max: 1024, min: 650 },
           items: 2,
           slidesToSlide: 1 // optional, default to 1.
         },
         mobile: {
-          breakpoint: { max: 485, min: 0 },
+          breakpoint: { max: 650, min: 0 },
           items: 1,
           slidesToSlide: 1 // optional, default to 1.
         }
@@ -68,15 +68,15 @@ function Events() {
                     />
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
-                        Sample text about annual hackathon here. Sample text about annual hackathon here. Sample text about annual hackathon here.<br></br><br></br>View the event schedule&nbsp;
+                        Our annual hackathon is almost here! Collaborate with other students of diverse genders to create a project, attend fun workshops, and potentially win prizes in just 24 hours!<br></br><br></br>View the event schedule&nbsp;
                         <Link href="#" className="cardLink">
                             here
                         </Link>
-                        ! <br></br><br></br>Sign up to join the hackathon&nbsp;
+                        ! <br></br>Sign up&nbsp;
                         <Link href="#" className="cardLink">
                             here
                         </Link>
-                        !
+                        &nbsp;to participate when our apps open!
                         </Typography>
                     </CardContent>
                 </Card>
@@ -91,7 +91,7 @@ function Events() {
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
                         Partnered with StemDiv program at UCSC to run Python workshops. Hosted 8 total for beginners. <br></br><br></br>View presentation slides&nbsp;
-                        <Link href="#" className="cardLink">
+                        <Link href="https://drive.google.com/drive/u/1/folders/1LAvfKKYMfzbnQlj9wvsdQVvXlsPqpU_A" className="cardLink">
                             here
                         </Link>
                         !
