@@ -16,7 +16,7 @@ const useStyles = makeStyles({
 function Footer() {
   return (
     <div class="footer-container">
-      <div class="contact">CONTACT US</div>
+      <div class="contact">CONNECT WITH US</div>
       <div class="social">
         <a href="https://www.facebook.com/gracehacks/" target="_blank" rel="noopener noreferrer"><Facebook className={useStyles().icon} /></a>
         <a href="https://www.linkedin.com/company/gracehacks/" target="_blank" rel="noopener noreferrer"><LinkedIn className={useStyles().icon} /></a>
