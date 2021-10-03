@@ -18,30 +18,41 @@ function FAQ() {
   const useStyles = makeStyles(() => ({
     frame: {
       background: "none",
-      maxWidth: "max(54vw, 700px)",
+      maxWidth: "max(54vw, 1122px)",
       boxShadow: "none",
     },
     question: {
-      maxWidth: "max(54vw, 700px)",
+      maxWidth: "max(54vw, 1122px)",
       minHeight: "auto !important",
       background: "#EBEBEB",
-      fontSize: "25px",
+      fontFamily: "Avenir",
+      fontSize: "24px",
       borderRadius: "20px !important",
-      marginBottom: "20px"
+      marginBottom: "10px",
+      marginLeft: "-35px",
+      position: "relative",
+      zIndex: "1"
     },
     answer: {
-      fontFamily: "Nunito",
-      fontSize: "22px",
-      color: "white",
+      fontFamily: "Avenir",
+      fontSize: "21px",
+      color: "#393943",
+      background: "#FFFFFF",
+      maxWidth: "max(54vw, 1100px)",
+      opacity: "0.8",
+      borderRadius: "25px",
+      height: "100px",
+      marginTop: "-60px",
+      marginLeft: "-35px",
+      paddingTop: "60px",
+      paddingLeft: "30px"
     }
   }));
 
   return (
     <div class="faq-section" id="faq">
-      <div class="word">
-        <div class="letter">F</div>
-        <div class="letter">A</div>
-        <div class="letter">Q</div>
+      <div class="faq-title">
+        faq
       </div>
 
       <Accordion className={useStyles().frame} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -74,8 +85,8 @@ function FAQ() {
         <AccordionDetails className={useStyles().answer}>Anything your heart desires! Hardware products, software applications, gaming interfaces ~ if you can dream it, you can build it!</AccordionDetails>
       </Accordion>
 
-        <Accordion className={useStyles().frame} expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
-      <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How much does it cost?</AccordionSummary>
+      <Accordion className={useStyles().frame} expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How much does it cost?</AccordionSummary>
         <AccordionDetails className={useStyles().answer}>GraceHacks will be absolutely FREE! We’ll provide food, swag, caffeine, WiFi, and a collaborative workspace to get your projects up and running quickly!</AccordionDetails>
       </Accordion>
     </div>
