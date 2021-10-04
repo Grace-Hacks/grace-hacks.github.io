@@ -75,7 +75,7 @@ function FAQ() {
 
       <Accordion className={useStyles().frame} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How do I attend?</AccordionSummary>
-        <AccordionDetails className={useStyles().answer}>This is a hybrid event! You can participate in person at the Stevenson Event Center or participate online!</AccordionDetails>
+        <AccordionDetails className={useStyles().answer}> This is a hybrid event! You can participate in person at the Stevenson Event Center or participate online if you have internet connection and access to zoom! </AccordionDetails>
       </Accordion>
 
       <Accordion className={useStyles().frame} expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
