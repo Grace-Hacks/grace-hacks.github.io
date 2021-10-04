@@ -6,6 +6,7 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import './FAQ.scss';
+import { CenterFocusStrong } from '@material-ui/icons';
 
 
 function FAQ() {
@@ -41,9 +42,9 @@ function FAQ() {
       opacity: "0.8",
       borderRadius: "25px",
       height: "100px",
-      paddingTop: "60px",
-      paddingLeft: "30px",
-      overflow: "scroll"
+      paddingTop: "5%",
+      paddingLeft: "25px",
+      overflow: "scroll",
     }
   }));
 
