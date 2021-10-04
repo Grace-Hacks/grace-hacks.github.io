@@ -1,49 +1,67 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuIcon from '@material-ui/icons/Menu';
+import { withStyles } from "@material-ui/core/styles";
 
 import './NavigationBar.scss';
-import GraceHacks from '../../assets/GraceHacks.png'
 
 const useStyles = makeStyles((theme) => ({
   anchor: {
-    fontSize: "28px",
+    fontSize: "20px",
+    fontWeight: "900",
     marginRight: "20px",
-    fontFamily: "inherit",
+    fontFamily: "Avenir",
     color: "inherit",
-    padding: "0px"
   },
   info: {
     display: "flex",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       display: "none",
     },
   },
-  menu: {
+  menuIcon: {
     display: "none",
-    fontSize: "30px",
-    [theme.breakpoints.down("sm")]: {
+    color: "#F2A7AD",
+    transform: "scale(1.7)",
+    padding: "0px 0px",
+    maxWidth: "30px",
+    minWidth: "30px",
+    [theme.breakpoints.down("md")]: {
       display: "flex",
     },
   },
   menuItem: {
-    color: "inherit",
+    color: "#525357",
+    fontWeight: "500",
     textDecoration: "none",
-    width: "100%"
-  },
-  register: {
-    fontSize: "21px",
-    fontFamily: "inherit",
-    color: "#413f3f !important"
+    width: "100%",
+    borderRadius: "15px"
   }
 }));
+
+const StyledMenu = withStyles({
+  paper: {
+    borderRadius: "15px",
+  }
+})(props => (
+  <Menu
+    elevation={0}
+    getContentAnchorEl={null}
+    anchorOrigin={{
+      vertical: "bottom",
+      horizontal: "left",
+    }}
+    transformOrigin={{
+      vertical: "bottom",
+      horizontal: "right",
+    }}
+    {...props}
+  />
+));
 
 function NavigationBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -57,27 +75,23 @@ function NavigationBar() {
   };
 
   return (
-    <AppBar position="fixed">
-      <Toolbar class="navigation-container">
-        <div class="logo">
-          <img class="image" src={GraceHacks}></img>
-          <a class="title" href="https://grace-hacks.github.io/">GraceHacks</a>
-        </div>
+    <div>
+      <div class="navigation-container">
         <div className={useStyles().info}>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#mission">MISSION</AnchorLink></Button>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#events">EVENTS</AnchorLink></Button>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#sponsors">SPONSORS</AnchorLink></Button>
         </div>
-        <MenuIcon className={useStyles().menu} onClick={handleClick}/>
-        <Menu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
+        <Button className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
+        <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
           <MenuItem onClick={handleClose}><AnchorLink href="#mission" className={useStyles().menuItem}>MISSION</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#events" className={useStyles().menuItem}>EVENTS</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#faq" className={useStyles().menuItem}>FAQ</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#sponsors" className={useStyles().menuItem}>SPONSORS</AnchorLink></MenuItem>      
-        </Menu>
-      </Toolbar>
-    </AppBar>
+        </StyledMenu>
+      </div>
+    </div>
   );
 }
 

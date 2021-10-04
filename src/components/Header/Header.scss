@@ -1,94 +1,135 @@
 .header-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 175px 0px;
+  margin: 60px 0px;
   flex-wrap: wrap;
-
-  .left-column {
-    .image {
-      width: 620px;
-      margin-left: 25px;
-    }
-
-    .title {
+  font-family: "Avenir";
+  .lotus-mobile {
+    display: none;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .left-column {
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      margin: -325px 0px 0px 50px;
-
-      .letter {
-        font-size: 65px;
-        line-height: 100%;
-        color: #EBEBEB;
-        background: #413F3F;
-        border-radius: 25px;
-        margin: 0px 10px;
-        padding: 10px 22px;
+      margin-left: 120px;
+      .gracehacks {
+        display: inline-block;
+        font-size: 100px;
+        font-weight: 900;
+        background: linear-gradient(#464545, #313131);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
+      }
+      .info-row {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 0px 25px 15px;
+        .image {
+          width: auto;
+          height: auto;
+        }
+        .event {
+          font-size: 30px;
+          font-weight: 400;
+          color: #555555;
+          margin-left: 22px;
+        }
+      }
+      .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 186px;
+        height: 61px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
+        margin: 20px 0px 0px 15px;
+        .button-text {
+          font-weight: 900;
+          font-size: 25px;
+          color: #FFFFFF;
+        }
       }
     }
-  }
-
-  .right-column {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    padding-left: 20px;
-
-    .gracehacks {
-      font-size: 65px;
-      line-height: 100%;
-      color: #EBEBEB;
-      background: #413F3F;
-      border-radius: 25px;
-      margin-top: 255px;
-      padding: 10px 22px;
-    }
-
-    .event {
-      font-family: "Avenir";
-      font-size: 30px;
-      color: #E0E0E0;
-      margin: 16px 0px 16px 55px;
+    .right-column {
+      display: flex;
+      flex-direction: column;
+      .lotus-desktop {
+        display: flex;
+      }
     }
   }
 }
 
-@media only screen and (max-width: 1110px) {
-  .header-container {
-    margin: 120px 0px 50px 0px;
-    .left-column {
-      .image {
-        width: 500px;
-        margin: 0px 10px 0px 0px;
-      }
 
-      .title {
-        margin: -260px 0 0 0px;
-        .letter {
+@media only screen and (max-width: 1300px) {
+  .header-container {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: -90px;
+    .lotus-mobile {
+      display: flex;
+      margin-bottom: 40px;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .left-column {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+        margin-left: 0px;
+        .gracehacks {
           font-size: 50px;
-          border-radius: 20px;
-          margin: 0px 7px;
-          padding: 8px 20px;
+          margin-bottom: 15px;
+        }
+        .info-row {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin: 0px 0px 10px 0px;
+          .image {
+            width: auto;
+            height: auto;
+          }
+          .event {
+            font-size: 20px;
+            margin-left: 15px;
+          }
+        }
+        .button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 115px;
+          height: 33px;
+          border-radius: 13px;
+          margin-top: 15px;
+          .button-text {
+            font-size: 15px;
+          }
         }
       }
-    }
-
-    .right-column {
-      margin: 210px 120px 0 120px;
-      padding: 0;
-      .gracehacks {
-        display: flex;
-        justify-content: center;
-        font-size: 50px;
-        border-radius: 20px;
-        margin: 0px 7px;
-        padding: 8px 20px;
-      }
-
-      .event {
-        display: flex;
-        justify-content: center;
-        font-size: 25px;
-        margin: 20px 0px 20px 0px;
+      .right-column {
+        display: none;
+        flex-direction: column;
+        .lotus-desktop {
+          display: none;
+        }
       }
     }
   }
