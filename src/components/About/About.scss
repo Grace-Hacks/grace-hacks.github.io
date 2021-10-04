@@ -1,18 +1,27 @@
 .about-section {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 10px 25px 0 25px;
-  @media screen and (max-width: 1465px) {
-    &:last-child {
-      flex-direction: column-reverse;
-    }
+  flex-direction: row;
+  justify-content: space-between;
+  //align-items: center;
+  //flex-wrap: wrap;
+  //border: 2px solid red;
+  //padding: 10px 0px 0 0px;
+  // @media screen and (max-width: 1465px) {
+  //   &:last-child {
+  //     //flex-direction: column-reverse;
+  //   }
+  // }
+
+  .petal {
+    margin-top: -300px;
+    //border: 2px solid yellow;
   }
 
   .info {
-    margin-right: 196px;
-    margin-left: 122px;
+    display: flex;
+    flex-direction: column;
+    //margin-right: 196px;
+    margin-left: 100px;
     font-family: Avenir;
     font-size: 55px;
     font-style: normal;
@@ -20,6 +29,7 @@
     line-height: 67px;
     letter-spacing: 0em;
     text-align: left;
+    //border: 2px solid green;
 
     @media screen and (max-width: 900px) {
       display: flex;
@@ -45,8 +55,14 @@
       line-height: 47px;
       text-align: left;
       color: #393943;
-      margin-bottom: 125px;
+      margin-bottom: 100px;
     }
+  }
+
+  .fish {
+    margin-top: 400px;
+    margin-left: -100px;
+    //border: 2px solid red;
   }
 
 }
