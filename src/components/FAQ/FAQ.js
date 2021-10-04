@@ -29,7 +29,6 @@ function FAQ() {
       fontSize: "24px",
       borderRadius: "20px !important",
       marginBottom: "10px",
-      marginLeft: "-35px",
       position: "relative",
       zIndex: "1"
     },
@@ -42,10 +41,9 @@ function FAQ() {
       opacity: "0.8",
       borderRadius: "25px",
       height: "100px",
-      marginTop: "-60px",
-      marginLeft: "-35px",
       paddingTop: "60px",
-      paddingLeft: "30px"
+      paddingLeft: "30px",
+      overflow: "scroll"
     }
   }));
 
@@ -77,7 +75,7 @@ function FAQ() {
 
       <Accordion className={useStyles().frame} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How do I attend?</AccordionSummary>
-        <AccordionDetails className={useStyles().answer}>This event is completely virtual. As long as you have internet connection and accessability to Zoom you are good to go!</AccordionDetails>
+        <AccordionDetails className={useStyles().answer}>This is a hybrid event! You can participate in person at the Stevenson Event Center or participate online!</AccordionDetails>
       </Accordion>
 
       <Accordion className={useStyles().frame} expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
