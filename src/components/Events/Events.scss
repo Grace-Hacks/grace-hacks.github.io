@@ -1,30 +1,91 @@
 .events-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 85px 50px 0 50px;
-    .word {
-        display: flex;
-        width: min-content;
-        margin-bottom: 50px;
-        .letter {
-          text-align: center;
-          margin: 0 15px;
-          padding: 10px 25px;
+    justify-content: center;
+    margin: 8%;
+    .cardContainer {
+      display:flex;
+      border-radius: 25px;
+      height: 100%;
+    }
+      .word {
+        padding: 10px 25px 20px 10px;
     
-          color: #EBEBEB;
-          font-size: 60px;
-          background: #413F3F;
-          border-radius: 25px;
-          @media only screen and (max-width: 550px) {
-            border-radius: 20px;
-            font-size: 50px;
-            margin: 0px 7px;
-            padding: 8px 20px;
-          }
+        color: #425D9FBF;
+        font-family: 'Avenir';
+        font-weight: 900;
+        font-size: 60px;
+        background:transparent;
+        border-radius: 25px;
+        
+        @media only screen and (max-width: 550px) {
+          border-radius: 20px;
+          font-size: 50px;
         }
       }
-      .MuiCardHeader-subheader {
-          font-size: 20px;
-      }
+      
+    .MuiCardHeader-subheader {
+        font-size: 20px;
+        color: #8586A9;
+    }
+
+    .MuiCard-root {
+      box-shadow: none;
+      border-radius: 15px;
+  }
+}
+a.cardLink {
+  font-weight: bold;
+  color: #8586A9 !important;
+  text-decoration: underline !important;
+}
+
+
+.react-multi-carousel-track {
+  min-height: 158px;
+  max-height: 400px;
+}
+
+button.react-multiple-carousel__arrow {
+  min-width: 7px;
+  min-height: 21px;
+  width: 25.5px;
+  height: 51px;
+  background: transparent;
+  margin: 5px;
+
+}
+
+button.react-multiple-carousel__arrow::before {
+  font-size:41px;
+}
+
+button.react-multiple-carousel__arrow:hover {
+  background: transparent;
+}
+
+div.MuiPaper-rounded {
+  border-radius: 0px;
+}
+
+div.MuiCardHeader-root {
+  margin: 24px 22px 15px 22px;
+  padding: 0px;
+}
+
+div.MuiCardContent-root {
+  margin: 0px 22px 0px 22px;
+  padding: 0px;
+}
+
+span.MuiTypography-h5 {
+  font-size: 22px;
+}
+
+button.react-multiple-carousel__arrow--left {
+  margin: -15px;
+}
+
+button.react-multiple-carousel__arrow--right {
+  margin: -10px;
 }

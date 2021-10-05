@@ -3,44 +3,80 @@
   flex-direction: column;
   align-items: center;
 
-  .contact {
-    font-size: 30px;
-    line-height: 29px;
-    color: #CFCFCF;
+  .connect {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #FFFFFFB2;
     text-align: center;
-    flex-wrap: wrap;
 
-    padding: 6px 20px;
-    background: #413F3F;
-    border-radius: 13px;
-    margin-bottom: 25px;
+    padding: 15px 0px;
+    font-family: Avenir;
   }
 
   .social {
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width:350px;
   }
 
   .message {
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 25px;
-    width: 100%;
+    width: 93%;
     color: white;
-    background: #7040AD;
     flex-wrap: wrap;
     font-family: Avenir;
 
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 1000px) {
       justify-content: center;
     }
 
     .text {
-      padding: 25px 15px;
+      padding: 15px 10px;
       text-align: center;
     }
   }
+}
+.foot-row {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.ping {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.fish {
+  width: 40vw;
+  max-width: 500px;
+  margin-top: -10%;
+}
+.socialIcon {
+  width:46px;
+  padding: 5px;
+  @media only screen and (max-width: 450px) {
+    width:30px;
+  }
+}
+.petal {
+  display: block;
+  margin-left: auto;
+  margin-top: 300px;
+  width: 20%;
+  max-width: 200px;
+}
+
+.notPetal {
+  display: flex;
+  width: 100vw;
 }
