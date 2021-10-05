@@ -1,55 +1,57 @@
 .sponsors-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-right: 196px;
+  margin-left: 122px;
   margin-bottom: 80px;
+  padding: 10px 25px 0 25px;
+  @media screen and (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
   .sponsors-title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-
-    .letter {
-      text-align: center;
-      margin: 0 15px; 
-      padding: 10px 25px;
-
-      color: #EBEBEB;
-      font-size: 60px;
-      background: #413F3F;
-      border-radius: 25px;
-      @media only screen and (max-width: 1200px) {
-        border-radius: 30%;
-        font-size: 5vw;
-        margin: 0px 6%;
-        padding: 4% 8.7%;
-      }
-      @media only screen and (max-width: 500px) {
-        border-radius: 12px;
-        font-size: 25px;
-        margin: 0px 5px;
-        padding: 5px 10px;
-      }
-    }
+    font-size: 45px;
+    font-family: Avenir;
+    line-height: 45px;
+    color: #425D9FBF;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 
   .box {
     display: flex;
     justify-content: center;
+    align-self: center;
     text-align: center;
     flex-wrap: wrap;
-    background: rgba(255, 255, 255, 0.1);
-    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.25);
+    color: #515151;
     width: 1050px;
     font-family: Avenir;
-    font-size: 38px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em; 
     border-radius: 10px;
     padding: 17px 23px;
     margin-bottom: 30px;
+    height: 70px;
+    width: 920px;
+    left: 260px;
+    top: 7202px;
+    border-radius: 0px;
+
     @media only screen and (max-width: 1200px) {
-      font-size: 27px;
+      font-size: 20px;
       width: 80%;
+      height: 50%;
     }
   }
   
