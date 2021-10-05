@@ -6,6 +6,7 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import './FAQ.scss';
+import { CenterFocusStrong } from '@material-ui/icons';
 
 
 function FAQ() {
@@ -18,30 +19,39 @@ function FAQ() {
   const useStyles = makeStyles(() => ({
     frame: {
       background: "none",
-      maxWidth: "max(54vw, 700px)",
+      maxWidth: "max(54vw, 1122px)",
       boxShadow: "none",
     },
     question: {
-      maxWidth: "max(54vw, 700px)",
+      maxWidth: "max(54vw, 1122px)",
       minHeight: "auto !important",
       background: "#EBEBEB",
-      fontSize: "25px",
+      fontFamily: "Avenir",
+      fontSize: "24px",
       borderRadius: "20px !important",
-      marginBottom: "20px"
+      marginBottom: "10px",
+      position: "relative",
+      zIndex: "1"
     },
     answer: {
-      fontFamily: "Nunito",
-      fontSize: "22px",
-      color: "white",
+      fontFamily: "Avenir",
+      fontSize: "21px",
+      color: "#393943",
+      background: "#FFFFFF",
+      maxWidth: "max(54vw, 1100px)",
+      opacity: "0.8",
+      borderRadius: "25px",
+      height: "100px",
+      paddingTop: "5%",
+      paddingLeft: "25px",
+      overflow: "scroll",
     }
   }));
 
   return (
     <div class="faq-section" id="faq">
-      <div class="word">
-        <div class="letter">F</div>
-        <div class="letter">A</div>
-        <div class="letter">Q</div>
+      <div class="faq-title">
+        faq
       </div>
 
       <Accordion className={useStyles().frame} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -66,7 +76,7 @@ function FAQ() {
 
       <Accordion className={useStyles().frame} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How do I attend?</AccordionSummary>
-        <AccordionDetails className={useStyles().answer}>This event is completely virtual. As long as you have internet connection and accessability to Zoom you are good to go!</AccordionDetails>
+        <AccordionDetails className={useStyles().answer}> This is a hybrid event! You can participate in person at the Stevenson Event Center or participate online if you have internet connection and access to zoom! </AccordionDetails>
       </Accordion>
 
       <Accordion className={useStyles().frame} expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
@@ -74,8 +84,8 @@ function FAQ() {
         <AccordionDetails className={useStyles().answer}>Anything your heart desires! Hardware products, software applications, gaming interfaces ~ if you can dream it, you can build it!</AccordionDetails>
       </Accordion>
 
-        <Accordion className={useStyles().frame} expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
-      <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How much does it cost?</AccordionSummary>
+      <Accordion className={useStyles().frame} expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How much does it cost?</AccordionSummary>
         <AccordionDetails className={useStyles().answer}>GraceHacks will be absolutely FREE! We’ll provide food, swag, caffeine, WiFi, and a collaborative workspace to get your projects up and running quickly!</AccordionDetails>
       </Accordion>
     </div>
