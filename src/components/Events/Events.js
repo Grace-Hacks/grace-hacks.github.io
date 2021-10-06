@@ -19,17 +19,17 @@ const useStyles = makeStyles((theme) => ({
       margin: 10,
     },
     header: {
-        display: "flex",
+      display: "flex",
     },
     subheader: {
-        color: "#8586A9",
+      color: "#8586A9",
     },
     description: {
-        display: "flex",
-        fontSize: "11px",
+      display: "flex",
+      fontSize: "11px",
     },
     media: {
-    height: "10px",
+      height: "10px",
       paddingTop: '56.25%', // 16:9
     }
   }));
@@ -49,7 +49,7 @@ function Events() {
         mobile: {
           breakpoint: { max: 650, min: 0 },
           items: 1,
-          slidesToSlide: 1 // optional, default to 1.
+          slidesToSlide: 1, // optional, default to 1.
         }
       };
     const classes = useStyles();
@@ -64,10 +64,14 @@ function Events() {
                 <Card className={classes.root}>
                     <CardHeader className={classes.header}
                         title="2021 Hackathon"
-                        subheader="november 20th - 21st, 2021"
+                        subheader="november 13th - 14th, 2021"
                     />
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
+                        Our annual hackathon is almost here! Collaborate with other students of diverse genders to create a project, attend fun workshops, and potentially win prizes in just 24 hours!<br></br><br></br>
+                        Hackathon applications open October 11th!
+                        </Typography>
+                        {/* <Typography variant="body1" color="textPrimary" component="p">
                         Our annual hackathon is almost here! Collaborate with other students of diverse genders to create a project, attend fun workshops, and potentially win prizes in just 24 hours!<br></br><br></br>View the event schedule&nbsp;
                         <Link href="#" className="cardLink">
                             here
@@ -77,7 +81,7 @@ function Events() {
                             here
                         </Link>
                         &nbsp;to participate when our apps open!
-                        </Typography>
+                        </Typography> */}
                     </CardContent>
                 </Card>
                 </div>
@@ -90,7 +94,7 @@ function Events() {
                     />
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
-                        Partnered with StemDiv program at UCSC to run Python workshops. Hosted 8 total for beginners. <br></br><br></br>View presentation slides&nbsp;
+                        We partnered with StemDiv program at UCSC to run 8 beginner-friendly Python workshops! <br></br><br></br>View presentation slides&nbsp;
                         <Link href="https://drive.google.com/drive/u/1/folders/1LAvfKKYMfzbnQlj9wvsdQVvXlsPqpU_A" className="cardLink">
                             here
                         </Link>
@@ -109,7 +113,7 @@ function Events() {
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
                         Interested in learning how to make your own personal website? Join our workshop!
-                        Come and learn how to design and program your own website!
+                        Come and learn how to design and program your own website using Figma, HTML and CSS!
                         </Typography>
                     </CardContent>
                 </Card>
@@ -119,7 +123,7 @@ function Events() {
                 <Card className={classes.root}>
                     <CardHeader className={classes.header}
                         title="Python Workshop 2"
-                        subheader="february 24th, 2021 • 7pm"
+                        subheader="april 21st, 2021 • 7pm"
                     />
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">

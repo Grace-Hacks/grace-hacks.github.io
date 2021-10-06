@@ -48,8 +48,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 186px;
+        // width: 186px; -----> fits 'Apply' text
         height: 61px;
+        width: 450px;
         border-radius: 20px;
         background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
         margin: 20px 0px 0px 15px;
@@ -107,7 +108,7 @@
             height: auto;
           }
           .event {
-            font-size: 20px;
+            font-size: 25px;
             margin-left: 15px;
           }
         }
@@ -115,12 +116,14 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 115px;
-          height: 33px;
+          //width: 115px; -----> fits 'Apply' text
+          width: 350px;
+          height: 50px;
+          //height: 36px;
           border-radius: 13px;
           margin-top: 15px;
           .button-text {
-            font-size: 15px;
+            font-size: 20px;
           }
         }
       }
