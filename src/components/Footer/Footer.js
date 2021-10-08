@@ -34,8 +34,9 @@ function Footer() {
           </div>
         </div>
         </div>
-        <img class="petal" src={petal}></img>
       </div>
+      
+      <img class="petal" src={petal}></img>
       <div class="message">
         <div class="text">Made with <span role='img' aria-label='hearts'>💛💙</span> by <span role='img' aria-label='snails'>🍌🐌</span> in Santa Cruz.</div>
         <div class="text">© 2020 GraceHacks. All rights reserved.</div>
