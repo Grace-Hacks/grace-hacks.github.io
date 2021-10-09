@@ -11,6 +11,9 @@
 
     padding: 15px 0px;
     font-family: Avenir;
+    @media only screen and (max-width: 450px) {
+      padding: 10px 0px;
+    }
   }
 
   .social {
@@ -66,7 +69,7 @@
   width:46px;
   padding: 5px;
   @media only screen and (max-width: 450px) {
-    width:30px;
+    width:40px;
   }
 }
 .petal {
@@ -74,9 +77,13 @@
   margin-left: auto;
   width: 20%;
   max-width: 200px;
+  margin-top: -3%;
+  @media only screen and (max-width: 450px) {
+    margin-top: 0px;
+  }
 }
 
 .notPetal {
   display: flex;
-  width: 100vw;
+  width: 90vw;
 }
