@@ -26,15 +26,18 @@ function Header() {
             <img class="image" src={Location}></img>
             <div class="event">UCSC Stevenson Event Center</div>
           </div>
-          <Button variant="contained" href="mailto:ucsc.gracehacks@gmail.com" class="button">
+          {/* <Button variant="contained" href="mailto:ucsc.gracehacks@gmail.com" class="button">
             <div class="button-text">Apply</div>
-          </Button>
+          </Button> */}
+            <div variant="contained" class="button">
+              <div class="button-text">Applications opening soon!</div>
+            </div>
         </div>
         <div class="right-column">
           <img class="lotus-desktop" src={Lotus}></img>
         </div>
       </div>
-      <img class="image" src={Arrow}></img>
+      <img class="arrow" src={Arrow}></img>
     </div>
   );
 }

@@ -1,35 +1,51 @@
 .faq-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 85px 50px 0 50px;
-  
+  padding-bottom: 50px;
+  margin: 0px 10%;
+  @media only screen and (max-width: 1200px) {
+    margin: 0px 30px;
+  }
   .faq-title {
     display: flex;
-    justify-content: center;
-    margin-left: 122px;
-    margin-right: 1234px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     font-family: Avenir;
     font-style: normal;
     font-weight: 900;
-    font-size: 55px;
-    line-height: 67px;
-    color: rgba(66, 93, 159, 0.75);
+    font-size: 50px;
+    line-height: 50px;
+    color: #425D9FBF;
     @media only screen and (max-width: 1200px) {
-      font-size: 5vw;
-      margin: 0px 6%;
-      padding: 4% 8.7%;
-      margin-right: 100%;
+      margin-left: 0px;
     }
-    @media only screen and (max-width: 550px) {
-      font-size: 7vw;
-      padding: 4% 8.7%;
-      margin-right: 100%;
-    }
+    // @media only screen and (max-width: 1200px) {
+    //   font-size: 5vw;
+    //   margin: 0px 6%;
+    //   padding: 4% 8.7%;
+    //   margin-right: 100%;
+    // }
+    // @media only screen and (max-width: 550px) {
+    //   font-size: 7vw;
+    //   padding: 4% 8.7%;
+    //   margin-right: 100%;
+    // }
+  }
+
+  .accordian {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .MuiAccordion-root:before {
     border: none;
+    background-color: transparent;
+  }
+
+  .petal {
+    margin-top: -50px;
+    margin-right: 15px;
+    width: 100%;
   }
 }

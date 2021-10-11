@@ -2,27 +2,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 8%;
+    padding-bottom: 100px;
+    margin: 0px 10%;
+    @media only screen and (max-width: 1200px) {
+      margin: 0px 30px;
+    }
     .cardContainer {
       display:flex;
       border-radius: 25px;
       height: 100%;
+      justify-content: center;
     }
-      .word {
-        padding: 10px 25px 20px 10px;
-    
-        color: #425D9FBF;
-        font-family: 'Avenir';
-        font-weight: 900;
-        font-size: 60px;
-        background:transparent;
-        border-radius: 25px;
-        
-        @media only screen and (max-width: 550px) {
-          border-radius: 20px;
-          font-size: 50px;
-        }
+    .word {
+      margin: 20px 0px 20px 0px;
+  
+      color: #425D9FBF;
+      font-family: 'Avenir';
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 50px;
+      background:transparent;
+      
+      @media only screen and (max-width: 1200px) {
+        margin-left: 0px;
       }
+    }
       
     .MuiCardHeader-subheader {
         font-size: 20px;

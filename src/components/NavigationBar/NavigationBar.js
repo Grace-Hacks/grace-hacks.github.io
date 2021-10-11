@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "20px",
     fontFamily: "Avenir",
     color: "inherit",
+    borderRadius: "15px"
   },
   info: {
     display: "flex",
@@ -58,6 +59,11 @@ const StyledMenu = withStyles({
     transformOrigin={{
       vertical: "bottom",
       horizontal: "right",
+    }}
+    PaperProps={{
+      style: {
+        borderRadius: "15px",
+      }
     }}
     {...props}
   />

@@ -1,7 +1,5 @@
 import React from 'react';
 import './Footer.scss';
-import fish from '../../assets/fish.svg'
-
 import Fishe from '../../assets/Fishe.svg'
 import email from '../../assets/email.svg'
 import facebook from '../../assets/facebook.svg'
