@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   margin: 60px 0px;
-  flex-wrap: wrap;
   font-family: "Avenir";
   .lotus-mobile {
     display: none;
@@ -16,7 +15,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-left: 120px;
+      padding-left: 120px;
       .gracehacks {
         display: inline-block;
         font-size: 100px;
@@ -32,7 +31,7 @@
       .info-row {
         display: flex;
         flex-direction: row;
-        margin: 0px 0px 25px 15px;
+        margin: 0px 15px 25px 15px;
         .image {
           width: auto;
           height: auto;
@@ -48,12 +47,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        white-space: normal;
+        word-wrap: break-word;
         // width: 186px; -----> fits 'Apply' text
         height: 61px;
-        width: 450px;
+        width: 420px;
         border-radius: 20px;
         background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
-        margin: 20px 0px 0px 15px;
+        margin: 20px 15px 0px 15px;
         .button-text {
           font-weight: 900;
           font-size: 25px;
@@ -69,6 +72,11 @@
       }
     }
   }
+  .arrow {
+    width: 75px;
+    height: auto;
+    margin:auto;
+  }
 }
 
 
@@ -78,8 +86,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px;
-    margin-top: -90px;
+    margin-top: -60px;
     .lotus-mobile {
       display: flex;
       margin-bottom: 40px;
@@ -92,7 +99,9 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 70px;
-        margin-left: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 0px;
         .gracehacks {
           font-size: 50px;
           margin-bottom: 15px;
@@ -104,14 +113,12 @@
           align-items: center;
           margin: 0px 0px 10px 0px;
           //max-width: 300px;
-          //border: 2px solid red;
           .image {
             width: auto;
             height: auto;
           }
           .event {
             font-size: 25px;
-            margin-left: 15px;
             text-align: center;
           }
         }
@@ -120,11 +127,12 @@
           justify-content: center;
           align-items: center;
           //width: 115px; -----> fits 'Apply' text
-          width: 350px;
+          max-width: 300px;
           height: 50px;
           //height: 36px;
           border-radius: 13px;
           margin-top: 15px;
+          //margin-bottom: 40px;
           .button-text {
             font-size: 20px;
           }
@@ -137,6 +145,11 @@
           display: none;
         }
       }
+    }
+    .arrow {
+      width: 50px;
+      height: auto;
+      margin: 0px auto;
     }
   }
 }

@@ -30,14 +30,14 @@ function Header() {
             <div class="button-text">Apply</div>
           </Button> */}
             <div variant="contained" class="button">
-              <div class="button-text">Applications open October 11!</div>
+              <div class="button-text">Applications opening soon!</div>
             </div>
         </div>
         <div class="right-column">
           <img class="lotus-desktop" src={Lotus}></img>
         </div>
       </div>
-      <img src={Arrow}></img>
+      <img class="arrow" src={Arrow}></img>
     </div>
   );
 }

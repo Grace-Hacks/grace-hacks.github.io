@@ -69,7 +69,7 @@ function Events() {
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
                         Our annual hackathon is almost here! Collaborate with other students of diverse genders to create a project, attend fun workshops, and potentially win prizes in just 24 hours!<br></br><br></br>
-                        Hackathon applications open October 11th!
+                        Hackathon applications are opening soon!
                         </Typography>
                         {/* <Typography variant="body1" color="textPrimary" component="p">
                         Our annual hackathon is almost here! Collaborate with other students of diverse genders to create a project, attend fun workshops, and potentially win prizes in just 24 hours!<br></br><br></br>View the event schedule&nbsp;
