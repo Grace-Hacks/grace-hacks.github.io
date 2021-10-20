@@ -9,6 +9,7 @@ import Team from './Team/Team';
 import Sponsors from './Sponsors/Sponsors';
 import Contacts from './Contacts/Contacts';
 import Footer from './Footer/Footer';
+import Schedule from './Schedule/Schedule';
 
 import './App.scss';
 
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Events />
         <FAQ />
+        <Schedule />
         <Team />
         <Sponsors />
         <Footer />
