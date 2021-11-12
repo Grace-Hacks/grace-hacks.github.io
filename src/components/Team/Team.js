@@ -1,19 +1,18 @@
 import React from 'react';
 import './Team.scss';
-import Saniya from "../../assets/Team/Saniya.png";
-import Anu from "../../assets/Team/Anu.png"
-import Merilyn from "../../assets/Team/Merilyn.png";
-import Sarah from "../../assets/Team/Sarah.png";
-import Brina from "../../assets/Team/Brina.png";
-import Maritza from "../../assets/Team/Maritza.png";
-import Swetha from "../../assets/Team/Swetha.png";
-import Kat from "../../assets/Team/Kat.png";
-import Ana from "../../assets/Team/Ana.png";
-import Venus from "../../assets/Team/Venus.png";
-import Ojal from "../../assets/Team/Ojal.png";
+import Saniya from "../../assets/Team/Saniya-min.png";
+import Anu from "../../assets/Team/Anu-min.png"
+import Merilyn from "../../assets/Team/Merilyn-min.png";
+import Sarah from "../../assets/Team/Sarah-min.png";
+import Brina from "../../assets/Team/Brina-min.png";
+import Maritza from "../../assets/Team/Maritza-min.png";
+import Swetha from "../../assets/Team/Swetha-min.png";
+import Kat from "../../assets/Team/Kat-min.png";
+import Ana from "../../assets/Team/Ana-min.png";
+import Venus from "../../assets/Team/Venus-min.png";
+import Ojal from "../../assets/Team/Ojal-min.png";
+import Tresa from "../../assets/Team/Tresa-min.png";
 import logo from "../../assets/logo.png";
-
-
 
 
 function Team() {
@@ -22,6 +21,7 @@ function Team() {
       <div class="title">
       team
       </div>
+
       <div class="row">
         <div class="member">
           <img class="picture" src={Saniya} alt="GraceHacks member" />
@@ -36,6 +36,7 @@ function Team() {
           {/* <div class="pronouns">she/her/hers</div> */}
         </div>
       </div>
+
       <div class="row">
         <div class="member">
           <img class="picture" src={Sarah} alt="GraceHacks member" />
@@ -55,8 +56,6 @@ function Team() {
           <div class="position">Tech</div>
           {/* <div class="pronouns">she/her/hers</div> */}
         </div>
-      </div>
-      <div class="row">
         <div class="member">
           <img class="picture" src={Anu} alt="GraceHacks member" />
           <div class="name">Anupreet Singh</div>
@@ -69,14 +68,15 @@ function Team() {
           <div class="position">Public Relations</div>
           {/* <div class="pronouns">she/her/hers</div> */}
         </div>
+      </div>
+
+      <div class="row">
         <div class="member">
           <img class="picture" src={logo} alt="GraceHacks member" />
           <div class="name">Jessica Kuang</div>
           <div class="position">Public Relations</div>
           {/* <div class="pronouns">she/her/hers</div> */}
         </div>
-      </div>
-      <div class="row">
         <div class="member">
           <img class="picture" src={Ana} alt="GraceHacks member" />
           <div class="name">Ana Guo</div>
@@ -95,17 +95,24 @@ function Team() {
           <div class="position">Design</div>
           {/* <div class="pronouns">she/her/hers</div> */}
         </div>
-      </div>
-      <div class="row">
         <div class="member">
           <img class="picture" src={Merilyn} alt="GraceHacks member" />
           <div class="name">Merilyn Kuo</div>
           <div class="position">Logistics Lead</div>
           {/* <div class="pronouns">she/her/hers</div> */}
         </div>
+      </div>
+
+      <div class="row">
+        <div class="member">
+          <img class="picture" src={Tresa} alt="GraceHacks member" />
+          <div class="name">Tresa Ignatius</div>
+          <div class="position">Logistics</div>
+          {/* <div class="pronouns">she/her/hers</div> */}
+        </div>
         <div class="member">
           <img class="picture" src={logo} alt="GraceHacks member" />
-          <div class="name">Tresa Ignatius</div>
+          <div class="name">Lakshmi Damodaran</div>
           <div class="position">Logistics</div>
           {/* <div class="pronouns">she/her/hers</div> */}
         </div>
@@ -118,6 +125,12 @@ function Team() {
         <div class="member">
           <img class="picture" src={Ojal} lt="GraceHacks member" />
           <div class="name">Ojal Mapuskar</div>
+          <div class="position">Sponsorship</div>
+          {/* <div class="pronouns">she/her/hers</div> */}
+        </div>
+        <div class="member">
+          <img class="picture" src={logo} lt="GraceHacks member" />
+          <div class="name">Diya Saha</div>
           <div class="position">Sponsorship</div>
           {/* <div class="pronouns">she/her/hers</div> */}
         </div>

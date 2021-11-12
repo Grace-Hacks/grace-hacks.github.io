@@ -31,29 +31,20 @@ function Sponsors() {
     </div>
 
       <div class="box">
-        We are still looking for sponsors for GraceHacks 2021. Please reach out to us if you're interested in helping us make this hackathon a success!
+        Thank you to our sponsors for making GraceHacks 2021 a success!
     </div>
 
-      {/* <div class="sponsors-row">
+       <div class="sponsors-row">
         <img
-          src={CDKGlobal}
+          src={Balsamiq}
           class="x-large-logo"
-          alt="CDKGlobal"
+          alt="Balsamiq"
         />
-        <img
-          src={Salesforce}
-          class="x-large-logo"
-          alt="Salesforce"
-        />
-        <img
-          src={Nutanix}
-          class="x-large-logo"
-          alt="Nutanix"
-        />
-        <img src={CBT} class="CBT-logo" alt="CBTech" />
+        <div class="x-large-text">UCSC COLLEGE TEN</div>
+        <div class="x-large-text">UCSC STEM DIV</div>
       </div>
 
-      <div class="sponsors-row">
+      {/*<div class="sponsors-row">
         <img
           src={Linode}
           class="large-logo"

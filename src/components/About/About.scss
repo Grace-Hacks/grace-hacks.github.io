@@ -41,6 +41,9 @@
       font-weight: 900;
       text-align: left;
       margin: 20px 0px;
+      @media screen and (max-width: 1200px) {
+        font-size: 35px;
+      }
     }
 
     .description {
@@ -54,6 +57,7 @@
       margin-bottom: 100px;
       @media screen and (max-width: 1200px) {
         margin-bottom: 50px;
+        font-size: 25px;
       }
     }
   }
