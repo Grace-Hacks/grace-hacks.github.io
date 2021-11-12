@@ -28,6 +28,7 @@
   .box {
     display: flex;
     justify-content: center;
+    align-items: center;
     align-self: center;
     text-align: center;
     flex-wrap: wrap;
@@ -63,6 +64,21 @@
     .x-large-logo {
       width: 225px;
       margin: 20px 40px;
+    }
+    .x-large-text {
+      width: 220px;
+      height: 70px;
+      margin: 20px 40px;
+      font-family: Avenir;
+      font-size: 25px;
+      color: white;
+      border: 2px solid white;
+      border-radius: 10px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
     }
     .large-logo {
       width: 233px;
