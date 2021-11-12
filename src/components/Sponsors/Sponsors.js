@@ -26,23 +26,25 @@ function Sponsors() {
   return (
     <div class="sponsors-container" id="sponsors">
 
-      <div class="sponsors-title">
-        sponsors
+    <div class="sponsors-title">
+      sponsors
     </div>
 
-      <div class="box">
-        Thank you to our sponsors for making GraceHacks 2021 a success!
+    <div class="box">
+      Thank you to our sponsors for making GraceHacks 2021 a success!
     </div>
 
-       <div class="sponsors-row">
-        <img
-          src={Balsamiq}
-          class="x-large-logo"
-          alt="Balsamiq"
-        />
+    <div class="sponsors-row">
+      <a href="https://balsamiq.com/wireframes/" target="_blank" rel="noopener noreferrer">
+        <img src={Balsamiq} class="x-large-logo" alt="Balsamiq"/>
+      </a>
+      <a href="https://collegeten.ucsc.edu/" target="_blank" rel="noopener noreferrer">
         <div class="x-large-text">UCSC COLLEGE TEN</div>
+      </a>
+      <a href="https://stemdiv.ucsc.edu/" target="_blank" rel="noopener noreferrer">
         <div class="x-large-text">UCSC STEM DIV</div>
-      </div>
+      </a>
+    </div>
 
       {/*<div class="sponsors-row">
         <img

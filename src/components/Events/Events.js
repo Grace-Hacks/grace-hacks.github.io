@@ -68,20 +68,8 @@ function Events() {
                     />
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
-                        Our annual hackathon is almost here! Collaborate with other students of diverse genders to create a project, attend fun workshops, and potentially win prizes in just 24 hours!<br></br><br></br>
-                        Hackathon applications are opening soon!
+                        Our annual hackathon is almost here! Collaborate with other students of diverse genders to create a project, attend fun workshops, and potentially win prizes in just 24 hours!
                         </Typography>
-                        {/* <Typography variant="body1" color="textPrimary" component="p">
-                        Our annual hackathon is almost here! Collaborate with other students of diverse genders to create a project, attend fun workshops, and potentially win prizes in just 24 hours!<br></br><br></br>View the event schedule&nbsp;
-                        <Link href="#" className="cardLink">
-                            here
-                        </Link>
-                        ! <br></br>Sign up&nbsp;
-                        <Link href="#" className="cardLink">
-                            here
-                        </Link>
-                        &nbsp;to participate when our apps open!
-                        </Typography> */}
                     </CardContent>
                 </Card>
                 </div>
@@ -95,7 +83,7 @@ function Events() {
                     <CardContent className={classes.description}>
                         <Typography variant="body1" color="textPrimary" component="p">
                         We partnered with StemDiv program at UCSC to run 8 beginner-friendly Python workshops! <br></br><br></br>View presentation slides&nbsp;
-                        <Link href="https://drive.google.com/drive/u/1/folders/1LAvfKKYMfzbnQlj9wvsdQVvXlsPqpU_A" className="cardLink">
+                        <Link href="https://drive.google.com/drive/u/1/folders/1LAvfKKYMfzbnQlj9wvsdQVvXlsPqpU_A" className="cardLink" target="_blank" rel="noopener noreferrer">
                             here
                         </Link>
                         !
