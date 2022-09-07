@@ -26,9 +26,19 @@ function Header() {
             <img class="image" src={Location}></img>
             <div class="event">UCSC Stevenson Event Center</div>
           </div>
-          <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSeOY4N-3mnxMS_yOVn1qMHMocjNsmt9M31CcYRxKeP9x32G3w/viewform" class="button" target="_blank" rel="noopener noreferrer">
-            <div class="button-text">Apply</div>
-          </Button> 
+          <div class="info-row">
+            <div class = "event"> Sign Up </div>
+          </div>
+
+          <div class="info-row">
+            <Button disableRipple variant="contained" href="" class="button" target="_blank" rel="noopener noreferrer">
+              <div class="button-text">Mentor</div>
+            </Button> 
+
+            <Button disableRipple variant="contained" href="" class="button" target="_blank" rel="noopener noreferrer">
+              <div class="button-text">Participant</div>
+            </Button> 
+          </div>
         </div>
         <div class="right-column">
           <img class="lotus-desktop" src={Lotus}></img>
