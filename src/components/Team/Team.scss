@@ -44,7 +44,7 @@ animation: marquee 20s linear infinite;
 animation-play-state: paused;
 }
 
-span {
+.spin {
 float: left;
 width: 50%;
 }
@@ -53,3 +53,4 @@ width: 50%;
 0% { left: 0; }
 100% { left: -100%; }
 }
+  

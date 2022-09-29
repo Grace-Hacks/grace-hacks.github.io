@@ -21,7 +21,7 @@ function Team() {
     <div class="team-container">
       <div class="marquee">
         <div class="marquee--inner">
-          <span>
+          <div class="spin">
             <img class="orb" src={Andrew} alt="GraceHacks member" />
             <img class="orb" src={Anusha} alt="GraceHacks member" />
             <img class="orb" src={Ariam} alt="GraceHacks member" />
@@ -42,8 +42,8 @@ function Team() {
             <img class="orb" src={Merilyn} alt="GraceHacks member" />
             <img class="orb" src={Ojal} alt="GraceHacks member" />
             <img class="orb" src={Shirin} alt="GraceHacks member" />
-          </span>
-          <span>
+          </div>
+          <div class="spin">
             <img class="orb" src={Andrew} alt="GraceHacks member" />
             <img class="orb" src={Anusha} alt="GraceHacks member" />
             <img class="orb" src={Ariam} alt="GraceHacks member" />
@@ -64,7 +64,7 @@ function Team() {
             <img class="orb" src={Merilyn} alt="GraceHacks member" />
             <img class="orb" src={Ojal} alt="GraceHacks member" />
             <img class="orb" src={Shirin} alt="GraceHacks member" />
-          </span>
+          </div>
 
         </div>
       </div>
