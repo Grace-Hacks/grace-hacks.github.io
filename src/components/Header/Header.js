@@ -32,7 +32,7 @@ function Header() {
 
           <div class="info-row">
             <Button disableRipple variant="contained" href="" class="button" target="_blank" rel="noopener noreferrer">
-              <div class="button-text">Mentor</div>
+              <div class="button-text" link = "">Mentor</div>
             </Button> 
 
             <Button disableRipple variant="contained" href="" class="button" target="_blank" rel="noopener noreferrer">
@@ -41,7 +41,7 @@ function Header() {
           </div>
         </div>
         <div class="right-column">
-          <img class="lotus-desktop" src={Lotus}></img>
+          <img class="lotus-desktop"  src={Lotus}></img>
         </div>
       </div>
       <img class="arrow" src={Arrow}></img>
