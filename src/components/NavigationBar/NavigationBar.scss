@@ -1,5 +1,8 @@
 .navigation-container {
   display: flex;
+  position:fixed;
+  top:0;
+  width:100%;
   justify-content: flex-end;
   align-items: center;
   background: #D6F5FF;
