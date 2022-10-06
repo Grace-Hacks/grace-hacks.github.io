@@ -30,12 +30,21 @@
     //   margin-right: 100%;
     // }
   }
+  .faq-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    margin: 0px 5%;
+    @media only screen and (max-width: 1200px) {
+      margin: 0px 30px;
+    }
+  }
 
   .accordian {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    margin: 0px 1%;
   }
 
   .MuiAccordion-root:before {

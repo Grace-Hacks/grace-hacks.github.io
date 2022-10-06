@@ -48,14 +48,18 @@ function FAQ() {
       paddingTop: "5%",
       paddingLeft: "25px",
       overflow: "scroll",
+    },
+    Accordion: {
+      width: "50%",
     }
   }));
 
   return (
     <div class="faq-section" id="faq">
-      <div class="faq-title">
+    <div class="faq-title">
         faq
       </div>
+    <div class="faq-container" id="faq">
       <div class="accordian">
         <Accordion className={useStyles().frame} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What is a hackathon?</AccordionSummary>
@@ -78,21 +82,38 @@ function FAQ() {
         </Accordion>
 
         <Accordion className={useStyles().frame} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How do I attend?</AccordionSummary>
-          <AccordionDetails className={useStyles().answer}> This is a hybrid event! You can participate in person at the Stevenson Event Center or participate online if you have internet connection and access to Zoom! </AccordionDetails>
+          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How do I form or join a team?</AccordionSummary>
+          <AccordionDetails className={useStyles().answer}>Ask Your friends!</AccordionDetails>
+        </Accordion>
+      </div>
+      <div class="accordian">
+        <Accordion className={useStyles().frame} expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>Will GraceHacks 2022 happen in person or virtually?</AccordionSummary>
+          <AccordionDetails className={useStyles().answer}> This is a hybrid event! You can participate in person (location pending) or participate online if you have internet connection and access to Zoom! </AccordionDetails>
         </Accordion>
 
-        <Accordion className={useStyles().frame} expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
+        <Accordion className={useStyles().frame} expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What can I create?</AccordionSummary>
           <AccordionDetails className={useStyles().answer}>Anything your heart desires! Hardware products, software applications, gaming interfaces ~ if you can dream it, you can build it!</AccordionDetails>
         </Accordion>
 
-        <Accordion className={useStyles().frame} expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
+        <Accordion className={useStyles().frame} expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How much does it cost?</AccordionSummary>
           <AccordionDetails className={useStyles().answer}>GraceHacks will be absolutely FREE! We’ll provide food, swag, caffeine, WiFi, and a collaborative workspace to get your projects up and running quickly!</AccordionDetails>
         </Accordion>
+
+        <Accordion className={useStyles().frame} expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
+          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What should I bring?</AccordionSummary>
+          <AccordionDetails className={useStyles().answer}>A Dollar!</AccordionDetails>
+        </Accordion>
+
+        <Accordion className={useStyles().frame} expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
+          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}> How many people can be in a team?</AccordionSummary>
+          <AccordionDetails className={useStyles().answer}>Two(2) People!</AccordionDetails>
+        </Accordion>
       </div>
-      <img class="petal" src={Petal}></img>
+    </div>
+    <img class="petal" src={Petal}></img>
     </div>
   );
 }
