@@ -31,11 +31,11 @@ function Header() {
           </div>
 
           <div class="info-row">
-            <Button disableRipple variant="contained" href="" class="button" target="_blank" rel="noopener noreferrer">
+            <Button disableRipple variant="contained" href="https://forms.gle/vE9pmMkqz2szCmFn8" class="button" target="_blank" rel="noopener noreferrer">
               <div class="button-text" link = "">Mentor</div>
             </Button> 
 
-            <Button disableRipple variant="contained" href="" class="button" target="_blank" rel="noopener noreferrer">
+            <Button disableRipple variant="contained" href="https://forms.gle/sGDgRxfqR1Hth3Zu9" class="button" target="_blank" rel="noopener noreferrer">
               <div class="button-text">Participant</div>
             </Button> 
           </div>
