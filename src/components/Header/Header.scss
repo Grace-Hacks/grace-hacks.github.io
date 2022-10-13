@@ -53,6 +53,10 @@
           }
         }
       }
+      .register-col {
+        display: flex;
+        flex-direction: row;
+      }
       .button {
         display: flex;
         justify-content: center;
@@ -62,10 +66,10 @@
         white-space: normal;
         word-wrap: break-word;
         width: 186px;
-        height: 55px;
         border-radius: 20px;
         background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
         margin: 20px 15px 0px 15px;
+        padding:10px;
         .button-text {
           font-weight: 900;
           font-size: 25px;

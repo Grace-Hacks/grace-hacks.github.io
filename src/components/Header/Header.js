@@ -20,15 +20,23 @@ function Header() {
           <div class="gracehacks">GraceHacks</div>
           <div class="info-row">
             <img class="image" src={Calendar}></img>
-            <div class="event">November 13-14th</div>
+            <div class="event">November 12-13th</div>
           </div>
           <div class="info-row">
             <img class="image" src={Location}></img>
-            <div class="event">UCSC Stevenson Event Center</div>
+            <div class="event">UCSC Stevenson Event Center & Online</div>
           </div>
-          <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSeOY4N-3mnxMS_yOVn1qMHMocjNsmt9M31CcYRxKeP9x32G3w/viewform" class="button" target="_blank" rel="noopener noreferrer">
-            <div class="button-text">Apply</div>
-          </Button> 
+          <div class="register-col">
+            <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/1BJX1UwLxUMvqMK-QV8rxPCEG_F6HXdIKV5f7wbCa1pQ/viewform?edit_requested=true" class="button" target="_blank" rel="noopener noreferrer">
+              <div class="button-text">Register to HACK</div>
+            </Button> 
+            <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/1Xibg6ty83mg_NXqlDjHhoaHM5nssYzklZ1nxwifMMBE/viewform?edit_requested=true" class="button" target="_blank" rel="noopener noreferrer">
+              <div class="button-text">Register to MENTOR</div>
+            </Button> 
+            <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSeVc55959_MUgShLuzZjLRLvr0iuiP79s2cUbp333YPCPSQag/viewform" class="button" target="_blank" rel="noopener noreferrer">
+              <div class="button-text">Register to JUDGE</div>
+            </Button> 
+          </div>
         </div>
         <div class="right-column">
           <img class="lotus-desktop" src={Lotus}></img>
