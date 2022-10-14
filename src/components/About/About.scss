@@ -59,6 +59,9 @@
         margin-bottom: 50px;
         font-size: 25px;
       }
+      .bold_desc {
+        font-weight: bold;
+      }
     }
   }
 
@@ -72,6 +75,10 @@
       display: flex;
       align-self: flex-end;
     }
+  }
+
+  .contain {
+    display: flex;
   }
 
 }

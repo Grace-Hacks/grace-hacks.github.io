@@ -31,19 +31,7 @@ function Sponsors() {
     </div>
 
     <div class="box">
-      Thank you to our sponsors for making GraceHacks 2021 a success!
-    </div>
-
-    <div class="sponsors-row">
-      <a href="https://balsamiq.com/wireframes/" target="_blank" rel="noopener noreferrer">
-        <img src={Balsamiq} class="x-large-logo" alt="Balsamiq"/>
-      </a>
-      <a href="https://collegeten.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">UCSC COLLEGE TEN</div>
-      </a>
-      <a href="https://stemdiv.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">UCSC STEM DIV</div>
-      </a>
+      We are currently accepting sponsors! Please help us make GraceHacks 2022 a success!
     </div>
 
       {/*<div class="sponsors-row">
