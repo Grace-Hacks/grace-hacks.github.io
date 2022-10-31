@@ -33,6 +33,18 @@ function Sponsors() {
     <div class="box">
       We are currently accepting sponsors! Please help us make GraceHacks 2022 a success!
     </div>
+    
+    <div class="sponsors-row">
+      <a href="https://rachelcarson.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+        <div class="x-large-text">UCSC RACHEL CARSON COLLEGE</div>
+      </a>
+      <a href="https://alumni.ucsc.edu/about/council/index.html/" target="_blank" rel="noopener noreferrer">
+        <div class="x-large-text">UCSC ALUMNI COUNCIL</div>
+      </a>
+      <a href="https://oakes.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+        <div class="x-large-text">UCSC OAKES</div>
+      </a>
+    </div>
 
       {/*<div class="sponsors-row">
         <img

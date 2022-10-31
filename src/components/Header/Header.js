@@ -20,11 +20,11 @@ function Header() {
           <div class="gracehacks">GraceHacks</div>
           <div class="info-row">
             <img class="image" src={Calendar}></img>
-            <div class="event">November 12-13th</div>
+            <div class="event">November 12-13th 10:30 AM - 2 PM</div>
           </div>
           <div class="info-row">
             <img class="image" src={Location}></img>
-            <div class="event">UCSC Stevenson Event Center & Online</div>
+            <div class="event">UCSC Namaste Lounge & Online</div>
           </div>
           <div class="register-col">
             <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/1BJX1UwLxUMvqMK-QV8rxPCEG_F6HXdIKV5f7wbCa1pQ/viewform?edit_requested=true" class="button" target="_blank" rel="noopener noreferrer">

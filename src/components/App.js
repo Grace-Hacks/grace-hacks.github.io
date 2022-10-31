@@ -18,7 +18,7 @@ function App() {
         <NavigationBar />
         <Header />
         <About />
-        <Events />
+        {/* <Events /> */}
         <FAQ />
         <Team />
         <Sponsors />
