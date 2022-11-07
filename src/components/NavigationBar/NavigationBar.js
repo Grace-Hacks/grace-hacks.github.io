@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "0px 0px",
     maxWidth: "30px",
     minWidth: "30px",
+    marginRight:"30px",
     [theme.breakpoints.down("md")]: {
       display: "flex",
     },
@@ -88,6 +89,9 @@ function NavigationBar() {
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#events">EVENTS</AnchorLink></Button>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>
           <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#sponsors">SPONSORS</AnchorLink></Button>
+          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#contactus">CONTACT US</AnchorLink></Button>
+          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#team">TEAM</AnchorLink></Button>
+
         </div>
         <Button className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
         <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
@@ -95,6 +99,8 @@ function NavigationBar() {
           <MenuItem onClick={handleClose}><AnchorLink href="#events" className={useStyles().menuItem}>EVENTS</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#faq" className={useStyles().menuItem}>FAQ</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#sponsors" className={useStyles().menuItem}>SPONSORS</AnchorLink></MenuItem>      
+          <MenuItem onClick={handleClose}><AnchorLink href="#contactus" className={useStyles().menuItem}>CONTACT US</AnchorLink></MenuItem>
+          <MenuItem onClick={handleClose}><AnchorLink href="#team" className={useStyles().menuItem}>TEAM</AnchorLink></MenuItem>
         </StyledMenu>
       </div>
     </div>

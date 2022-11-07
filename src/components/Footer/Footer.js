@@ -20,7 +20,7 @@ const useStyles = makeStyles({
 
 function Footer() {
   return (
-    <div class="footer-container">
+      <div class="footer-container" id="contactus">
       <div class="foot-row">
         <div className="notPetal">
         <img class="fish" src={Fishe}></img>

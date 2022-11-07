@@ -17,7 +17,7 @@ import logo from "../../assets/logo.png";
 
 function Team() {
   return (
-    <div class="team-container">
+      <div class="team-container" id="team">
       <div class="title">
       team
       </div>
