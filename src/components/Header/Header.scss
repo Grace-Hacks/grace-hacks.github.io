@@ -1,162 +1,99 @@
+
 .header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 60px 0px;
-  font-family: "Avenir";
-  .lotus-mobile {
-    display: none;
+  font-family: 'Open Sans', sans-serif;
+
+  .banner{
+    background-image: url('../../assets/lotuswater.png');
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .gracehacks{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 95px; // Seems too big
+      line-height: 80px;
+      background: linear-gradient(180deg, #464545 0%, #313131 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .description{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 54.316px;
+      line-height: 66px;
+      color: rgba(66, 93, 159, 0.75);
+    }
   }
-  .row {
+  
+.text-box {
+  width: 80%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  margin:auto;
+  
+  .date-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    .left-column {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 120px;
-      .gracehacks {
-        display: inline-block;
-        font-size: 100px;
-        font-weight: 900;
-        background: linear-gradient(#464545, #313131);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 20px;
-      }
-      .info-row {
-        display: flex;
-        flex-direction: row;
-        margin: 0px 15px 25px 15px;
-        @media only screen and (max-width: 430px) {
-          //border: 5px solid green;
-          padding-left: 22px;
-          max-width: 275px;
-          //margin-right: 75%;
-        }
-        .image {
-          width: auto;
-          height: auto;
-        }
-        .event {
-          font-size: 30px;
-          font-weight: 400;
-          color: #555555;
-          margin-left: 22px;
-          @media only screen and (max-width: 430px) {
-            margin-left: 35px;
-            font-size: 25px;
-          }
-        }
-      }
-      .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-        white-space: normal;
-        word-wrap: break-word;
-        width: 186px;
-        height: 55px;
-        border-radius: 20px;
-        background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
-        margin: 20px 15px 0px 15px;
-        .button-text {
-          font-weight: 900;
-          font-size: 25px;
-          color: #FFFFFF;
-        }
-        border:none;
-      }
-    }
-    .right-column {
-      display: flex;
-      flex-direction: column;
-      .lotus-desktop {
-        display: flex;
-      }
+    font-weight: 700;
+    .event{
+      max-width: 50%;
     }
   }
-  .arrow {
-    width: 75px;
-    height: auto;
-    margin:auto;
+
+  .location-row{
+    display: flex;
+    flex-direction: row;
+    .event{
+      max-width: 50%;
+    }
   }
 }
 
 
-@media only screen and (max-width: 1300px) {
-  .header-container {
-    height: 100vh;
-    flex-direction: column;
+  .buttons-row{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -60px;
-    .lotus-mobile {
+    text-align: center;
+
+    .button{
       display: flex;
-      margin-bottom: 40px;
+      width: 250px;
+      height: 100px;
+      margin: 20px;
+      box-sizing: border-box;
+      background-color: #FFFFFF;
+      border: 1px solid #EB84B5;
+      border-radius: 20px;
     }
-    .row {
+
+    .button-text{
       display: flex;
-      justify-content: space-around;
-      align-items: center;
-      .left-column {
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 70px;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding: 0px;
-        .gracehacks {
-          font-size: 50px;
-          margin-bottom: 15px;
-        }
-        .info-row {
-          //border: 2px solid red;
-          display: flex;
-          justify-content: space-evenly;
-          align-items: space-around;
-          margin: 0px 0px 10px 0px;
-          //padding-left: 
-          .image {
-            width: auto;
-            height: auto;
-          }
-          .event {
-            font-size: 25px;
-            text-align: center;
-          }
-        }
-        .button {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 130px;
-          height: 44px;
-          border-radius: 15px;
-          margin-top: 15px;
-          .button-text {
-            font-size: 20px;
-          }
-        }
-      }
-      .right-column {
-        display: none;
-        flex-direction: column;
-        .lotus-desktop {
-          display: none;
-        }
-      }
+      font-weight: 700;
+      font-size: 22px;
+      height:30px;
+      margin: auto;
+      background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
-    .arrow {
-      width: 50px;
-      height: auto;
-      margin: 0px auto;
-    }
+
   }
+
+
+
+
+  
+
+  
 }
