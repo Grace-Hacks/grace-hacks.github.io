@@ -38,14 +38,15 @@ function FAQ() {
     },
     answer: {
       fontFamily: "Avenir",
-      fontSize: "20px",
+      fontSize: "21px",
       color: "#393943",
       background: "#FFFFFF",
       maxWidth: "max(54vw, 1100px)",
       opacity: "0.8",
       borderRadius: "25px",
       height: "100px",
-      padding: "3% 0px 0px 25px",
+      paddingTop: "5%",
+      paddingLeft: "25px",
       overflow: "scroll",
     },
     Accordion: {

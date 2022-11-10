@@ -38,6 +38,9 @@
     @media only screen and (max-width: 1200px) {
       margin: 0px 30px;
     }
+    @media only screen and (max-width: 579px) {
+      display: block;
+    }
   }
 
   .accordian {
