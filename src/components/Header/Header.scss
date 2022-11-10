@@ -6,7 +6,7 @@
   margin: 60px 0px;
   font-family: 'Open Sans', sans-serif;
 
-  .banner{
+  .banner {
     background-image: url('../../assets/lotuswater.png');
     height: 500px;
     justify-content: center;
@@ -33,7 +33,7 @@
     }
   }
   
-.text-box {
+  .text-box {
   width: 80%;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(2px);
@@ -44,22 +44,28 @@
     display: flex;
     flex-direction: row;
     font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
     .event{
       max-width: 50%;
+      margin-left: 20px;
     }
   }
 
   .location-row{
     display: flex;
     flex-direction: row;
+    margin-top: 25px;
+    margin-left: 20px;
     .event{
       max-width: 50%;
+      margin-left: 20px;
     }
   }
-}
+  }
 
 
-  .buttons-row{
+  .buttons-row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,13 +93,6 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
-
   }
 
-
-
-
-  
-
-  
 }
