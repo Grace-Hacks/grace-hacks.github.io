@@ -2,47 +2,43 @@ import React from 'react';
 import './Header.scss';
 import Calendar from '../../assets/Calendar.svg'
 import Location from '../../assets/Location.svg'
-import Lotus from '../../assets/Lotus.svg'
+// import Lotus from '../../assets/Lotus.svg'
 import LotusMobile from '../../assets/Lotus-Mobile.svg'
 import Arrow from '../../assets/Header-Arrow.svg'
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import { createMuiTheme } from '@material-ui/core/styles';
+import Lotus from '../../assets/NewLotus.png'
+import Water from '../../assets/water.png'
 
+import Bg from '../../assets/up_lotus.png'
 
 function Header() {
 
   return (
     <div class="header-container">
-      <img class="lotus-mobile" src={LotusMobile}></img>
-      <div class="row">
-        <div class="left-column">
-          <div class="gracehacks">GraceHacks</div>
-          <div class="info-row">
+      <div class="banner" >
+        <img src={Lotus}></img>
+        <div class="gracehacks">GraceHacks</div>
+        <div class="description">create with confidence</div>
+      </div>
+
+      <div class="text-box">
+          <div class="date-row">
             <img class="image" src={Calendar}></img>
-            <div class="event">November 12-13th 10:30 AM - 2 PM</div>
+            <div class="event">November 12-13th 10:30 AM - 12:30 PM</div>
           </div>
-          <div class="info-row">
+
+          <div class="location-row">
             <img class="image" src={Location}></img>
             <div class="event">UCSC Namaste Lounge & Online</div>
           </div>
-          <div class="register-col">
-            <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/1BJX1UwLxUMvqMK-QV8rxPCEG_F6HXdIKV5f7wbCa1pQ/viewform?edit_requested=true" class="button" target="_blank" rel="noopener noreferrer">
-              <div class="button-text">Register to HACK</div>
-            </Button> 
-            <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/1Xibg6ty83mg_NXqlDjHhoaHM5nssYzklZ1nxwifMMBE/viewform?edit_requested=true" class="button" target="_blank" rel="noopener noreferrer">
-              <div class="button-text">Register to MENTOR</div>
-            </Button> 
-            <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSeVc55959_MUgShLuzZjLRLvr0iuiP79s2cUbp333YPCPSQag/viewform" class="button" target="_blank" rel="noopener noreferrer">
-              <div class="button-text">Register to JUDGE</div>
-            </Button> 
+
+          <div class="buttons-row">
+            <Button disableRipple variant="contained" href="https://gracehacks-22-ucsc.devpost.com" class="button" target="_blank" rel="noopener noreferrer">
+              <div class="button-text">Visit our DevPost</div>
+            </Button>
           </div>
         </div>
-        <div class="right-column">
-          <img class="lotus-desktop" src={Lotus}></img>
-        </div>
-      </div>
-      <img class="arrow" src={Arrow}></img>
+
     </div>
   );
 }
