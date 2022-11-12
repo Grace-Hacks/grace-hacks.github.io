@@ -1,79 +1,83 @@
 .team-container {
-  text-align: center;
-  //margin-right: 196px;
-  //margin-left: 122px;
-  //padding: 85px 0px;
-  font-family: Avenir;
-  padding-bottom: 100px;
-  margin: 0px 10%;
-  @media only screen and (max-width: 1200px) {
-    margin: 0px 30px;
-  }
-  .title {
-    display: flex;
-    font-size: 50px;
-    font-family: Avenir;
-    line-height: 50px;
-    color: #425D9FBF;
-    font-style: normal;
-    font-weight: 900;
-    letter-spacing: 0em;
-    margin: 20px 0px;  
-    margin-top: 90px;
-    @media only screen and (max-width: 1200px) {
-      margin-left: 0px;
-    }
-  }
-  .row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    .member {
-      margin: 0px 40px;
-      margin-bottom: 40px;
-      @media screen and (max-width: 1200px) {
-        margin: 0px 20px;
-        margin-bottom: 20px;
-      }
-      .picture {
-        width: 170px;
-        height: 170px;
-        border-radius: 50%;
-        margin-bottom: 25px;
-        @media screen and (max-width: 1200px) {
-          height: 150px;
-          width: 150px;
-        }
-      }
-      .no-picture {
-        width: 170px;
-        height: 170px;
-        margin-bottom: 25px;
-        @media screen and (max-width: 1200px) {
-          height: 150px;
-          width: 150px;
-        }
-      }
-      .name {
-        font-size: 25px;
-        text-align: center;
-        color: #413F3F;
-        margin-bottom: 12px;
-      }
+    margin: 0;
+    font-size: 42px;
+    font-family: sans-serif;
+    color: #333;
+    overflow: hidden;
+}
+  
+.orb {
+    width: 100px;
+    height: 100px;
+    // background: #999;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 0 24.7px;
+    float: left;
+    transition: all .2s ease-out;
+}
+  
+.orb:hover {
+    transform: scale(1.2);
+    opacity: .5;
+    cursor: pointer;
+}
+  
+.marquee {
+    height: 400px;
+    width: 2550px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin: 100px auto;
+}
+  
+.marquee--inner {
+    display: block;
+    width: 200%;
+    margin: 70px 0;
+    position: absolute;
+    animation: marquee 20s linear infinite;
+}
 
-      .position {
-        font-family: Avenir;
-        font-weight: 400;
-        color: #5B5C74;
-        font-size: 20px;
-        margin-bottom: 5px;
-      }
+.marquee--inner:hover {
+    animation-play-state: paused;
+}
 
-      .pronouns {
-        font-family: Avenir;
-        color: white;
-        font-size: 18px;
-      }
-    }
-  }
+.spin {
+    float: left;
+    width: 50%;
+}
+
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+}
+
+.invisible-name {
+    display: none;
+    z-index: 289 !important;
+    font-size: 12px;
+    opacity: 1;
+}
+
+.orb:hover + .invisible-name {
+    display: block;
+}
+
+.member-name {
+    font-size: 15px;
+}
+
+.member-name {
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    margin: 0 24.7px;
+    float: left;
+    transition: all .2s ease-out;
+    padding-top: 20px;
 }

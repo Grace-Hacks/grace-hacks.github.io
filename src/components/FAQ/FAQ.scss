@@ -55,6 +55,11 @@
     border: none;
     background-color: transparent;
   }
+  
+  .MuiAccordionSummary-root:hover {
+    background-color: #18306A !important;
+    color: white;
+  }
 
   .petal {
     margin-top: -50px;
