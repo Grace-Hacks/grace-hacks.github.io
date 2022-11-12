@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0c874b3.chunk.css",
-    "main.js": "/static/js/main.bc32dbbd.chunk.js",
-    "main.js.map": "/static/js/main.bc32dbbd.chunk.js.map",
+    "main.css": "/static/css/main.9d06abb4.chunk.css",
+    "main.js": "/static/js/main.afa00dd3.chunk.js",
+    "main.js.map": "/static/js/main.afa00dd3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.68b0a7cf.js",
     "runtime-main.js.map": "/static/js/runtime-main.68b0a7cf.js.map",
     "static/css/2.e1b25a95.chunk.css": "/static/css/2.e1b25a95.chunk.css",
-    "static/js/2.4518cf08.chunk.js": "/static/js/2.4518cf08.chunk.js",
-    "static/js/2.4518cf08.chunk.js.map": "/static/js/2.4518cf08.chunk.js.map",
+    "static/js/2.bc09f8fd.chunk.js": "/static/js/2.bc09f8fd.chunk.js",
+    "static/js/2.bc09f8fd.chunk.js.map": "/static/js/2.bc09f8fd.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.e1b25a95.chunk.css.map": "/static/css/2.e1b25a95.chunk.css.map",
-    "static/css/main.a0c874b3.chunk.css.map": "/static/css/main.a0c874b3.chunk.css.map",
-    "static/js/2.4518cf08.chunk.js.LICENSE.txt": "/static/js/2.4518cf08.chunk.js.LICENSE.txt",
+    "static/css/main.9d06abb4.chunk.css.map": "/static/css/main.9d06abb4.chunk.css.map",
+    "static/js/2.bc09f8fd.chunk.js.LICENSE.txt": "/static/js/2.bc09f8fd.chunk.js.LICENSE.txt",
     "static/media/AI-Camp.1daf8312.svg": "/static/media/AI-Camp.1daf8312.svg",
     "static/media/About-fish.1d33526e.svg": "/static/media/About-fish.1d33526e.svg",
     "static/media/About-petal.eef8ce9b.svg": "/static/media/About-petal.eef8ce9b.svg",
@@ -32,9 +32,9 @@
     "static/media/Linode.b0cb9e91.svg": "/static/media/Linode.b0cb9e91.svg",
     "static/media/Location.1be3c570.svg": "/static/media/Location.1be3c570.svg",
     "static/media/Lotus-Mobile.5c0d0192.svg": "/static/media/Lotus-Mobile.5c0d0192.svg",
-    "static/media/Lotus.9c6ba9d0.svg": "/static/media/Lotus.9c6ba9d0.svg",
     "static/media/Makey-Makey.8ee8a985.svg": "/static/media/Makey-Makey.8ee8a985.svg",
     "static/media/MouserElectronics.c11f335f.svg": "/static/media/MouserElectronics.c11f335f.svg",
+    "static/media/NewLotus.9d3d7561.png": "/static/media/NewLotus.9d3d7561.png",
     "static/media/Nutanix.0bdaa274.svg": "/static/media/Nutanix.0bdaa274.svg",
     "static/media/Python.07b8370d.png": "/static/media/Python.07b8370d.png",
     "static/media/RStudio.6ad9c69a.svg": "/static/media/RStudio.6ad9c69a.svg",
@@ -64,13 +64,15 @@
     "static/media/tanisha.6425c27f.png": "/static/media/tanisha.6425c27f.png",
     "static/media/tbd.9181539a.png": "/static/media/tbd.9181539a.png",
     "static/media/thanh.66fa8a54.png": "/static/media/thanh.66fa8a54.png",
+    "static/media/up_lotus.3b9e8a02.png": "/static/media/up_lotus.3b9e8a02.png",
+    "static/media/Header.scss": "/static/media/water.6def321e.png",
     "static/media/wing.01e8374c.png": "/static/media/wing.01e8374c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.68b0a7cf.js",
     "static/css/2.e1b25a95.chunk.css",
-    "static/js/2.4518cf08.chunk.js",
-    "static/css/main.a0c874b3.chunk.css",
-    "static/js/main.bc32dbbd.chunk.js"
+    "static/js/2.bc09f8fd.chunk.js",
+    "static/css/main.9d06abb4.chunk.css",
+    "static/js/main.afa00dd3.chunk.js"
   ]
 }
