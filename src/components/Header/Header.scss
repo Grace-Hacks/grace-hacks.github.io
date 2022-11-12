@@ -81,8 +81,7 @@
       height: 100px;
       margin: 20px;
       box-sizing: border-box;
-      background-color: #FFFFFF;
-      border: 1px solid #EB84B5;
+      background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
       border-radius: 20px;
     }
 
@@ -92,10 +91,7 @@
       font-size: 22px;
       height:30px;
       margin: auto;
-      background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      color:white
     }
   }
 
