@@ -3,15 +3,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 60px 0px;
+  margin: 30px 0px;
   font-family: 'Open Sans', sans-serif;
 
   .banner {
-    background-image: url('../../assets/lotuswater.png');
+    background-image: url('../../assets/water.png');
     height: 500px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-repeat: round;
+    background-size: auto 100%;
 
     .gracehacks{
       font-style: normal;
@@ -34,11 +36,13 @@
   }
   
   .text-box {
-  width: 80%;
+  width: 60%;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(2px);
   border-radius: 20px;
   margin:auto;
+  margin-top: 20px;
+  font-size: 25px;
   
   .date-row {
     display: flex;
@@ -47,7 +51,6 @@
     margin-top: 20px;
     margin-left: 20px;
     .event{
-      max-width: 50%;
       margin-left: 20px;
     }
   }
@@ -60,6 +63,7 @@
     .event{
       max-width: 50%;
       margin-left: 20px;
+      font-size: 25px;
     }
   }
   }
