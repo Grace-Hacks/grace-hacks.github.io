@@ -21,7 +21,7 @@ import Lotus from "../../assets/lotus1.png";
 
 function Team() {
   return (
-    <div class="team-container">
+      <div class="team-container" id="team">
       <div class="title">
       team
       </div>

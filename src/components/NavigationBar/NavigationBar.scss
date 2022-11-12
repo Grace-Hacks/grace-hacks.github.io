@@ -1,10 +1,15 @@
 .navigation-container {
+  z-index:2;
   display: flex;
+  position:fixed;
+  top:0;
+  width:100%;
   justify-content: flex-end;
   align-items: center;
-  background: #D6F5FF;
+  background-color: #D4F3FE; 
+  opacity: 0.8; 
   color: #6E7477;
-  padding-right: 82px;
+  padding-right: 100px;
   @media screen and (max-width: 1300px) {
     padding-right: 7%;
   }
