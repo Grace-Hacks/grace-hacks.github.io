@@ -9,7 +9,7 @@
 .orb {
 width: 100px;
 height: 100px;
-background: #999;
+// background: #999;
 border-radius: 100px;
 display: inline-block;
 margin: 0 24.7px;
@@ -25,7 +25,7 @@ cursor: pointer;
   
 .marquee {
 height: 400px;
-width: 3000px;
+width: 2550px;
 overflow: hidden;
 box-sizing: border-box;
 position: relative;
@@ -70,7 +70,6 @@ width: 50%;
 }
 
 .member-name {
-    display: flex;
     align-items: center;
     text-align: center;
     font-size: 15px;
@@ -80,4 +79,5 @@ width: 50%;
     margin: 0 24.7px;
     float: left;
     transition: all .2s ease-out;
+    padding-top: 20px;
 }

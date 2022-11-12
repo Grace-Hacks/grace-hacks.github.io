@@ -16,7 +16,7 @@ import Tanisha from "../../assets/Team/tanisha.png";
 import Thanh from "../../assets/Team/thanh.png";
 import TBDe from "../../assets/Team/tbd.png";
 import Wing from "../../assets/Team/wing.png";
-import Lotus from "../../assets/Lotus.svg";
+import Lotus from "../../assets/lotus1.png";
 
 let members = {'Maritza Padilla':['Co-Exec Lead', 'Tech Lead'], 'Rina Munakata':['Co-Exec Lead'], 'Jonathan He':['Co-Exec Lead', 'Design Lead'], 'Lakshmi Damodaran':['Co-Exec Lead'], 
 'Merilyn Kuo':['Logistics Lead'], 'Anusha Pai':['Logistics'], 'Hersh Kalsi':['Logistics'], 
@@ -41,20 +41,15 @@ function Team() {
           })}
           </div>
           <div class="spin">
-          {
-            Object.keys(members).map((key, index) => ( 
-              <span class="member-name"> {key} | {members[key]}</span>
-            ))
-          }
+          {Object.keys(members).map((key, index) => (
+            (members[key].length > 1 ? <div class="member-name"> {key} <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key][0]}</span> <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key][1]}</span></div> : <div class="member-name"> {key} <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key]}</span></div>)
+          ))}
           </div>
           <div class="spin">
-          {
-            Object.keys(members).map((key, index) => ( 
-              <span class="member-name"> {key} | {members[key]}</span>
-            ))
-          }
+          {Object.keys(members).map((key, index) => (
+            (members[key].length > 1 ? <div class="member-name"> {key} <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key][0]}</span> <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key][1]}</span></div> : <div class="member-name"> {key} <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key]}</span></div>)
+          ))}
           </div>
-
         </div>
       </div>
     </div>
