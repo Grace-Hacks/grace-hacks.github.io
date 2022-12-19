@@ -24,18 +24,17 @@
 }
   
 .marquee {
-    height: 400px;
+    height: 250px;
     width: 2550px;
     overflow: hidden;
     box-sizing: border-box;
     position: relative;
-    margin: 100px auto;
+    margin: 100px auto 0px auto;
 }
   
 .marquee--inner {
     display: block;
     width: 200%;
-    margin: 70px 0;
     position: absolute;
     animation: marquee 20s linear infinite;
 }

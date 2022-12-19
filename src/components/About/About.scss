@@ -27,6 +27,11 @@
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
+    align-items: center;
+    
+    .condense {
+      max-width: 80%;
+    }
 
     @media screen and (max-width: 1200px) {
       display: flex;
@@ -40,8 +45,7 @@
       color: #425D9FBF;
       font-weight: 900;
       text-align: left;
-      margin: 20px 0px;
-      margin-top: 90px;
+      margin: 100px 0px 100px 0px;
       @media screen and (max-width: 1200px) {
         font-size: 35px;
       }
@@ -55,7 +59,7 @@
       line-height: 47px;
       text-align: left;
       color: #393943;
-      margin-bottom: 100px;
+      margin-bottom: 50px;
       @media screen and (max-width: 1200px) {
         margin-bottom: 50px;
         font-size: 25px;
@@ -63,11 +67,20 @@
       .bold_desc {
         font-weight: bold;
       }
+
+    }
+    .abt {
+      text-align: center;
+      width:80%;
+    }
+
+    .toppt {
+      margin-right: 10%
     }
   }
 
   .fish {
-    margin-top: 400px;
+    margin-top: 100px;
     margin-left: -100px;
     width: 70%;
     max-width: 500px;
@@ -80,6 +93,10 @@
 
   .contain {
     display: flex;
+  }
+
+  .aligncorr {
+    align-items: flex-start;
   }
 
 }

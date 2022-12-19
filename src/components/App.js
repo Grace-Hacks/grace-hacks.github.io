@@ -9,6 +9,7 @@ import Team from './Team/Team';
 import Sponsors from './Sponsors/Sponsors';
 import Contacts from './Contacts/Contacts';
 import Footer from './Footer/Footer';
+import Gallery from './Gallery/Gallery';
 
 import './App.scss';
 
@@ -19,10 +20,11 @@ function App() {
         <Header />
         <About />
         {/* <Events /> */}
+        <Gallery />
         <FAQ />
-        <Team />
         <Sponsors />
         <Footer />
+        <Team />
       </div>
     );
 }

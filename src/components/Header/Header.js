@@ -21,7 +21,7 @@ function Header() {
         <div class="description">create with confidence</div>
       </div>
 
-      <div class="text-box">
+      {/* <div class="text-box">
           <div class="date-row">
             <img class="image" src={Calendar}></img>
             <div class="event">November 12-13th 10:30 AM - 12:30 PM</div>
@@ -37,7 +37,7 @@ function Header() {
               <div class="button-text">Visit our DevPost</div>
             </Button>
           </div>
-        </div>
+        </div> */}
 
     </div>
   );

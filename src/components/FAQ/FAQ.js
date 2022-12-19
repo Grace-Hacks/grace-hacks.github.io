@@ -57,7 +57,7 @@ function FAQ() {
   return (
     <div class="faq-section" id="faq">
     <div class="faq-title">
-        faq
+        Frequently asked questions
       </div>
     <div class="faq-container" id="faq">
       <div class="accordian">

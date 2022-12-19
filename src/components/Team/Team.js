@@ -27,7 +27,7 @@ let assets = [Maritza, Rina, Jonathan, Lakshmi, Merilyn, Anusha, Lotus, Andrew,
 Thanh, Ojal, Shirin, Ariam, Wing, Tanisha, Lotus, Priya, Sabrina]
 function Team() {
   return (
-    <div class="team-container">
+    <div class="team-container" id="team">
       <div class="marquee">
         <div class="marquee--inner">
           <div class="spin">
