@@ -83,7 +83,7 @@ function FAQ() {
       </div>
       <div class="accordian">
         <Accordion className={useStyles().frame} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>Will GraceHacks 2022 happen in person or virtually?</AccordionSummary>
+          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>Will GraceHacks '22 be in person or virtual?</AccordionSummary>
           <AccordionDetails className={useStyles().answer}> This is a hybrid event! You can participate in person at Namaste Lounge, or participate online if you have internet connection and access to Zoom! </AccordionDetails>
         </Accordion>
 

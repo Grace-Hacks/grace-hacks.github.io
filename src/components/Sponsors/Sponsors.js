@@ -27,7 +27,7 @@ function Sponsors() {
     <div class="sponsors-container" id="sponsors">
 
     <div class="sponsors-title">
-      sponsors
+      Sponsors
     </div>
 
     <div class="box">
