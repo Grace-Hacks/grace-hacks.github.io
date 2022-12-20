@@ -1,11 +1,11 @@
 import React from 'react';
 import './Footer.scss';
-import Fishe from '../../assets/Fishe.svg'
-import email from '../../assets/email.svg'
-import facebook from '../../assets/facebook.svg'
-import instagram from '../../assets/instagram.svg'
-import linkedin from '../../assets/linkedin.svg'
-import petal from '../../assets/petal.svg'
+import Fishe from '../../assets/cfish.svg';
+import email from '../../assets/email.svg';
+import facebook from '../../assets/facebook.svg';
+import instagram from '../../assets/instagram.svg';
+import linkedin from '../../assets/linkedin.svg';
+import petal from '../../assets/cpetal.svg';
 
 import { makeStyles } from '@material-ui/core/styles';
 
