@@ -8,7 +8,7 @@ function About() {
   return (
     <div class="about-container" id="mission">
       <div class="about-section">
-        <img class="petal" src={Petal}></img>
+        <img class="abpetal" src={Petal}></img>
         <div class="about-section condense">
         <div class="info aligncorr">
           <div class="title">Santa Cruz's all inclusive hackathon for students of diverse genders</div>

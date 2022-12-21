@@ -5,7 +5,7 @@ import email from '../../assets/email.svg';
 import facebook from '../../assets/facebook.svg';
 import instagram from '../../assets/instagram.svg';
 import linkedin from '../../assets/linkedin.svg';
-import petal from '../../assets/cpetal.svg';
+import petal from '../../assets/GroupPetals.svg';
 
 import { makeStyles } from '@material-ui/core/styles';
 
