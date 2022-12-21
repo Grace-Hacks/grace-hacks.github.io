@@ -6,12 +6,12 @@
   font-family: 'Open Sans', sans-serif;
 
   .banner {
-    background-image: url('../../assets/True.png');
+    background-image: url('../../assets/True2.svg');
     height: 500px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-repeat: round;
+    // background-repeat: round;
     background-size: auto 100%;
 
     .gracehacks{
@@ -23,6 +23,9 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
+      @media only screen and (max-width: 1000px) {
+        font-size: 65px;
+      }
     }
 
     .description{
