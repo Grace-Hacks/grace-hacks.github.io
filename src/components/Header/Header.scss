@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 100px 0px 60px 0px;
+  margin: 100px 0 20px;
   font-family: 'Open Sans', sans-serif;
 
   .banner {
@@ -38,13 +38,13 @@
   }
   
   .text-box {
-  width: 60%;
+  width: 50%;
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(2px);
   border-radius: 20px;
-  margin:auto;
-  margin-top: 20px;
+  margin: 50px auto 0;
   font-size: 25px;
+  font-family: Avenir;
   
   .date-row {
     display: flex;
@@ -68,6 +68,15 @@
       font-size: 25px;
     }
   }
+  .announcement {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+  }
+  .mainannounce {
+    font-weight: 600;
+  }
   }
 
 
@@ -81,7 +90,7 @@
       display: flex;
       width: 250px;
       height: 100px;
-      margin: 20px;
+      margin: 10px 20px 20px 10px;
       box-sizing: border-box;
       background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
       border-radius: 20px;
