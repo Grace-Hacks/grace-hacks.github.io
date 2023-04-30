@@ -27,22 +27,31 @@ function Sponsors() {
     <div class="sponsors-container" id="sponsors">
 
     <div class="sponsors-title">
-      sponsors
+      Sponsors
     </div>
 
     <div class="box">
-      Thank you to our sponsors for making GraceHacks 2021 a success!
+      Huge thank you to our sponsors for helping make GraceHacks 2022 a success!
+    </div>
+    
+    <div class="sponsors-row">
+      <a href="https://rachelcarson.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+        <div class="x-large-text">UCSC RACHEL CARSON COLLEGE</div>
+      </a>
+      <a href="https://alumni.ucsc.edu/about/council/index.html/" target="_blank" rel="noopener noreferrer">
+        <div class="x-large-text">UCSC ALUMNI COUNCIL</div>
+      </a>
+      <a href="https://oakes.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+        <div class="x-large-text">UCSC OAKES</div>
+      </a>
     </div>
 
     <div class="sponsors-row">
-      <a href="https://balsamiq.com/wireframes/" target="_blank" rel="noopener noreferrer">
-        <img src={Balsamiq} class="x-large-logo" alt="Balsamiq"/>
+      <a href="https://collegenine.ucsc.edu" target="_blank" rel="noopener noreferrer">
+        <div class="x-large-text">COLLEGE 9/JRL</div>
       </a>
-      <a href="https://collegeten.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">UCSC COLLEGE TEN</div>
-      </a>
-      <a href="https://stemdiv.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">UCSC STEM DIV</div>
+      <a href="https://kresge.ucsc.edu" target="_blank" rel="noopener noreferrer">
+        <div class="x-large-text">KRESGE</div>
       </a>
     </div>
 

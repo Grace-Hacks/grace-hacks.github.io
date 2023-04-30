@@ -3,9 +3,7 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Sponsors",
-    "\\src\\components\\Sponsors\\images"
+    "\\src\\components\\Team"
   ],
-  "SelectedNode": "\\src\\components\\Sponsors\\images",
   "PreviewInSolutionExplorer": false
 }

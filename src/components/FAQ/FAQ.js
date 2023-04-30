@@ -48,14 +48,18 @@ function FAQ() {
       paddingTop: "5%",
       paddingLeft: "25px",
       overflow: "scroll",
+    },
+    Accordion: {
+      width: "50%",
     }
   }));
 
   return (
     <div class="faq-section" id="faq">
-      <div class="faq-title">
-        faq
+    <div class="faq-title">
+        Frequently asked questions
       </div>
+    <div class="faq-container" id="faq">
       <div class="accordian">
         <Accordion className={useStyles().frame} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What is a hackathon?</AccordionSummary>
@@ -64,35 +68,42 @@ function FAQ() {
 
         <Accordion className={useStyles().frame} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>Who can attend?</AccordionSummary>
-          <AccordionDetails className={useStyles().answer}>All female-identifying or non-binary college students (both undergraduates and graduates) are invited to attend, even with no prior experience necessary!</AccordionDetails>
+          <AccordionDetails className={useStyles().answer}>Underrepresented students, such as those who identify as a woman, are genderqueer/non-conforming, or are non-binary are invited to attend the event! We want to support you in creating a project with other marginalized students as you begin your journey in tech/project development.</AccordionDetails>
         </Accordion>
 
         <Accordion className={useStyles().frame} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What if I don’t have a team or idea?</AccordionSummary>
-          <AccordionDetails className={useStyles().answer}>No worries! We’ll have a short activity at the beginning of the hackathon, where you can meet others who you might want to collaborate with :-)</AccordionDetails>
+          <AccordionDetails className={useStyles().answer}>No worries! We’ll have a short activity at the beginning of the hackathon, where you can meet others who you might want to collaborate with. If you need ideas, you can start working with a theme to win one of our prized categories!</AccordionDetails>
         </Accordion>
 
         <Accordion className={useStyles().frame} expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What if I don’t know how to code?</AccordionSummary>
-          <AccordionDetails className={useStyles().answer}>GraceHacks is a wonderful place to get your feet wet in software development! Not a technical major? Don’t worry ~ the best hackathon teams delicately balance graphic designers, project managers, and business associates as well!</AccordionDetails>
+          <AccordionDetails className={useStyles().answer}>Our hackathon is catered towards beginners, and is a wonderful place to explore software development! Not a technical major? Don’t worry ~ the best hackathon teams delicately balance graphic designers, project managers, and business associates as well!</AccordionDetails>
         </Accordion>
-
+      </div>
+      <div class="accordian">
         <Accordion className={useStyles().frame} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
-          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How do I attend?</AccordionSummary>
-          <AccordionDetails className={useStyles().answer}> This is a hybrid event! You can participate in person at the Stevenson Event Center or participate online if you have internet connection and access to Zoom! </AccordionDetails>
+          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>Will GraceHacks '22 be in person or virtual?</AccordionSummary>
+          <AccordionDetails className={useStyles().answer}> This is a hybrid event! You can participate in person at Namaste Lounge, or participate online if you have internet connection and access to Zoom! </AccordionDetails>
         </Accordion>
 
         <Accordion className={useStyles().frame} expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
-          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What can I create?</AccordionSummary>
-          <AccordionDetails className={useStyles().answer}>Anything your heart desires! Hardware products, software applications, gaming interfaces ~ if you can dream it, you can build it!</AccordionDetails>
+          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What can I create, and are there prizes?</AccordionSummary>
+          <AccordionDetails className={useStyles().answer}>Hardware products, software applications, gaming interfaces~ if you can dream it, you can build it! Compete with other teams to win prizes for different categories, like best beginner, best web app, etc.</AccordionDetails>
         </Accordion>
 
         <Accordion className={useStyles().frame} expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>How much does it cost?</AccordionSummary>
           <AccordionDetails className={useStyles().answer}>GraceHacks will be absolutely FREE! We’ll provide food, swag, caffeine, WiFi, and a collaborative workspace to get your projects up and running quickly!</AccordionDetails>
         </Accordion>
+
+        <Accordion className={useStyles().frame} expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
+          <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}> I have another question!</AccordionSummary>
+          <AccordionDetails className={useStyles().answer}>Contact us through ucsc.gracehacks@gmail.com if you want to inquire about future events, clarification on anything you see in the site, sponsoring us, or if you're interested in collaborating with us!</AccordionDetails>
+        </Accordion>
       </div>
-      <img class="petal" src={Petal}></img>
+    </div>
+    <img class="petal" src={Petal}></img>
     </div>
   );
 }

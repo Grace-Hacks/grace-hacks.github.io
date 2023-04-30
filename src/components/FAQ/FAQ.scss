@@ -8,7 +8,7 @@
   }
   .faq-title {
     display: flex;
-    margin: 20px 0px;
+    margin: 100px 0 150px 20px;
     font-family: Avenir;
     font-style: normal;
     font-weight: 900;
@@ -30,22 +30,41 @@
     //   margin-right: 100%;
     // }
   }
+  .faq-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    margin: 0px 5%;
+    @media only screen and (max-width: 750px) {
+      margin: 0px 30px;
+      flex-direction: column;
+    }
+  }
 
   .accordian {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    margin: 0px 1%;
+  }
+
+  .MuiAccordionSummary-root {
+    font-size: 22px;
   }
 
   .MuiAccordion-root:before {
     border: none;
     background-color: transparent;
   }
+  
+  .MuiAccordionSummary-root:hover {
+    background-color: #18306A !important;
+    color: white;
+  }
 
   .petal {
     margin-top: -50px;
     margin-right: 15px;
-    width: 100%;
+    // width: 100%;
   }
 }

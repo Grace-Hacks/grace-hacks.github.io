@@ -1,11 +1,11 @@
 import React from 'react';
 import './Footer.scss';
-import Fishe from '../../assets/Fishe.svg'
-import email from '../../assets/email.svg'
-import facebook from '../../assets/facebook.svg'
-import instagram from '../../assets/instagram.svg'
-import linkedin from '../../assets/linkedin.svg'
-import petal from '../../assets/petal.svg'
+import Fishe from '../../assets/cfish.svg';
+import email from '../../assets/email.svg';
+import facebook from '../../assets/facebook.svg';
+import instagram from '../../assets/instagram.svg';
+import linkedin from '../../assets/linkedin.svg';
+import petal from '../../assets/GroupPetals.svg';
 
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -20,7 +20,7 @@ const useStyles = makeStyles({
 
 function Footer() {
   return (
-    <div class="footer-container">
+      <div class="footer-container" id="contactus">
       <div class="foot-row">
         <div className="notPetal">
         <img class="fish" src={Fishe}></img>
@@ -38,7 +38,7 @@ function Footer() {
       </div>
       <div class="message">
         <div class="text">Made with <span role='img' aria-label='hearts'>💛💙</span> by <span role='img' aria-label='snails'>🍌🐌</span> in Santa Cruz.</div>
-        <div class="text">© 2020 GraceHacks. All rights reserved.</div>
+        <div class="text">© 2022 GraceHacks. All rights reserved.</div>
       </div>
     </div>
   );
