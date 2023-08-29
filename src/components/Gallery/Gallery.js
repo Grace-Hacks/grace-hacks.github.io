@@ -22,17 +22,12 @@ import P18 from "../../assets/Gallery/tinyshirt.jpeg";
 let assets = [P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14, P15, P16, P17, P18];
 function Team() {
   return (
-    <div class="gallery-container" id="events">
-      <div class="marquee2">
-        <div class="marquee--inner2">
-          <div class="spin2">
+    <div className="gallery-container" id="events">
+      <div className="marquee2">
+        <div className="marquee--inner2">
+          <div className="spin2">
           {assets.map((item, index) => { 
-            return <img class="orb2" src={item} alt="GraceHacks member" />
-          })}
-          </div>
-          <div class="spin2">
-          {assets.map((item, index) => { 
-            return <img class="orb2" src={item} alt="GraceHacks member" />
+            return <img className="orb2" key={index} src={item} alt="GraceHacks member" />
           })}
           </div>
         </div>

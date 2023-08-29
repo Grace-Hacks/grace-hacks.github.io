@@ -55,12 +55,12 @@ function FAQ() {
   }));
 
   return (
-    <div class="faq-section" id="faq">
-    <div class="faq-title">
+    <div className="faq-section" id="faq">
+    <div className="faq-title">
         Frequently asked questions
       </div>
-    <div class="faq-container" id="faq">
-      <div class="accordian">
+    <div className="faq-container" id="faq">
+      <div className="accordian">
         <Accordion className={useStyles().frame} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>What is a hackathon?</AccordionSummary>
           <AccordionDetails className={useStyles().answer}>A hackathon is a place where you can collaborate with others and express your creativity to create a product that solves some real-world problem. At GraceHacks, students of all different backgrounds and experiences will gather together to develop an idea and realize that solution all within the span of 12 hours!</AccordionDetails>
@@ -81,7 +81,7 @@ function FAQ() {
           <AccordionDetails className={useStyles().answer}>Our hackathon is catered towards beginners, and is a wonderful place to explore software development! Not a technical major? Don’t worry ~ the best hackathon teams delicately balance graphic designers, project managers, and business associates as well!</AccordionDetails>
         </Accordion>
       </div>
-      <div class="accordian">
+      <div className="accordian">
         <Accordion className={useStyles().frame} expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
           <AccordionSummary className={useStyles().question} expandIcon={<ExpandMoreIcon />}>Will GraceHacks '22 be in person or virtual?</AccordionSummary>
           <AccordionDetails className={useStyles().answer}> This is a hybrid event! You can participate in person at Namaste Lounge, or participate online if you have internet connection and access to Zoom! </AccordionDetails>
@@ -103,7 +103,7 @@ function FAQ() {
         </Accordion>
       </div>
     </div>
-    <img class="petal" src={Petal}></img>
+    <img className="petal" alt="small petal" src={Petal}></img>
     </div>
   );
 }

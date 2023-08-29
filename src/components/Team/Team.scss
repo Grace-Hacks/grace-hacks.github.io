@@ -14,7 +14,7 @@
     display: inline-block;
     margin: 0 24.7px;
     float: left;
-    transition: all .2s ease-out;
+    transition: all 0.2s ease-out;
 }
   
 .orb:hover {
@@ -36,7 +36,7 @@
     display: block;
     width: 200%;
     position: absolute;
-    animation: marquee 20s linear infinite;
+    animation: marquee 30s linear infinite; // changes speed of member picture rotation
     padding: 10px;
 }
 

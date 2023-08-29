@@ -1,5 +1,8 @@
 import React from "react";
 import "./Sponsors.scss";
+
+/**
+ * Old Sponsors
 import CDKGlobal from "../../assets/Sponsors/CDKGlobal.svg"
 import Salesforce from "../../assets/Sponsors/Salesforce.svg"
 import Nutanix from "../../assets/Sponsors/Nutanix.svg"
@@ -20,124 +23,125 @@ import CloudSploit from "../../assets/Sponsors/CloudSploit.svg"
 import AICamp from "../../assets/Sponsors/AI-Camp.svg"
 import SCW from "../../assets/Sponsors/SCW.svg"
 import { Markunread } from "@material-ui/icons";
+*/
 
 
 function Sponsors() {
   return (
-    <div class="sponsors-container" id="sponsors">
+    <div className="sponsors-container" id="sponsors">
 
-    <div class="sponsors-title">
+    <div className="sponsors-title">
       Sponsors
     </div>
 
-    <div class="box">
+    <div className="box">
       Huge thank you to our sponsors for helping make GraceHacks 2022 a success!
     </div>
     
-    <div class="sponsors-row">
+    <div className="sponsors-row">
       <a href="https://rachelcarson.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">UCSC RACHEL CARSON COLLEGE</div>
+        <div className="x-large-text">UCSC RACHEL CARSON COLLEGE</div>
       </a>
       <a href="https://alumni.ucsc.edu/about/council/index.html/" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">UCSC ALUMNI COUNCIL</div>
+        <div className="x-large-text">UCSC ALUMNI COUNCIL</div>
       </a>
       <a href="https://oakes.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">UCSC OAKES</div>
+        <div className="x-large-text">UCSC OAKES</div>
       </a>
     </div>
 
-    <div class="sponsors-row">
+    <div className="sponsors-row">
       <a href="https://collegenine.ucsc.edu" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">COLLEGE 9/JRL</div>
+        <div className="x-large-text">COLLEGE 9/JRL</div>
       </a>
       <a href="https://kresge.ucsc.edu" target="_blank" rel="noopener noreferrer">
-        <div class="x-large-text">KRESGE</div>
+        <div className="x-large-text">KRESGE</div>
       </a>
     </div>
 
-      {/*<div class="sponsors-row">
+      {/*<div className="sponsors-row">
         <img
           src={Linode}
-          class="large-logo"
+          className="large-logo"
           alt="Linode"
         />
         <img
           src={Balsamiq}
-          class="large-logo"
+          className="large-logo"
           alt="Balsamiq"
         />
         <img
           src={RStudio}
-          class="large-logo"
+          className="large-logo"
           alt="RStudio"
         />
       </div>
 
-      <div class="sponsors-row">
+      <div className="sponsors-row">
         <img
           src={MouserElectronics}
-          class="small-logo"
+          className="small-logo"
           alt="Mouser Electronics"
         />
         <img
           src={GirlsMakeGames}
-          class="small-logo"
+          className="small-logo"
           alt="Girls Make Games"
         />
         <img
           src={MakeyMakey}
-          class="small-logo"
+          className="small-logo"
           alt="Makey Makey"
         />
         <img
           src={Desmos}
-          class="small-logo"
+          className="small-logo"
           alt="Desmos"
         />
         <img
           src={Heroku}
-          class="small-logo"
+          className="small-logo"
           alt="Heroku"
         />
       </div>
 
-      <div class="sponsors-row">
+      <div className="sponsors-row">
         <img
           src={StickerGiant}
-          class="small-logo"
+          className="small-logo"
           alt="Sticker Giant"
         />
         <img
           src={Kingston}
-          class="small-logo"
+          className="small-logo"
           alt="Kingston"
         />
         <img
           src={Sentry}
-          class="small-logo"
+          className="small-logo"
           alt="Sentry"
         />
         <img
           src={HVMN}
-          class="small-logo"
+          className="small-logo"
           alt="HVMN"
         />
         <img
           src={CloudSploit}
-          class="small-logo"
+          className="small-logo"
           alt="CloudSploit"
         />
       </div>
 
-      <div class="sponsors-row">
+      <div className="sponsors-row">
         <img
           src={AICamp}
-          class="x-small-logo"
+          className="x-small-logo"
           alt="AI Camp"
         />
         <img
           src={SCW}
-          class="x-small-logo"
+          className="x-small-logo"
           alt="Santa Cruz Works"
         />
       </div> */}
