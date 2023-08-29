@@ -20,19 +20,6 @@ function Header() {
         <div class="gracehacks">GraceHacks</div>
         <div class="description">create with confidence</div>
       </div>
-
-       <div class="text-box">
-          <div>
-            <div class="announcement mainannounce">Interested in helping organize UCSC's only hackathon for underrepresented groups in tech?</div>
-          </div>
-          <div class="announcement">Various Team Member positions are now open to all UCSC students!</div>
-          <div class="buttons-row">
-            <Button disableRipple variant="contained" href="https://docs.google.com/forms/d/1jRLfnywILJy5Fk-GDqjqiqyzpXEAnhSybJZR7Z0CoQg/viewform?edit_requested=true" class="button" target="_blank" rel="noopener noreferrer">
-              <div class="button-text">Apply today</div>
-            </Button>
-          </div>
-        </div>
-
     </div>
   );
 }

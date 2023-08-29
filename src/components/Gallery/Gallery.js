@@ -1,13 +1,13 @@
 import React from 'react';
 import './Gallery.scss';
-import P1 from "../../assets/Gallery/winner.JPG";
+import P1 from "../../assets/Gallery/winner.jpg";
 import P2 from "../../assets/Gallery/group.jpg";
 import P3 from "../../assets/Gallery/mentorimg.jpg";
 import P4 from "../../assets/Gallery/tinyteam.jpeg";
 import P5 from "../../assets/Gallery/winners3.png";
 import P6 from "../../assets/Gallery/tinyGHteam3.jpeg";
-import P7 from "../../assets/Gallery/tinyGHteam.JPG";
-import P8 from "../../assets/Gallery/winners4.JPG";
+import P7 from "../../assets/Gallery/tinyGHteam.jpg";
+import P8 from "../../assets/Gallery/winners4.jpg";
 import P9 from "../../assets/Gallery/tinymentors.jpeg";
 import P10 from "../../assets/Gallery/tinymerch.jpeg";
 import P11 from "../../assets/Gallery/tinyjudges.jpeg";
