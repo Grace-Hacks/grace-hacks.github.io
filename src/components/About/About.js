@@ -22,7 +22,7 @@ function About() {
           <div className="info">
             <div className="title">About Us</div>
             <div className="description abt">We strive to foster safe spaces, where women, non-binary students, and anyone who struggles to feel included in technical spaces can: create, learn, and explore their interests without inherent bias or sexism.</div>
-            <div className="description abt">Look out for our annual hackathon, technical workshops, and upcoming events- We can’t create a community without YOU!  🖤️</div>
+            <div className="description abt">Look out for our annual hackathon, technical workshops, and upcoming events - We can’t create a community without YOU!  🖤️</div>
           </div>
       </div>
     </div>
