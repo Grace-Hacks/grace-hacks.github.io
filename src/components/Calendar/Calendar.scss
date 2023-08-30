@@ -1,0 +1,30 @@
+.calendar-container {
+   display: flex;
+   flex-direction: column;
+   font-family: Avenir;
+   align-self: center;
+   width: 90%;
+}
+
+.calendar-header {
+   display: flex;
+   flex-direction: row;
+}
+
+.day1, .day2 {
+   background-color: white;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   width: 100px;
+   text-align: center;
+   line-height: 30px;
+}
+
+.calendar-body {
+   background: white;
+}
+
+th {
+   text-align: center;
+   align-items: center;
+}

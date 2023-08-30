@@ -12,6 +12,7 @@ import Gallery from './Gallery/Gallery';
 /**
  * Unused Components
 import Events from './Events/Events';
+import Calendar from './Calendar/Calendar';
 import Contacts from './Contacts/Contacts';
 */
 
@@ -23,6 +24,7 @@ function App() {
         <NavigationBar />
         <Header />
         <About />
+        {/* <Calendar /> */}
         {/* <Events /> */}
         <Gallery />
         <FAQ />
