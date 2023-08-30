@@ -41,7 +41,8 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "500",
     textDecoration: "none",
     width: "100%",
-    borderRadius: "15px"
+    borderRadius: "15px",
+    fontFamily: 'Avenir',
   }
 }));
 
@@ -95,7 +96,7 @@ function NavigationBar() {
 
         <Button className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
         <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
-          <MenuItem onClick={handleClose}><AnchorLink href="#mission" className={useStyles().menuItem}>MISSION</AnchorLink></MenuItem>
+          <MenuItem onClick={handleClose} sx={{fontamily:'Helvetica'}}><AnchorLink href="#mission" className={useStyles().menuItem}>MISSION</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#events" className={useStyles().menuItem}>EVENTS</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#faq" className={useStyles().menuItem}>FAQ</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#sponsors" className={useStyles().menuItem}>SPONSORS</AnchorLink></MenuItem>      
