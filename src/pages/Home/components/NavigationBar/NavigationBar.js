@@ -82,10 +82,12 @@ function NavigationBar() {
     setAnchorEl(null);
   };
 
+//             <Link to="/">Home</Link>
   return (
     <div>
       <div className="navigation-container">
         <div className={useStyles().info}>
+
           <Button className={useStyles().anchor}><AnchorLink href="#mission">MISSION</AnchorLink></Button>
           <Button className={useStyles().anchor}><AnchorLink href="#events">EVENTS</AnchorLink></Button>
           <Button className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>

@@ -1,0 +1,33 @@
+@font-face {
+   font-family: 'VCRFont';
+   src: url('../../assets/VCR.ttf') format('truetype');
+ }
+ 
+ @font-face {
+   font-family: 'Nunito';
+   src: url('../../assets/Nunito.ttf') format('truetype');
+ }
+ 
+ @font-face {
+   font-family: 'Avenir';
+   src: url('../../assets/Avenir.otf') format('truetype');
+ }
+ 
+ .home-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background: linear-gradient(180deg, #D6F5FF 0%, #98B0EC 100%), #98B0EC;
+   font-family: 'VCRFont';
+   width: 100%;
+   overflow: hidden;
+ 
+   a, a:hover, a:focus, a:active {
+     color: inherit;
+     text-decoration: inherit;
+   }
+ }
+ 
+ .react-multi-carousel-list {
+   position:static;
+ }

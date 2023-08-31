@@ -1,10 +1,10 @@
 import React from 'react';
-import './About.scss';
-import Petal from '../../assets/About-petal.svg'
-import Fish from '../../assets/purpfish.svg'
+import './Bio.scss';
+import Petal from '../../../../assets/About-petal.svg'
+import Fish from '../../../../assets/purpfish.svg'
 
 
-function About() {
+export default function Bio() {
   return (
     <div className="about-container" id="mission">
       <div className="about-section">
@@ -28,5 +28,3 @@ function About() {
     </div>
   );
 }
-
-export default About;

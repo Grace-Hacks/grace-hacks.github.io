@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.scss';
-import Lotus from '../../assets/NewLotus.png'
+import Lotus from '../../../../assets/NewLotus.png'
 
 /**
  * Unused Assets

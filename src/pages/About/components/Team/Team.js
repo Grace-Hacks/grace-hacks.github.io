@@ -1,22 +1,22 @@
 import React from 'react';
 import './Team.scss';
-import Andrew from "../../assets/Team/andrew.png";
-import Anusha from "../../assets/Team/anusha.png";
-import Ariam from "../../assets/Team/ariam.png";
-import Jonathan from "../../assets/Team/jonathan.png";
-import Lakshmi from "../../assets/Team/lakshmi.png";
-import Maritza from "../../assets/Team/maritza.png";
-import Merilyn from "../../assets/Team/merilyn.png";
-import Ojal from "../../assets/Team/ojal.png";
-import Priya from "../../assets/Team/priya.png";
-import Rina from "../../assets/Team/rina.png";
-import Sabrina from "../../assets/Team/sabrina.png";
-import Shirin from "../../assets/Team/shirin.png";
-import Tanisha from "../../assets/Team/tanisha.png";
-import Thanh from "../../assets/Team/thanh.png";
+import Andrew from "../../../../assets/Team/andrew.png";
+import Anusha from "../../../../assets/Team/anusha.png";
+import Ariam from "../../../../assets/Team/ariam.png";
+import Jonathan from "../../../../assets/Team/jonathan.png";
+import Lakshmi from "../../../../assets/Team/lakshmi.png";
+import Maritza from "../../../..//assets/Team/maritza.png";
+import Merilyn from "../../../..//assets/Team/merilyn.png";
+import Ojal from "../../../../assets/Team/ojal.png";
+import Priya from "../../../..//assets/Team/priya.png";
+import Rina from "../../../../assets/Team/rina.png";
+import Sabrina from "../../../..//assets/Team/sabrina.png";
+import Shirin from "../../../../assets/Team/shirin.png";
+import Tanisha from "../../../..//assets/Team/tanisha.png";
+import Thanh from "../../../..//assets/Team/thanh.png";
 // import TBDe from "../../assets/Team/tbd.png";
-import Wing from "../../assets/Team/wing.png";
-import Lotus from "../../assets/lotus1.png";
+import Wing from "../../../../assets/Team/wing.png";
+import Lotus from "../../../../assets/lotus1.png";
 
 let members = {'Maritza Padilla':['Co-Exec Lead', 'Tech Lead'], 'Rina Munakata':['Co-Exec Lead'], 'Jonathan He':['Co-Exec Lead', 'Design Lead'], 'Lakshmi Damodaran':['Co-Exec Lead'], 
 'Merilyn Kuo':['Logistics Lead'], 'Anusha Pai':['Logistics'], 'Hersh Kalsi':['Logistics'], 
