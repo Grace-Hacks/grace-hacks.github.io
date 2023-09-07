@@ -10,6 +10,9 @@
   opacity: 0.8; 
   color: #6E7477;
   padding-right: 100px;
+  button:focus { 
+    border: none;
+  }
   @media screen and (max-width: 1300px) {
     padding-right: 7%;
   }

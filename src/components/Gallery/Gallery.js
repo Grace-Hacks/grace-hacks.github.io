@@ -1,13 +1,13 @@
 import React from 'react';
 import './Gallery.scss';
-import P1 from "../../assets/Gallery/winner.JPG";
+import P1 from "../../assets/Gallery/winner.jpg";
 import P2 from "../../assets/Gallery/group.jpg";
 import P3 from "../../assets/Gallery/mentorimg.jpg";
 import P4 from "../../assets/Gallery/tinyteam.jpeg";
 import P5 from "../../assets/Gallery/winners3.png";
 import P6 from "../../assets/Gallery/tinyGHteam3.jpeg";
-import P7 from "../../assets/Gallery/tinyGHteam.JPG";
-import P8 from "../../assets/Gallery/winners4.JPG";
+import P7 from "../../assets/Gallery/tinyGHteam.jpg";
+import P8 from "../../assets/Gallery/winners4.jpg";
 import P9 from "../../assets/Gallery/tinymentors.jpeg";
 import P10 from "../../assets/Gallery/tinymerch.jpeg";
 import P11 from "../../assets/Gallery/tinyjudges.jpeg";
@@ -22,17 +22,12 @@ import P18 from "../../assets/Gallery/tinyshirt.jpeg";
 let assets = [P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14, P15, P16, P17, P18];
 function Team() {
   return (
-    <div class="gallery-container" id="events">
-      <div class="marquee2">
-        <div class="marquee--inner2">
-          <div class="spin2">
+    <div className="gallery-container" id="events">
+      <div className="marquee2">
+        <div className="marquee--inner2">
+          <div className="spin2">
           {assets.map((item, index) => { 
-            return <img class="orb2" src={item} alt="GraceHacks member" />
-          })}
-          </div>
-          <div class="spin2">
-          {assets.map((item, index) => { 
-            return <img class="orb2" src={item} alt="GraceHacks member" />
+            return <img className="orb2" key={index} src={item} alt="GraceHacks member" />
           })}
           </div>
         </div>

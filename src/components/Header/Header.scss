@@ -36,52 +36,6 @@
       color: rgba(66, 93, 159, 0.75);
     }
   }
-  
-  .text-box {
-  width: 50%;
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(2px);
-  border-radius: 20px;
-  margin: 50px auto 0;
-  font-size: 25px;
-  font-family: Avenir;
-  
-  .date-row {
-    display: flex;
-    flex-direction: row;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-left: 20px;
-    .event{
-      margin-left: 20px;
-    }
-  }
-
-  .location-row{
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
-    margin-left: 20px;
-    .event{
-      // max-width: 50%;
-      margin-left: 20px;
-      font-size: 25px;
-    }
-  }
-  .announcement {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    text-align: center;
-  }
-  .mainannounce {
-    font-weight: 600;
-  }
-  @media only screen and (max-width: 1000px) {
-    text-size: 20px;
-    width:80%;
-  }
-  }
 
 
   .buttons-row {

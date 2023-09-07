@@ -14,7 +14,7 @@ import Sabrina from "../../assets/Team/sabrina.png";
 import Shirin from "../../assets/Team/shirin.png";
 import Tanisha from "../../assets/Team/tanisha.png";
 import Thanh from "../../assets/Team/thanh.png";
-import TBDe from "../../assets/Team/tbd.png";
+// import TBDe from "../../assets/Team/tbd.png";
 import Wing from "../../assets/Team/wing.png";
 import Lotus from "../../assets/lotus1.png";
 
@@ -27,27 +27,27 @@ let assets = [Maritza, Rina, Jonathan, Lakshmi, Merilyn, Anusha, Lotus, Andrew,
 Thanh, Ojal, Shirin, Ariam, Wing, Tanisha, Lotus, Priya, Sabrina]
 function Team() {
   return (
-    <div class="team-container" id="team">
-      <div class="marquee">
-        <div class="marquee--inner">
-          <div class="spin">
+    <div className="team-container" id="team">
+      <div className="marquee">
+        <div className="marquee--inner">
+          <div className="spin">
           {assets.map((item, index) => { 
-            return <img class="orb" src={item} alt="GraceHacks member" />
+            return <img className="orb" key={index} src={item} alt="GraceHacks member" />
           })}
           </div>
-          <div class="spin">
+          <div className="spin">
           {assets.map((item, index) => { 
-            return <img class="orb" src={item} alt="GraceHacks member" />
+            return <img className="orb" key={index} src={item} alt="GraceHacks member" />
           })}
           </div>
-          <div class="spin">
+          <div className="spin">
           {Object.keys(members).map((key, index) => (
-            (members[key].length > 1 ? <div class="member-name"> {key} <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key][0]}</span> <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key][1]}</span></div> : <div class="member-name"> {key} <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key]}</span></div>)
+            (members[key].length > 1 ? <div className="member-name" key={index}> {key} <br/> <span style={{'color': '#5B5C74', 'fontWeight':'light'}}>{members[key][0]}</span> <br/> <span style={{'color': '#5B5C74', 'fontWeight':'light'}}>{members[key][1]}</span></div> : <div className="member-name" key={index}> {key} <br/> <span style={{'color': '#5B5C74', 'fontWeight':'light'}}>{members[key]}</span></div>)
           ))}
           </div>
-          <div class="spin">
+          <div className="spin">
           {Object.keys(members).map((key, index) => (
-            (members[key].length > 1 ? <div class="member-name"> {key} <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key][0]}</span> <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key][1]}</span></div> : <div class="member-name"> {key} <br/> <span style={{'color': '#5B5C74', 'font-weight':'light'}}>{members[key]}</span></div>)
+            (members[key].length > 1 ? <div className="member-name" key={index}> {key} <br/> <span style={{'color': '#5B5C74', 'fontWeight':'light'}}>{members[key][0]}</span> <br/> <span style={{'color': '#5B5C74', 'fontWeight':'light'}}>{members[key][1]}</span></div> : <div className="member-name" key={index}> {key} <br/> <span style={{'color': '#5B5C74', 'fontWeight':'light'}}>{members[key]}</span></div>)
           ))}
           </div>
         </div>

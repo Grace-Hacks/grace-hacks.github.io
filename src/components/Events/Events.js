@@ -1,16 +1,20 @@
 import React from 'react';
 import './Events.scss';
-import Python from '../../assets/Python.png'
 
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from '@material-ui/core';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
-import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
+/**
+ * Unused Assets
+ import Python from '../../assets/Python.png';
+ import CardMedia from '@material-ui/core/CardMedia';
+ */
 
 const useStyles = makeStyles((theme) => ({
     root: {

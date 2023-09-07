@@ -83,16 +83,16 @@ function NavigationBar() {
 
   return (
     <div>
-      <div class="navigation-container">
+      <div className="navigation-container">
         <div className={useStyles().info}>
-          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#mission">MISSION</AnchorLink></Button>
-          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#events">EVENTS</AnchorLink></Button>
-          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>
-          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#sponsors">SPONSORS</AnchorLink></Button>
-          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#contactus">CONTACT US</AnchorLink></Button>
-          <Button variant="outline" className={useStyles().anchor}><AnchorLink href="#team">TEAM</AnchorLink></Button>
-
+          <Button className={useStyles().anchor}><AnchorLink href="#mission">MISSION</AnchorLink></Button>
+          <Button className={useStyles().anchor}><AnchorLink href="#events">EVENTS</AnchorLink></Button>
+          <Button className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>
+          <Button className={useStyles().anchor}><AnchorLink href="#sponsors">SPONSORS</AnchorLink></Button>
+          <Button className={useStyles().anchor}><AnchorLink href="#contactus">CONTACT US</AnchorLink></Button>
+          <Button className={useStyles().anchor}><AnchorLink href="#team">TEAM</AnchorLink></Button>
         </div>
+
         <Button className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
         <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
           <MenuItem onClick={handleClose}><AnchorLink href="#mission" className={useStyles().menuItem}>MISSION</AnchorLink></MenuItem>
