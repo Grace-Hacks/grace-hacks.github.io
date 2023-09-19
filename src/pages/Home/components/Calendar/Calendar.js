@@ -19,7 +19,18 @@ const schedule = [
             "location": "TBA",
             "description": "TBD",
          },
-
+         {
+            "name": "Workshop",
+            "time": "3:00pm",
+            "location": "TBA",
+            "description": "TBD",
+         },
+         {
+            "name": "Workshop",
+            "time": "4:00pm",
+            "location": "TBA",
+            "description": "TBD",
+         },
       ],
    },
    {
@@ -65,8 +76,8 @@ function Calendar() {
                <th colspan="2">{schedule[day].date}</th>
                {schedule[day].events.map((event) =>
                   <tr>
-                     <td>{event.name}</td>
-                     <td>{event.time}</td>
+                     <td className="event-time">{event.time}</td>
+                     <td className="event-name">{event.name}</td>
                   </tr>
                )}
             </tbody>

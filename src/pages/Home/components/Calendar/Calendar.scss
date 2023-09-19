@@ -1,7 +1,7 @@
 .calendar-container {
    display: flex;
    flex-direction: column;
-   font-family: Avenir;
+   font-family: 'Nunito';
    align-self: center;
    width: 90%;
 }
@@ -9,6 +9,14 @@
 .calendar-header {
    display: flex;
    flex-direction: row;
+   border-top-right-radius: 10px;
+}
+
+.calendar-body {
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+
 }
 
 .day1, .day2 {
@@ -22,9 +30,40 @@
 
 .calendar-body {
    background: white;
+   border-spacing: 20px; 
 }
 
 th {
    text-align: center;
    align-items: center;
+}
+
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+
+
+.event-time {
+   text-align: center;
+   align-items: center;
+}
+.event-name {
+   padding: 20px;
+   border-radius: 10px;
+}
+
+tr:nth-of-type(n+1) > .event-name {
+   background-color: #F4C7C3;
+}
+
+tr:nth-of-type(n+2) > .event-name {
+   background-color: #FFE394;
+}
+
+tr:nth-of-type(n+3) > .event-name {
+   background-color: #D0FEFF;
+}
+
+tr:nth-of-type(n+4) > .event-name{
+   background-color: #D9DFFF;
 }
