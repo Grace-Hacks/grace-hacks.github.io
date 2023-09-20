@@ -6,7 +6,7 @@
     overflow: hidden;
 }
   
-.orb2 {
+.orb {
     width: 400px;
     height: 400px;
     // background: #999;
@@ -17,13 +17,13 @@
     transition: all 0.2s ease-out;
 }
   
-.orb2:hover {
+.orb:hover {
     transform: scale(1.2);
     opacity: .5;
     cursor: pointer;
 }
   
-.marquee2 {
+.marquee {
     height: 600px;
     width: 8300px;
     overflow: hidden;
@@ -31,7 +31,7 @@
     position: relative;
 }
   
-.marquee--inner2 {
+.marquee--inner {
     display: block;
     width: 200%;
     margin: 70px 0;
@@ -39,16 +39,16 @@
     animation: marquee 100s linear infinite;
 }
 
-.marquee--inner2:hover {
+.marquee--inner:hover {
     animation-play-state: paused;
 }
 
-.spin2 {
+.spin {
     float: left;
     width: 50%;
 }
 
-@keyframes marquee2 {
+@keyframes marquee {
     0% { left: 0; }
     100% { left: -100%; }
 }

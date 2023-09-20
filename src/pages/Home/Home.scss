@@ -1,28 +1,8 @@
-@font-face {
-   font-family: 'VCRFont';
-   src: url('../../assets/VCR.ttf') format('truetype');
- }
- 
- @font-face {
-   font-family: 'Nunito';
-   src: url('../../assets/Nunito.ttf') format('truetype');
- }
-
- @font-face {
-  font-family: 'Shrikhand';
-  src: url('../../assets/Shrikhand-Regular.ttf') format('truetype');
-}
- 
- @font-face {
-   font-family: 'Avenir';
-   src: url('../../assets/Avenir.otf') format('truetype');
- }
- 
- .home-container {
+.home-container {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   background: linear-gradient(180deg, #BFCB8B 18%, #719E61 82%), #719E61;
+   background: linear-gradient(180deg, #BFCB8B 45%, #719E61 55%), #719E61;
    font-family: 'Shrikhand';
    width: 100%;
    overflow: hidden;
@@ -30,6 +10,34 @@
    a, a:hover, a:focus, a:active {
      color: inherit;
      text-decoration: inherit;
+   }
+
+   .sign-up {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .sign-up-title {
+      font-style: normal;
+      font-family: 'Shrikhand';
+      font-weight: 400;
+      font-size: 70px; // Seems too big
+      line-height: 150px;
+      color: #FCFEF9;
+      text-shadow: 5px 5px 0px #719E61;
+    }
+    button {
+      margin: 10px;
+      width: 345px;
+      height: 86px;
+      border-radius: 20px;
+      box-shadow: 5px 5px #719E61;
+      font-family: 'Nunito';
+      font-weight: 700;
+      color: #719E61;
+      font-size: 40px;
+      border: none;
+    }
    }
  }
  

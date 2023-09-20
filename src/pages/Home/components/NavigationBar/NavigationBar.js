@@ -1,4 +1,11 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -82,28 +89,36 @@ function NavigationBar() {
     setAnchorEl(null);
   };
 
-//             <Link to="/">Home</Link>
+
+  /**
+   * Task: figure out how to redirect to a certain page from a different page (example: going from the About page
+   * to the calendar on the home page)
+   */
   return (
     <div>
       <div className="navigation-container">
         <div className={useStyles().info}>
 
-          <Button className={useStyles().anchor}><AnchorLink href="#mission">MISSION</AnchorLink></Button>
-          <Button className={useStyles().anchor}><AnchorLink href="#events">EVENTS</AnchorLink></Button>
+        <Button className={useStyles().anchor}>
+          <Link to="/about">About</Link>
+        </Button>
+
+        <Button className={useStyles().anchor}>
+          <Link to="/">Calendar</Link>
+        </Button>
+
+        <Button className={useStyles().anchor}>
+          <Link to="/">Faq</Link>
+        </Button>
+
           <Button className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>
           <Button className={useStyles().anchor}><AnchorLink href="#sponsors">SPONSORS</AnchorLink></Button>
-          <Button className={useStyles().anchor}><AnchorLink href="#contactus">CONTACT US</AnchorLink></Button>
-          <Button className={useStyles().anchor}><AnchorLink href="#team">TEAM</AnchorLink></Button>
         </div>
 
         <Button className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
         <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
-          <MenuItem onClick={handleClose} sx={{fontamily:'Helvetica'}}><AnchorLink href="#mission" className={useStyles().menuItem}>MISSION</AnchorLink></MenuItem>
-          <MenuItem onClick={handleClose}><AnchorLink href="#events" className={useStyles().menuItem}>EVENTS</AnchorLink></MenuItem>
           <MenuItem onClick={handleClose}><AnchorLink href="#faq" className={useStyles().menuItem}>FAQ</AnchorLink></MenuItem>
-          <MenuItem onClick={handleClose}><AnchorLink href="#sponsors" className={useStyles().menuItem}>SPONSORS</AnchorLink></MenuItem>      
-          <MenuItem onClick={handleClose}><AnchorLink href="#contactus" className={useStyles().menuItem}>CONTACT US</AnchorLink></MenuItem>
-          <MenuItem onClick={handleClose}><AnchorLink href="#team" className={useStyles().menuItem}>TEAM</AnchorLink></MenuItem>
+          <MenuItem onClick={handleClose}><AnchorLink href="#sponsors" className={useStyles().menuItem}>SPONSORS</AnchorLink></MenuItem>
         </StyledMenu>
       </div>
     </div>

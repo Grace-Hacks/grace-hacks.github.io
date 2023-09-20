@@ -9,6 +9,11 @@
 }
 
 @font-face {
+ font-family: 'Shrikhand';
+ src: url('../assets/Shrikhand-Regular.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'Avenir';
   src: url('../assets/Avenir.otf') format('truetype');
 }
@@ -17,7 +22,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: linear-gradient(180deg, #D6F5FF 0%, #98B0EC 100%), #98B0EC;
   font-family: 'VCRFont';
   width: 100%;
   overflow: hidden;

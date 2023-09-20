@@ -1,6 +1,9 @@
 import React from 'react';
 import './Header.scss';
 import Lotus from '../../../../assets/NewLotus.png'
+import Deer1 from '../../../../assets/Deer1.svg'
+import Deer2 from '../../../../assets/Deer2.svg'
+import Squiggle from '../../../../assets/Squiggle.svg'
 
 /**
  * Unused Assets
@@ -27,6 +30,11 @@ function Header() {
         </div>
       </div>
       <div className="curve"></div>
+      <img className="squiggle" src={Squiggle}></img>
+      <div className='deers'>
+        <img className="deer2" src={Deer2}></img>
+        <img className="deer1" src={Deer1}></img>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,8 @@
 .faq-section {
   display: flex;
   flex-direction: column;
+  // align-items: center;
+  padding-top: 200px;
   padding-bottom: 50px;
   margin: 0px 10%;
   @media only screen and (max-width: 1200px) {
@@ -8,13 +10,14 @@
   }
   .faq-title {
     display: flex;
-    margin: 100px 0 150px 20px;
-    font-family: Avenir;
+    margin: 100px 0 150px 70px;
+    font-family: 'Shrikhand';
+    text-align: left;
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
     line-height: 50px;
-    color: #425D9FBF;
+    color: white;
     @media only screen and (max-width: 1200px) {
       margin-left: 0px;
     }

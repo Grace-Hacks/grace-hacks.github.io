@@ -3,23 +3,25 @@
   flex-direction: column;
   justify-content: center;
   font-family: 'Nunito', sans-serif;
+  height: 100%;
 
   .banner {
     display: flex;
     flex-direction: column;
-    height: 700px;
+    padding-top: 200px;
+    height: 1100px;
     // justify-content: center;
     align-items: center;
     text-align: center;
     // background-repeat: round;
     // background-size: auto 102%;
-    background: linear-gradient(180deg, #B8C6E9, #D9C9A7, #B1CC7C);
+    background: linear-gradient(to bottom, #B8C6E9 0%, #D9C9A7 80%, #B1CC7C 100%);
 
     .gracehacks{
       font-style: normal;
       font-family: 'Shrikhand';
       font-weight: 400;
-      font-size: 140px; // Seems too big
+      font-size: 100px; // Seems too big
       line-height: 150px;
       color: white;
       text-shadow: 5px 5px 0px #8C93A6;
@@ -41,7 +43,7 @@
     .event-info {
       padding: 10px;
       border-radius: 10px;
-      margin-top: 10%;
+      margin-top: 6%;
       color: #6C7845;
       background-color: #FCFEF91F;
       font-size: 25px;
@@ -49,14 +51,45 @@
     }
   }
 
+  .squiggle {
+    align-self: center;
+    margin-top: -750px;
+    width: 1230px;
+    height: 520px;
+
+  }
+
+  .deers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: -200px;
+    gap: 700px;
+    .deer2 {
+      width: 300px;
+      height: 237px;
+    }
+
+    .deer1 {
+      width: 268px;
+      height: 310px;
+    }
+
+
+  }
+
+
   .curve {
     margin-top: -190px;
+    // rgba(191, 203, 139)
     background: #BFCB8B;
-    height: 400px;  
-    border: solid 5px #000;
-    border-color: #4E6F4640 #4E6F4640 transparent #4E6F4640;
+    height: 300px;  
+    border-top: solid 5px #000;
+    border-color: #4E6F4640 transparent transparent #4E6F4640;
     border-radius: 400% 400% 0 0;
   }
+
 
 
 }

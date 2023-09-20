@@ -103,7 +103,6 @@ function FAQ() {
         </Accordion>
       </div>
     </div>
-    <img className="petal" alt="small petal" src={Petal}></img>
     </div>
   );
 }

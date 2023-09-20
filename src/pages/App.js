@@ -2,13 +2,14 @@
 
 import NavigationBar from './Home/components/NavigationBar/NavigationBar';
 import Header from './Home/components/Header/Header';
-import About from './Home/components/Bio/Bio';
 import FAQ from './Home/components/FAQ/FAQ';
 import Team from './About/components/Team/Team';
-import Sponsors from './About/components/Sponsors/Sponsors';
+import Sponsors from './Home/components/Sponsors/Sponsors';
 import Footer from './Home/components/Footer/Footer';
-import Gallery from './Home/components/Gallery/Gallery';
+import Gallery from './About/components/Gallery/Gallery';
 import Home from './Home/Home';
+import About from './About/About';
+
 
 /**
  * Unused Components
@@ -39,23 +40,17 @@ import {
 
 export default function App() {
   return (
+    <div>
     <Router>
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul>
+      <NavigationBar/>
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route path="/about" component={Team}/>
+          <Route path="/about" component={About}/>
           <Route render={() => <Redirect to={{pathname: "/"}} />} />
         </Switch>
-      </div>
     </Router>
+
+    </div>
   );
 }
 

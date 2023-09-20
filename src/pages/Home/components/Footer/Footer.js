@@ -25,7 +25,6 @@ function Footer() {
       <div className="footer-container" id="contactus">
       <div className="foot-row">
         <div className="notPetal">
-        <img className="fish" alt="fish mascot" src={Fishe}></img>
         <div className="ping">
           <div className="connect">Connect with us!</div>
           <div className="social">
@@ -36,7 +35,6 @@ function Footer() {
           </div>
         </div>
         </div>
-        <img className="petal" alt="small petal" src={petal}></img>
       </div>
       <div className="message">
         <div className="text">Made with <span role='img' aria-label='hearts'>💛💙</span> by <span role='img' aria-label='snails'>🍌🐌</span> in Santa Cruz.</div>

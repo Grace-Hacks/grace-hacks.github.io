@@ -6,6 +6,7 @@
     overflow: hidden;
 }
   
+// DONT DELETE: for some reason deleting everything from line 11 to 67 screws up everything
 .orb {
     width: 100px;
     height: 100px;
@@ -81,3 +82,25 @@
     transition: all .2s ease-out;
     padding-top: 20px;
 }
+
+.team-container {
+    font-size: 20px;
+    font-family: 'Nunito';
+    color: #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    .pfp {
+        height: 90px;
+        width: 90px;
+
+        // for circular profile pictures
+        border: 2px solid black;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+  
