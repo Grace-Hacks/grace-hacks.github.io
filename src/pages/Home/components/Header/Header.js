@@ -19,10 +19,14 @@ function Header() {
   return (
     <div className="header-container">
       <div className="banner" >
-        <img alt="lotus logo" src={Lotus}></img>
-        <div className="gracehacks">GraceHacks</div>
-        <div className="description">create with confidence</div>
+        <div className="gracehacks">gracehacks</div>
+        <div className="description">Santa Cruz's all inclusive hackathon for students of diverse genders.</div>
+        <div className="event-info">
+          <div>November 10-12th</div>
+          <div>UCSC Stevenson Event Center</div>
+        </div>
       </div>
+      <div className="curve"></div>
     </div>
   );
 }

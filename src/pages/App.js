@@ -49,8 +49,6 @@ export default function App() {
             <Link to="/about">About</Link>
           </li>
         </ul>
-
-        <hr />
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={Team}/>

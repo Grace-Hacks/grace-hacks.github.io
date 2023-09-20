@@ -2,27 +2,29 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 0 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
 
   .banner {
-    background-image: url('../../../../assets/True2.svg');
-    height: 500px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    // justify-content: center;
     align-items: center;
     text-align: center;
     // background-repeat: round;
-    background-size: auto 102%;
+    // background-size: auto 102%;
+    background: linear-gradient(180deg, #B8C6E9, #D9C9A7, #B1CC7C);
 
     .gracehacks{
       font-style: normal;
+      font-family: 'Shrikhand';
       font-weight: 400;
-      font-size: 70px; // Seems too big
-      line-height: 80px;
-      background: linear-gradient(180deg, #464545 0%, #313131 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      font-size: 140px; // Seems too big
+      line-height: 150px;
+      color: white;
+      text-shadow: 5px 5px 0px #8C93A6;
+      letter-spacing: 10px;
+      
       @media only screen and (max-width: 1000px) {
         font-size: 65px;
       }
@@ -30,38 +32,31 @@
 
     .description{
       font-style: normal;
-      font-weight: 400;
-      font-size: 54.316px;
-      line-height: 66px;
-      color: rgba(66, 93, 159, 0.75);
-    }
-  }
-
-
-  .buttons-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    .button{
-      display: flex;
-      width: 250px;
-      height: 100px;
-      margin: 10px 20px 20px 10px;
-      box-sizing: border-box;
-      background: linear-gradient(180deg, #F2ACAC 0%, #EB84B5 79.69%);
-      border-radius: 20px;
-    }
-
-    .button-text{
-      display: flex;
       font-weight: 700;
       font-size: 22px;
-      height:30px;
-      margin: auto;
-      color:white
+      line-height: 47px;
+      color: #70778A;
+      
+    }
+    .event-info {
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 10%;
+      color: #6C7845;
+      background-color: #FCFEF91F;
+      font-size: 25px;
+      width: 60%;
     }
   }
+
+  .curve {
+    margin-top: -190px;
+    background: #BFCB8B;
+    height: 400px;  
+    border: solid 5px #000;
+    border-color: #4E6F4640 #4E6F4640 transparent #4E6F4640;
+    border-radius: 400% 400% 0 0;
+  }
+
 
 }

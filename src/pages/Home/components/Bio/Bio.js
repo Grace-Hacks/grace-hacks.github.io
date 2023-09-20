@@ -1,21 +1,17 @@
 import React from 'react';
 import './Bio.scss';
-import Petal from '../../../../assets/About-petal.svg'
-import Fish from '../../../../assets/purpfish.svg'
 
 
 export default function Bio() {
   return (
     <div className="about-container" id="mission">
       <div className="about-section">
-        <img className="abpetal" alt="small petal" src={Petal}></img>
         <div className="about-section condense">
         <div className="info aligncorr">
           <div className="title">Santa Cruz's all inclusive hackathon for students of diverse genders</div>
           <div className="description toppt">The aim of GraceHacks is to foster a welcoming and supportive hackathon environment for students of diverse genders.</div>
           <div className="description toppt">We believe that anyone has the power to create something as long as they believe in themselves, and feel confident in their ability to learn and improve their technical skills.</div>
         </div>
-        <img className="fish" alt="fish mascot" src={Fish}></img>
         </div>
         </div>
         <div className="about-section">
