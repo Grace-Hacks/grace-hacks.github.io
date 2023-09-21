@@ -6,6 +6,7 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -100,19 +101,20 @@ function NavigationBar() {
         <div className={useStyles().info}>
 
         <Button className={useStyles().anchor}>
-          <Link to="/about">About</Link>
+          <HashLink to="/about">About</HashLink>
         </Button>
 
         <Button className={useStyles().anchor}>
-          <Link to="/">Calendar</Link>
+          <HashLink to="/home#calendar">Schedule</HashLink>
         </Button>
 
         <Button className={useStyles().anchor}>
-          <Link to="/">Faq</Link>
+          <HashLink to="/home#faq">FAQ</HashLink>
         </Button>
 
-          <Button className={useStyles().anchor}><AnchorLink href="#faq">FAQ</AnchorLink></Button>
-          <Button className={useStyles().anchor}><AnchorLink href="#sponsors">SPONSORS</AnchorLink></Button>
+        <Button className={useStyles().anchor}>
+          <HashLink to="/home#sponsors">Sponsors</HashLink>
+        </Button>
         </div>
 
         <Button className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
