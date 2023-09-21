@@ -5,7 +5,6 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import './FAQ.scss';
-import Petal from '../../../../assets/Faq-petal.svg'
 
 
 function FAQ() {

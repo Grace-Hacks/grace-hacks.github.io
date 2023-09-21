@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.scss';
-import Lotus from '../../../../assets/NewLotus.png'
 import Deer1 from '../../../../assets/Deer1.svg'
 import Deer2 from '../../../../assets/Deer2.svg'
 import Squiggle from '../../../../assets/Squiggle.svg'
