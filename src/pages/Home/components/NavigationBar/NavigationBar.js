@@ -105,22 +105,32 @@ function NavigationBar() {
         </Button>
 
         <Button className={useStyles().anchor}>
-          <HashLink to="/home#calendar">Schedule</HashLink>
+          <HashLink to="/#calendar">Schedule</HashLink>
         </Button>
 
         <Button className={useStyles().anchor}>
-          <HashLink to="/home#faq">FAQ</HashLink>
+          <HashLink to="/#faq">FAQ</HashLink>
         </Button>
 
         <Button className={useStyles().anchor}>
-          <HashLink to="/home#sponsors">Sponsors</HashLink>
+          <HashLink to="/#sponsors">Sponsors</HashLink>
         </Button>
         </div>
 
         <Button className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
         <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
-          <MenuItem onClick={handleClose}><AnchorLink href="#faq" className={useStyles().menuItem}>FAQ</AnchorLink></MenuItem>
-          <MenuItem onClick={handleClose}><AnchorLink href="#sponsors" className={useStyles().menuItem}>SPONSORS</AnchorLink></MenuItem>
+          <MenuItem onClick={handleClose}>
+            <HashLink to="/about">About</HashLink>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <HashLink to="/#calendar">Schedule</HashLink>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <HashLink to="/#faq">FAQ</HashLink>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <HashLink to="/#sponsors">Sponsors</HashLink>
+          </MenuItem>
         </StyledMenu>
       </div>
     </div>

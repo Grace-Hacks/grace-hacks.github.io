@@ -45,7 +45,6 @@ export default function App() {
       <NavigationBar/>
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route path="/home" component={Home}/>
           <Route path="/about" component={About}/>
           <Route render={() => <Redirect to={{pathname: "/"}} />} />
         </Switch>
