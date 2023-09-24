@@ -9,6 +9,10 @@
    width: 100%;
    overflow: hidden;
    padding-top: 200px;
+
+   .footer {
+    align-self: flex-end;
+   }
  
    a, a:hover, a:focus, a:active {
      color: inherit;

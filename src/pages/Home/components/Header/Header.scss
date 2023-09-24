@@ -22,13 +22,14 @@
       font-family: 'Shrikhand';
       font-weight: 400;
       font-size: 100px; // Seems too big
-      line-height: 150px;
+      // line-height: 150px;
       color: white;
       text-shadow: 5px 5px 0px #8C93A6;
       letter-spacing: 10px;
+      width: 100%;
       
-      @media only screen and (max-width: 1000px) {
-        font-size: 65px;
+      @media only screen and (max-width: 800px) {
+        font-size: 60px;
       }
     }
 
@@ -38,24 +39,35 @@
       font-size: 22px;
       line-height: 47px;
       color: #70778A;
+      @media only screen and (max-width: 600px) {
+        font-size: 18px;
+      }
       
     }
     .event-info {
       padding: 10px;
       border-radius: 10px;
+      line-height: 65px;
       margin-top: 6%;
+      font-weight: 700;
       color: #6C7845;
       background-color: #FCFEF91F;
-      font-size: 25px;
-      width: 60%;
+      font-size: 40px;
+      width: 40%;
+      @media only screen and (max-width: 700px) {
+        font-size: 25px;
+        width: 50%;
+      }
     }
   }
 
   .squiggle {
     align-self: center;
-    margin-top: -750px;
-    width: 1230px;
-    height: 520px;
+    // margin-top: -750px;
+    margin-top: calc(-65vw - 30px);
+
+    width: calc(100vw + 30px);
+    height: auto;
 
   }
 
@@ -64,16 +76,19 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    margin-top: -200px;
-    gap: 700px;
+    margin-top: calc(-20vw - 25px);
+    // margin-top: -20%;
+    gap: 40%;
     .deer2 {
-      width: 300px;
-      height: 237px;
+      width: calc(20vw + 30px);
+      height: auto;
+
     }
 
     .deer1 {
-      width: 268px;
-      height: 310px;
+      width: calc(20vw + 30px);
+      height: auto;
+      margin-right: 3%;
     }
 
 
@@ -81,10 +96,11 @@
 
 
   .curve {
-    margin-top: -190px;
+   //  margin-top: calc(-10vw + 30px);
+   margin-top: -190px;
     // rgba(191, 203, 139)
     background: #BFCB8B;
-    height: 300px;  
+    height: 30vw;  
     border-top: solid 5px #000;
     border-color: #4E6F4640 transparent transparent #4E6F4640;
     border-radius: 400% 400% 0 0;

@@ -1,7 +1,8 @@
 .home-container {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   // justify-content: space-between;
+   flex-wrap: wrap;
    background: linear-gradient(180deg, #BFCB8B 45%, #719E61 55%), #719E61;
    font-family: 'Shrikhand';
    width: 100%;
@@ -11,13 +12,23 @@
      color: inherit;
      text-decoration: inherit;
    }
+   .tree {
+    margin-top: -550px;
+    margin-right: -4%;
+    align-self: flex-end;
+    width: calc(20vw + 30px);;
+    height: auto;
+  }
 
    .sign-up {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
+    justify-content: center;
     padding-bottom: 200px;
+    flex-wrap: wrap;
     .sign-up-title {
       font-style: normal;
       font-family: 'Shrikhand';
@@ -27,17 +38,26 @@
       color: #FCFEF9;
       text-shadow: 5px 5px 0px #719E61;
     }
-    button {
-      margin: 10px;
-      width: 345px;
-      height: 86px;
-      border-radius: 20px;
-      box-shadow: 5px 5px #719E61;
-      font-family: 'Nunito';
-      font-weight: 700;
-      color: #719E61;
-      font-size: 40px;
-      border: none;
+    .buttons {
+      align-self: center;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+      button {
+              align-self: center;
+      justify-content: center;
+        margin: 10px;
+        width: 345px;
+        height: 86px;
+        border-radius: 20px;
+        box-shadow: 5px 5px #719E61;
+        font-family: 'Nunito';
+        font-weight: 700;
+        color: #719E61;
+        font-size: 40px;
+        border: none;
+      }
+
     }
    }
  }

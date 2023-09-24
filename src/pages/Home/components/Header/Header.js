@@ -1,9 +1,8 @@
 import React from 'react';
 import './Header.scss';
-import Deer1 from '../../../../assets/Deer1.svg'
-import Deer2 from '../../../../assets/Deer2.svg'
-import Squiggle from '../../../../assets/Squiggle.svg'
-
+import Deer1 from '../../../../assets/Deer1.svg';
+import Deer2 from '../../../../assets/Deer2.svg';
+import Squiggle from '../../../../assets/Squiggle.svg';
 /**
  * Unused Assets
   import Calendar from '../../assets/Calendar.svg'
@@ -21,7 +20,7 @@ function Header() {
   return (
     <div className="header-container">
       <div className="banner" >
-        <div className="gracehacks">gracehacks</div>
+        <div className="gracehacks">grace<wbr></wbr>hacks</div>
         <div className="description">Santa Cruz's all inclusive hackathon for students of diverse genders.</div>
         <div className="event-info">
           <div>November 10-12th</div>
