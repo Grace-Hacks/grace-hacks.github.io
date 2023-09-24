@@ -97,13 +97,22 @@
 
   .curve {
    //  margin-top: calc(-10vw + 30px);
-   margin-top: -190px;
+    margin-top: -190px;
     // rgba(191, 203, 139)
     background: #BFCB8B;
     height: 30vw;  
     border-top: solid 5px #000;
     border-color: #4E6F4640 transparent transparent #4E6F4640;
     border-radius: 400% 400% 0 0;
+  }
+
+  .tree {
+    margin-top: -550px;
+    margin-right: -4%;
+    margin-left: auto;
+    align-self: flex-end;
+    width: calc(20vw + 30px);;
+    height: auto;
   }
 
 

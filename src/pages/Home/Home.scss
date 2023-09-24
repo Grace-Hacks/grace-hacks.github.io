@@ -13,20 +13,20 @@
      text-decoration: inherit;
    }
    .tree {
-    margin-top: -550px;
-    margin-right: -4%;
+    margin-top: -100px;
+    margin-right: -2%;
     align-self: flex-end;
     width: calc(20vw + 30px);;
     height: auto;
   }
 
    .sign-up {
-    margin-top: 100px;
+    margin-top: calc(-50vw - 25px);
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: center;
-    justify-content: center;
+    justify-content:space-between;
     padding-bottom: 200px;
     flex-wrap: wrap;
     .sign-up-title {
@@ -42,13 +42,14 @@
       align-self: center;
       justify-content: center;
       width: 100%;
+      justify-content:space-between;
       flex-wrap: wrap;
       button {
-              align-self: center;
-      justify-content: center;
+        align-self: center;
+        justify-content: center;
         margin: 10px;
-        width: 345px;
-        height: 86px;
+        width: 100%;
+        height: auto;
         border-radius: 20px;
         box-shadow: 5px 5px #719E61;
         font-family: 'Nunito';
