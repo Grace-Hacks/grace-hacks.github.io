@@ -7,19 +7,14 @@ import Sponsors from './components/Sponsors/Sponsors';
 import Calendar from './components/Calendar/Calendar'
 import Footer from './components/Footer/Footer';
 import Tree from '../../assets/Tree.svg';
+import Signup from './components/Signup/Signup';
 
 export default function Home() {
    return (
       <div className="home-container" id='home'>
         <Header />
         <img className='tree' src={Tree}/>
-        <div className="sign-up">
-          <div className='sign-up-title'>sign up</div>
-          <div className='buttons'>
-            <button>MENTOR</button>
-            <button>PARTICIPANT</button>
-          </div>
-        </div>
+        <Signup/>
         <FAQ />
         <Calendar/>
         <Sponsors />

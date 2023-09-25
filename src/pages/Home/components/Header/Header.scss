@@ -4,70 +4,71 @@
   justify-content: center;
   font-family: 'Nunito', sans-serif;
   height: 100%;
+  width: 100%;
 
   .banner {
     display: flex;
     flex-direction: column;
     padding-top: 200px;
-    height: 1100px;
+    min-height: 600px;
+    max-height: 1100px;
+    height: 100vw;
     // justify-content: center;
     align-items: center;
     text-align: center;
+    white-space: normal;
     // background-repeat: round;
     // background-size: auto 102%;
     background: linear-gradient(to bottom, #B8C6E9 0%, #D9C9A7 80%, #B1CC7C 100%);
 
     .gracehacks{
       font-style: normal;
+      display: flex;
       font-family: 'Shrikhand';
       font-weight: 400;
-      font-size: 100px; // Seems too big
+      font-size: calc(100% + 5vw); // Seems too big
       // line-height: 150px;
       color: white;
       text-shadow: 5px 5px 0px #8C93A6;
       letter-spacing: 10px;
-      width: 100%;
+      word-wrap: break-word;
       
-      @media only screen and (max-width: 800px) {
-        font-size: 60px;
-      }
     }
 
     .description{
       font-style: normal;
+      display: flex;
+      word-wrap: break-word;
       font-weight: 700;
-      font-size: 22px;
+      font-size: calc(40% + 1.5vw);
       line-height: 47px;
+      overflow: visible;
       color: #70778A;
-      @media only screen and (max-width: 600px) {
-        font-size: 18px;
-      }
-      
     }
     .event-info {
       padding: 10px;
       border-radius: 10px;
-      line-height: 65px;
+      line-height: calc(40% + 3vw);
       margin-top: 6%;
       font-weight: 700;
       color: #6C7845;
       background-color: #FCFEF91F;
-      font-size: 40px;
+      font-size: calc(40% + 2vw);
       width: 40%;
-      @media only screen and (max-width: 700px) {
-        font-size: 25px;
-        width: 50%;
-      }
     }
   }
 
   .squiggle {
     align-self: center;
     // margin-top: -750px;
-    margin-top: calc(-65vw - 30px);
-
+    padding-top: calc(3.5vw + 40px);
+    margin-top: calc(-47vw - 230px);
+    max-width: 1145px;
     width: calc(100vw + 30px);
     height: auto;
+    @media screen and (max-width: 300px) {
+      width: calc(100vw + 10px);
+    }
 
   }
 
@@ -76,18 +77,29 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    margin-top: calc(-20vw - 25px);
+    margin-top: calc(-10vw - 45px);
+    @media screen and (max-width: 300px) {
+      margin-top: calc(-10vw - 30px);
+    }
     // margin-top: -20%;
     gap: 40%;
     .deer2 {
       width: calc(20vw + 30px);
+      @media screen and (max-width: 300px) {
+        width: calc(20vw + 10px);
+      }
       height: auto;
+      max-width: 230px;
 
     }
 
     .deer1 {
       width: calc(20vw + 30px);
+      @media screen and (max-width: 300px) {
+        width: calc(20vw + 10px);
+      }
       height: auto;
+      max-width: 230px;
       margin-right: 3%;
     }
 
@@ -101,9 +113,15 @@
     // rgba(191, 203, 139)
     background: #BFCB8B;
     height: 30vw;  
+  
+    min-height: 200px;
+    // max-height: 400px;
     border-top: solid 5px #000;
     border-color: #4E6F4640 transparent transparent #4E6F4640;
     border-radius: 400% 400% 0 0;
+    @media screen and (max-width: 300px) {
+      border-radius: 200% 200% 0 0;
+    }
   }
 
   .tree {
@@ -111,8 +129,10 @@
     margin-right: -4%;
     margin-left: auto;
     align-self: flex-end;
-    width: calc(20vw + 30px);;
+    width: calc(20vw + 30px);
+    max-width: 345px;
     height: auto;
+
   }
 
 

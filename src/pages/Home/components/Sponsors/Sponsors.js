@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sponsors.scss";
+import Tree from "../../../../assets/Tree2.svg"
 
 /**
  * Old Sponsors
@@ -31,7 +32,7 @@ function Sponsors() {
     <div className="sponsors-container" id="sponsors">
 
     <div className="sponsors-title">
-      Sponsors
+      sponsors
     </div>
 
     <div className="box">
@@ -39,112 +40,23 @@ function Sponsors() {
     </div>
     
     <div className="sponsors-row">
-      <a href="https://rachelcarson.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+      <a className="sponsor" href="https://rachelcarson.ucsc.edu/" target="_blank" rel="noopener noreferrer">
         <div className="x-large-text">UCSC RACHEL CARSON COLLEGE</div>
       </a>
-      <a href="https://alumni.ucsc.edu/about/council/index.html/" target="_blank" rel="noopener noreferrer">
+      <a className="sponsor" href="https://alumni.ucsc.edu/about/council/index.html/" target="_blank" rel="noopener noreferrer">
         <div className="x-large-text">UCSC ALUMNI COUNCIL</div>
       </a>
-      <a href="https://oakes.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+      <a className="sponsor" href="https://oakes.ucsc.edu/" target="_blank" rel="noopener noreferrer">
         <div className="x-large-text">UCSC OAKES</div>
       </a>
-    </div>
-
-    <div className="sponsors-row">
-      <a href="https://collegenine.ucsc.edu" target="_blank" rel="noopener noreferrer">
+      <a className="sponsor" href="https://collegenine.ucsc.edu" target="_blank" rel="noopener noreferrer">
         <div className="x-large-text">COLLEGE 9/JRL</div>
       </a>
-      <a href="https://kresge.ucsc.edu" target="_blank" rel="noopener noreferrer">
+      <a className="sponsor" href="https://kresge.ucsc.edu" target="_blank" rel="noopener noreferrer">
         <div className="x-large-text">KRESGE</div>
       </a>
     </div>
-
-      {/*<div className="sponsors-row">
-        <img
-          src={Linode}
-          className="large-logo"
-          alt="Linode"
-        />
-        <img
-          src={Balsamiq}
-          className="large-logo"
-          alt="Balsamiq"
-        />
-        <img
-          src={RStudio}
-          className="large-logo"
-          alt="RStudio"
-        />
-      </div>
-
-      <div className="sponsors-row">
-        <img
-          src={MouserElectronics}
-          className="small-logo"
-          alt="Mouser Electronics"
-        />
-        <img
-          src={GirlsMakeGames}
-          className="small-logo"
-          alt="Girls Make Games"
-        />
-        <img
-          src={MakeyMakey}
-          className="small-logo"
-          alt="Makey Makey"
-        />
-        <img
-          src={Desmos}
-          className="small-logo"
-          alt="Desmos"
-        />
-        <img
-          src={Heroku}
-          className="small-logo"
-          alt="Heroku"
-        />
-      </div>
-
-      <div className="sponsors-row">
-        <img
-          src={StickerGiant}
-          className="small-logo"
-          alt="Sticker Giant"
-        />
-        <img
-          src={Kingston}
-          className="small-logo"
-          alt="Kingston"
-        />
-        <img
-          src={Sentry}
-          className="small-logo"
-          alt="Sentry"
-        />
-        <img
-          src={HVMN}
-          className="small-logo"
-          alt="HVMN"
-        />
-        <img
-          src={CloudSploit}
-          className="small-logo"
-          alt="CloudSploit"
-        />
-      </div>
-
-      <div className="sponsors-row">
-        <img
-          src={AICamp}
-          className="x-small-logo"
-          alt="AI Camp"
-        />
-        <img
-          src={SCW}
-          className="x-small-logo"
-          alt="Santa Cruz Works"
-        />
-      </div> */}
+    <img className="tree2" src={Tree}/>
     </div >
   );
 }

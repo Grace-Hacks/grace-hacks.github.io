@@ -20,7 +20,7 @@ function Header() {
   return (
     <div className="header-container">
       <div className="banner" >
-        <div className="gracehacks">grace<wbr></wbr>hacks</div>
+        <span className="gracehacks">grace<wbr></wbr>hacks</span>
         <div className="description">Santa Cruz's all inclusive hackathon for students of diverse genders.</div>
         <div className="event-info">
           <div>November 10-12th</div>

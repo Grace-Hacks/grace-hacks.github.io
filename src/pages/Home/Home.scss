@@ -16,51 +16,11 @@
     margin-top: -100px;
     margin-right: -2%;
     align-self: flex-end;
-    width: calc(20vw + 30px);;
+    width: calc(20vw + 30px);
+    max-width: 345px;
     height: auto;
   }
 
-   .sign-up {
-    margin-top: calc(-50vw - 25px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    justify-content:space-between;
-    padding-bottom: 200px;
-    flex-wrap: wrap;
-    .sign-up-title {
-      font-style: normal;
-      font-family: 'Shrikhand';
-      font-weight: 400;
-      font-size: 70px; // Seems too big
-      line-height: 150px;
-      color: #FCFEF9;
-      text-shadow: 5px 5px 0px #719E61;
-    }
-    .buttons {
-      align-self: center;
-      justify-content: center;
-      width: 100%;
-      justify-content:space-between;
-      flex-wrap: wrap;
-      button {
-        align-self: center;
-        justify-content: center;
-        margin: 10px;
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-        box-shadow: 5px 5px #719E61;
-        font-family: 'Nunito';
-        font-weight: 700;
-        color: #719E61;
-        font-size: 40px;
-        border: none;
-      }
-
-    }
-   }
  }
  
  .react-multi-carousel-list {
