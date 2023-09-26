@@ -35,10 +35,6 @@ function Sponsors() {
       sponsors
     </div>
 
-    <div className="box">
-      Huge thank you to our sponsors for helping make GraceHacks 2022 a success!
-    </div>
-    
     <div className="sponsors-row">
       <a className="sponsor" href="https://rachelcarson.ucsc.edu/" target="_blank" rel="noopener noreferrer">
         <div className="x-large-text">UCSC RACHEL CARSON COLLEGE</div>

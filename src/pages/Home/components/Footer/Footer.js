@@ -23,7 +23,8 @@ function Footer() {
           <a href="https://www.instagram.com/gracehacks/" target="_blank" rel="noopener noreferrer"><img alt="ig link" className="socialIcon" src={instagram}></img></a>
         </div>
         <div className="message">
-          <div className="text">Made with 💛💙 by 🍌🐌 in Santa Cruz. © 2023 GraceHacks. All rights reserved.</div>
+          <div className="text">Made with <span role='img' aria-label='hearts'>💛💙</span> by <span role='img' aria-label='snails'>🍌🐌</span> in Santa Cruz.</div>
+          <div className="text">© 2022 GraceHacks. All rights reserved.</div>
         </div>
       </div>
   );

@@ -11,7 +11,7 @@ import Signup from './components/Signup/Signup';
 
 export default function Home() {
    return (
-      <div className="home-container" id='home'>
+      <div className="home-container">
         <Header />
         <img className='tree' src={Tree}/>
         <Signup/>

@@ -18,7 +18,7 @@ import Squiggle from '../../../../assets/Squiggle.svg';
 function Header() {
 
   return (
-    <div className="header-container">
+    <div className="header-container" id="home">
       <div className="banner" >
         <span className="gracehacks">grace<wbr></wbr>hacks</span>
         <div className="description">Santa Cruz's all inclusive hackathon for students of diverse genders.</div>

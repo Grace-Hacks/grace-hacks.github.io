@@ -99,7 +99,10 @@ function NavigationBar() {
    */
   return (
       <div className="navigation-container">
-        <Button><img className='logo' src={logo}/></Button>
+        <HashLink id="gracehacks-button" to="/#home">
+          <Button><img className='logo' src={logo}/>
+        </Button>
+        </HashLink>
         <div id="desktopButtons" className={useStyles().info}>
           <Button className={useStyles().anchor}>
             <HashLink to="/about" style={{ textDecoration: 'none', textTransform: 'capitalize', color: '#FFFFFF' }}>About</HashLink>
