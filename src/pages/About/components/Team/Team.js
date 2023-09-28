@@ -1,6 +1,6 @@
 import React from 'react';
 import './Team.scss';
-import Priya from "../../../../assets/Team/Priya.png";
+import Priya from "../../../../assets/Team/Priya.jpg";
 import Sabrina from "../../../../assets/Team/Sabrina.jpeg";
 import Thanh from "../../../../assets/Team/Thanh.jpeg";
 import Alison from "../../../../assets/Team/Alison.jpeg";
@@ -19,7 +19,7 @@ import Shreya from "../../../../assets/Team/Shreya.jpeg";
 import Sneha from "../../../../assets/Team/Sneha.png";
 import Wing from "../../../../assets/Team/Wing.jpeg";
 
-import TBD from "../../../../assets/Team/TBD.png";
+import TBD from "../../../../assets/Team/noPFP.png";
 
 const teams = [
   {

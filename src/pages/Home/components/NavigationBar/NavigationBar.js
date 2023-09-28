@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
   },
   info: {
     display: "flex",
-    [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       display: "none",
     },
   },
@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "30px",
     minWidth: "30px",
     marginRight:"30px",
-    [theme.breakpoints.down("md")]: {
+    [theme.breakpoints.down("sm")]: {
       display: "flex",
     },
   },
