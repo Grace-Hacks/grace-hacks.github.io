@@ -35,6 +35,10 @@ function Sponsors() {
       sponsors
     </div>
 
+    <div className='thank-you'>
+      <div>thank you to the sponsors</div><div> of last year's 2022 hackathon!</div>
+    </div>
+
     <div className="sponsors-row">
       <a className="sponsor" href="https://rachelcarson.ucsc.edu/" target="_blank" rel="noopener noreferrer">
         <div className="x-large-text">UCSC RACHEL CARSON COLLEGE</div>

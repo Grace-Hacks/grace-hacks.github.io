@@ -23,8 +23,12 @@ function Signup() {
         <div className="sign-up">
           <div className='sign-up-title'>sign up</div>
           <div className='buttons'>
-            <button>MENTOR</button>
-            <button>PARTICIPANT</button>
+            {/** <button>MENTOR</button> **/}
+            <button>
+              <a href="https://tinyurl.com/acmxgracehacks23" target="_blank" rel="noopener noreferrer">
+                PARTICIPANT
+              </a>
+            </button>
           </div>
         </div>
     </div>

@@ -28,7 +28,7 @@ function FAQ() {
       maxWidth: "max(54vw, 1122px)",
       minHeight: "auto !important",
       background: "#FFFFFF;",
-      fontFamily: "Avenir",
+      fontFamily: "Nunito",
       fontSize: "24px",
       borderRadius: "20px !important",
       marginBottom: "10px",
@@ -36,10 +36,10 @@ function FAQ() {
       zIndex: "1",
     },
     answer: {
-      fontFamily: "Avenir",
+      fontFamily: "Nunito",
       fontSize: "21px",
-      color: "#393943",
-      background: "#FFFFFF",
+      color: "#FFFFFF",
+      background: "#588157",
       maxWidth: "max(54vw, 1100px)",
       opacity: "0.8",
       borderRadius: "25px",
@@ -56,7 +56,7 @@ function FAQ() {
   return (
     <div className="faq-section" id="faq">
       <div className="faq-title">
-          Frequently asked questions
+          frequently asked questions
         </div>
       <div className="faq-container">
         <div className="accordian">

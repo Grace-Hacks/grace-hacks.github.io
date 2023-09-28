@@ -23,12 +23,14 @@
   #gracehacks-button {
     align-self: center;
   }
+
   font-size: 20px;
   height: 90px;
   .logo {
     width: 60px;
     height: 60px;
     display: flex;
+    margin-left: 10px;
     
     align-self: flex-start;
   }
@@ -37,6 +39,19 @@
     justify-content: center;
     margin: auto;
     
+  }
+
+  #contact-us-button {
+    align-self: center;
+    justify-self: center;
+    border: 1px solid white;
+    font-family: 'Nunito';
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 700;
+    line-height: 35.50px;
+    border-radius: 10px;
+
   }
   #menuIcon {
     justify-self: flex-end;

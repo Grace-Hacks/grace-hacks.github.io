@@ -5,24 +5,28 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background-image: url('../../../../assets/hill.svg');
+  background-image: url('../../../../assets/hills.svg');
   background-repeat: no-repeat;
   background-size: cover;
 
   .social {
-  margin-left: 5%;
-  align-self: flex-start;
-  justify-content: center;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: center;
   }
 
   .message {
     margin-left: 5%;
     align-self: flex-start;
-    font-size: 25px;
+    font-size: calc(10% + 2vw);; // Seems too big
     line-height: 25px;
+    margin-bottom: 30px;
 
     color: white;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     font-family: 'Avenir';
 
     @media only screen and (max-width: 1000px) {
@@ -40,7 +44,7 @@
 .socialIcon {
   height: 46px;
   width:46px;
-  padding-right: 10px;
+  padding-right: 30px;
   @media only screen and (max-width: 450px) {
     width:30px;
   }

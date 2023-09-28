@@ -99,10 +99,11 @@ function NavigationBar() {
    */
   return (
       <div className="navigation-container">
+
         <HashLink id="gracehacks-button" to="/#home">
-          <Button><img className='logo' src={logo}/>
-        </Button>
+          <Button><img className='logo' src={logo}/></Button>
         </HashLink>
+
         <div id="desktopButtons" className={useStyles().info}>
           <Button className={useStyles().anchor}>
             <HashLink to="/about" style={{ textDecoration: 'none', textTransform: 'capitalize', color: '#FFFFFF' }}>About</HashLink>
@@ -119,20 +120,29 @@ function NavigationBar() {
           <Button className={useStyles().anchor}>
             <HashLink to="/#sponsors" style={{ textDecoration: 'none', textTransform: 'capitalize', color: '#FFFFFF' }}>Sponsors</HashLink>
           </Button>
+
         </div>
+
+        <Button id="contact-us-button" className={useStyles().info}>
+            <HashLink to="/#contactus" style={{ textDecoration: 'none', textTransform: 'capitalize', color: '#FFFFFF' }}>Contact Us</HashLink>
+        </Button>
+
         <Button id="menuIcon" className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
         <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
           <MenuItem className={useStyles().menuItem} onClick={handleClose}>
             <HashLink to="/about" style={{ textDecoration: 'none', color: '#000000' }}>About</HashLink>
           </MenuItem>
           <MenuItem className={useStyles().menuItem} onClick={handleClose}>
-            <HashLink to="/#calendar" style={{ textDecoration: 'none', color: '#000000' }}>Schedule</HashLink>
+            <HashLink to="/#schedule" style={{ textDecoration: 'none', color: '#000000' }}>Schedule</HashLink>
           </MenuItem>
           <MenuItem className={useStyles().menuItem} onClick={handleClose}>
             <HashLink to="/#faq" style={{ textDecoration: 'none', color: '#000000' }}>FAQ</HashLink>
           </MenuItem>
           <MenuItem className={useStyles().menuItem} onClick={handleClose}>
             <HashLink to="/#sponsors" style={{ textDecoration: 'none', color: '#000000' }}>Sponsors</HashLink>
+          </MenuItem>
+          <MenuItem className={useStyles().menuItem} onClick={handleClose}>
+            <HashLink to="/#sponsors" style={{ textDecoration: 'none', color: '#000000' }}>Contact Us</HashLink>
           </MenuItem>
         </StyledMenu>
       </div>

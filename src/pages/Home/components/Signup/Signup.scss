@@ -9,7 +9,7 @@
 
   .sign-up {
    width: 100%;
-   margin-top: calc(-50vw - 25px);
+   margin-top: calc(-40vw - 50px);
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -20,10 +20,11 @@
      font-style: normal;
      font-family: 'Shrikhand';
      font-weight: 400;
-     font-size: calc(90% + 5vw);; // Seems too big
+     font-size: calc(90% + 5vw); // Seems too big
      line-height: 150px;
      color: #FCFEF9;
      text-shadow: 5px 5px 0px #719E61;
+     margin-bottom: 20px;
    }
    .buttons {
      display: flex;
