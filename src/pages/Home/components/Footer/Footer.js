@@ -12,10 +12,10 @@ import Tree from '../../../../assets/Tree3.svg';
 
 function Footer() {
   return (
-      <div className="footer-container" id="contactus">
+      <div className="footer-container">
         <img className='tree3' src={Tree}/>
         <img className='deers' src={Deers}/>
-        <div className="social">
+        <div className="social" id="contactus">
           <a href="https://discord.gg/QbNNNYxtDA" target="_blank" rel="noopener noreferrer"><img alt="discord link" className="socialIcon" src={discord}></img></a>
           <a href="https://www.facebook.com/gracehacks/" target="_blank" rel="noopener noreferrer"><img alt="facebook link" className="socialIcon" src={facebook}></img></a>
           <a href="https://www.linkedin.com/company/gracehacks/" target="_blank" rel="noopener noreferrer"><img alt="linkedin link" className="socialIcon" src={linkedin}></img></a>

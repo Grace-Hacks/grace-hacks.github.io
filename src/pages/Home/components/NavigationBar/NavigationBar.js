@@ -110,7 +110,7 @@ function NavigationBar() {
           </Button>
 
           <Button className={useStyles().anchor}>
-            <HashLink to="/#calendar" style={{ textDecoration: 'none', textTransform: 'capitalize', color: '#FFFFFF' }}>Schedule</HashLink>
+            <HashLink to="/#schedule" style={{ textDecoration: 'none', textTransform: 'capitalize', color: '#FFFFFF' }}>Schedule</HashLink>
           </Button>
 
           <Button className={useStyles().anchor}>
@@ -142,7 +142,7 @@ function NavigationBar() {
             <HashLink to="/#sponsors" style={{ textDecoration: 'none', color: '#000000' }}>Sponsors</HashLink>
           </MenuItem>
           <MenuItem className={useStyles().menuItem} onClick={handleClose}>
-            <HashLink to="/#sponsors" style={{ textDecoration: 'none', color: '#000000' }}>Contact Us</HashLink>
+            <HashLink to="/#contactus" style={{ textDecoration: 'none', color: '#000000' }}>Contact Us</HashLink>
           </MenuItem>
         </StyledMenu>
       </div>
