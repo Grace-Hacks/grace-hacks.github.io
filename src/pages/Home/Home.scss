@@ -1,0 +1,28 @@
+.home-container {
+   display: flex;
+   flex-direction: column;
+   // justify-content: space-between;
+   justify-content: space-between;
+   background: linear-gradient(180deg, #BFCB8B 45%, #719E61 55%), #719E61;
+   font-family: 'Shrikhand';
+   width: 100%;
+   overflow: hidden;
+ 
+   a, a:hover, a:focus, a:active {
+     color: inherit;
+     text-decoration: inherit;
+   }
+   .tree {
+    margin-top: -100px;
+    margin-right: -2%;
+    align-self: flex-end;
+    width: calc(20vw + 30px);
+    max-width: 345px;
+    height: auto;
+  }
+
+ }
+ 
+ .react-multi-carousel-list {
+   position:static;
+ }

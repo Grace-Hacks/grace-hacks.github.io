@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'VCRFont';
+  src: url('../assets/VCR.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('../assets/Nunito.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'Shrikhand';
+ src: url('../assets/Shrikhand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/Avenir.otf') format('truetype');
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'VCRFont';
+  width: 100%;
+  overflow: hidden;
+
+  a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: inherit;
+  }
+}
+
+.react-multi-carousel-list {
+  position:static;
+}

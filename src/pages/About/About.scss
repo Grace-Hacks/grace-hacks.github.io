@@ -1,0 +1,21 @@
+
+ 
+.about-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background: linear-gradient(180deg, #B8C6E9 0%, #D9C9A7 76.04%, #B1CC7C 100%);
+   font-family: 'Shrikhand';
+   width: 100%;
+   overflow: hidden;
+   padding-top: 200px;
+
+   .footer {
+    align-self: flex-end;
+   }
+ 
+   a, a:hover, a:focus, a:active {
+     color: inherit;
+     text-decoration: inherit;
+   }
+}

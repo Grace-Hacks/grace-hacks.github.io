@@ -1,0 +1,60 @@
+
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+  // margin: 0px 10%;
+  @media only screen and (max-width: 1200px) {
+    // margin: 0px 30px;
+  }
+  .faq-title {
+    display: flex;
+    margin: 100px 10% 60px 10%;
+    font-family: 'Shrikhand';
+    text-align: left;
+    font-style: normal;
+    font-weight: 900;
+    font-size: calc(90% + 4vw);
+    // line-height: 50px;
+    color: white;
+  }
+  .faq-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    align-self: center;
+    // justify-content: flex-start;
+    // margin: 0px 5%;
+    width: 80%;
+    @media only screen and (min-width: 750px) {
+      align-items: flex-start;
+    }
+
+    @media only screen and (max-width: 750px) {
+      // margin: 0px 30px;
+      flex-direction: column;
+    }
+  }
+
+  .accordian {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 1%;
+  }
+
+  .MuiAccordionSummary-root {
+    font-size: 22px;
+  }
+
+  .MuiAccordion-root:before {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .MuiAccordionSummary-root:hover {
+    background-color: #588157 !important;
+    color: white;
+  }
+
+}
