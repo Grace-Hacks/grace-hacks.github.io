@@ -106,7 +106,7 @@ function NavigationBar() {
 
         <div id="desktopButtons" className={useStyles().info}>
           <Button className={useStyles().anchor}>
-            <HashLink to="/about" style={{ textDecoration: 'none', textTransform: 'capitalize', color: '#FFFFFF' }}>About</HashLink>
+            <Link to="/about" style={{ textDecoration: 'none', textTransform: 'capitalize', color: '#FFFFFF' }}>About</Link>
           </Button>
 
           <Button className={useStyles().anchor}>
@@ -130,7 +130,7 @@ function NavigationBar() {
         <Button id="menuIcon" className={useStyles().menuIcon} onClick={handleClick}><MenuIcon/></Button>
         <StyledMenu anchorEl={anchorEl} keepMounted open={Boolean(anchorEl)} onClose={handleClose}>
           <MenuItem className={useStyles().menuItem} onClick={handleClose}>
-            <HashLink to="/about" style={{ textDecoration: 'none', color: '#000000' }}>About</HashLink>
+            <Link to="/about" style={{ textDecoration: 'none', color: '#000000' }}>About</Link>
           </MenuItem>
           <MenuItem className={useStyles().menuItem} onClick={handleClose}>
             <HashLink to="/#schedule" style={{ textDecoration: 'none', color: '#000000' }}>Schedule</HashLink>
