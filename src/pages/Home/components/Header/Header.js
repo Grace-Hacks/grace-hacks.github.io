@@ -4,6 +4,7 @@ import Deer1 from '../../../../assets/Deer1.svg';
 import Deer2 from '../../../../assets/Deer2.svg';
 import Squiggle from '../../../../assets/Squiggle.svg';
 import CollabLogo from '../../../../assets/gracehacks-acm-logo.svg';
+import Signup from './Signup/Signup';
 /**
  * Unused Assets
   import Calendar from '../../assets/Calendar.svg'
@@ -32,6 +33,7 @@ function Header() {
             technical skills through diverse workshops and networking opportunities.
           </div>
         </div>
+        <Signup/>
       </div>
       <div className="curve"></div>
       <img className="squiggle" src={Squiggle}></img>

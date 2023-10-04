@@ -11,8 +11,8 @@
     flex-direction: column;
     padding-top: 200px;
     min-height: 700px;
-    max-height: 1700px;
-    height: 100vw;
+    max-height: 3000px;
+    height: 130vw;
     // justify-content: center;
     align-items: center;
     text-align: center;
@@ -50,10 +50,11 @@
       flex-direction: column;
       align-items: center;
       padding: 20px;
-      margin-bottom: 1000px;
+      // margin-bottom: 1000px;
       border-radius: 10px;
-      line-height: calc(40% + 3vw);
+      // line-height: calc(40% + 3vw);
       margin-top: 6%;
+      margin-bottom: 20px;
       font-weight: 700;
       justify-content: center;
       color: #6C7845;
@@ -73,7 +74,7 @@
         background-clip: text;
         -webkit-background-clip: text;
         font-size: calc(40% + 2vw);
-        font-family: Nunito;
+        font-family: 'Nunito';
         font-weight: 700;
         word-wrap: break-word;
         margin-bottom: 10px;
@@ -94,8 +95,8 @@
   .squiggle {
     align-self: center;
     // margin-top: -750px;
-    padding-top: calc(3.5vw + 40px);
-    margin-top: calc(-42vw - 325px);
+    // padding-top: calc(3.5vw + 40px);
+    margin-top: calc(-35vw - 200px);
     max-width: 1145px;
     width: calc(100vw + 30px);
     height: auto;
@@ -110,7 +111,7 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    margin-top: calc(-10vw - 45px);
+    // margin-top: calc(-10vw - 45px);
     @media screen and (max-width: 400px) {
       margin-top: calc(-10vw - 20px);
       gap: 20%;
@@ -145,7 +146,7 @@
 
   .curve {
    //  margin-top: calc(-10vw + 30px);
-   margin-top: calc(-9.5vw - 100px);
+   margin-top: calc(-30vw - 100px);
     // rgba(191, 203, 139)
     background: #BFCB8B;
     height: 30vw;  
@@ -156,13 +157,10 @@
     border-color: #4E6F4640 transparent transparent #4E6F4640;
     border-radius: 400% 400% 0 0;
     @media screen and (max-width: 1050px) {
-      margin-top: calc(-4.7vw - 100px);
+      margin-top: calc(-10vw - 100px);
     }
     @media screen and (max-width: 870px) {
-      margin-top: calc(-1vw - 70px);
-    }
-    @media screen and (max-width: 550px) {
-      margin-top: calc(-1vw - 200px);
+      margin-top: calc(-5vw - 100px);
     }
     @media screen and (max-width: 300px) {
       border-radius: 200% 200% 0 0;

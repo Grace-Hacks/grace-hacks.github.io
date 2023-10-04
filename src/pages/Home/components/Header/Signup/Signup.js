@@ -1,9 +1,9 @@
 import React from 'react';
 import './Signup.scss';
-import Deer1 from '../../../../assets/Deer1.svg';
-import Deer2 from '../../../../assets/Deer2.svg';
-import Squiggle from '../../../../assets/Squiggle.svg';
-import Tree from '../../../../assets/Tree.svg';
+import Deer1 from '../../../../../assets/Deer1.svg';
+import Deer2 from '../../../../../assets/Deer2.svg';
+import Squiggle from '../../../../../assets/Squiggle.svg';
+import Tree from '../../../../../assets/Tree.svg';
 /**
  * Unused Assets
   import Calendar from '../../assets/Calendar.svg'
