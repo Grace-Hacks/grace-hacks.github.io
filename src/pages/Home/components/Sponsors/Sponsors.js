@@ -1,30 +1,8 @@
 import React from "react";
 import "./Sponsors.scss";
 import Tree from "../../../../assets/Tree2.svg"
-
-/**
- * Old Sponsors
-import CDKGlobal from "../../assets/Sponsors/CDKGlobal.svg"
-import Salesforce from "../../assets/Sponsors/Salesforce.svg"
-import Nutanix from "../../assets/Sponsors/Nutanix.svg"
-import CBT from "../../assets/Sponsors/CBT.svg"
-import Linode from "../../assets/Sponsors/Linode.svg"
-import Balsamiq from "../../assets/Sponsors/Balsamiq.svg"
-import RStudio from "../../assets/Sponsors/RStudio.svg"
-import MouserElectronics from "../../assets/Sponsors/MouserElectronics.svg"
-import GirlsMakeGames from "../../assets/Sponsors/Girls-Make-Games.svg"
-import MakeyMakey from "../../assets/Sponsors/Makey-Makey.svg"
-import Desmos from "../../assets/Sponsors/Desmos.svg"
-import Heroku from "../../assets/Sponsors/Heroku.svg"
-import StickerGiant from "../../assets/Sponsors/Sticker-Giant.svg"
-import Kingston from "../../assets/Sponsors/Kingston.svg"
-import Sentry from "../../assets/Sponsors/Sentry.svg"
-import HVMN from "../../assets/Sponsors/HVMN.svg"
-import CloudSploit from "../../assets/Sponsors/CloudSploit.svg"
-import AICamp from "../../assets/Sponsors/AI-Camp.svg"
-import SCW from "../../assets/Sponsors/SCW.svg"
-import { Markunread } from "@material-ui/icons";
-*/
+import NSI from "../../../../assets/Sponsors/NSI-logo.png"
+import Cross from "../../../../assets/Sponsors/cross-logo-wide.png"
 
 
 function Sponsors() {
@@ -36,24 +14,28 @@ function Sponsors() {
     </div>
 
     <div className='thank-you'>
-      <div>thank you to the sponsors</div><div> of last year's 2022 hackathon!</div>
+      <div>thank you to the sponsors</div><div> of this year's 2023 hackathon!</div>
     </div>
 
     <div className="sponsors-row">
+    <a className="sponsor" href="https://www.natural-selection.com/technology" target="_blank" rel="noopener noreferrer">
+        <div className="x-large-text">
+          <img className="sponsor-img" src={NSI}></img>
+        </div>
+      </a>
+      <a className="sponsor" href="https://cross.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+        <div className="x-large-text">
+          <img className="sponsor-img" src={Cross}></img>
+        </div>
+      </a>
       <a className="sponsor" href="https://rachelcarson.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-        <div className="x-large-text">UCSC RACHEL CARSON COLLEGE</div>
+        <div className="x-large-text">RACHEL CARSON COLLEGE</div>
       </a>
-      <a className="sponsor" href="https://alumni.ucsc.edu/about/council/index.html/" target="_blank" rel="noopener noreferrer">
-        <div className="x-large-text">UCSC ALUMNI COUNCIL</div>
+      <a className="sponsor" href="https://cowell.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+        <div className="x-large-text">COWELL COLLEGE</div>
       </a>
-      <a className="sponsor" href="https://oakes.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-        <div className="x-large-text">UCSC OAKES</div>
-      </a>
-      <a className="sponsor" href="https://collegenine.ucsc.edu" target="_blank" rel="noopener noreferrer">
-        <div className="x-large-text">COLLEGE 9/JRL</div>
-      </a>
-      <a className="sponsor" href="https://kresge.ucsc.edu" target="_blank" rel="noopener noreferrer">
-        <div className="x-large-text">KRESGE</div>
+      <a className="sponsor" href="https://stevenson.ucsc.edu/index.html" target="_blank" rel="noopener noreferrer">
+        <div className="x-large-text">STEVENSON COLLEGE</div>
       </a>
     </div>
     <img className="tree2" src={Tree}/>
