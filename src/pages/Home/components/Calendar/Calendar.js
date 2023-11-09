@@ -6,55 +6,78 @@ import Deer from '../../../../assets/smiling-deer.svg'
 
 const schedule = [
    {
+      "date": "Thursday, November 9th, 2023",
+      "events": [
+         {
+            "name": "Opening Ceremony",
+            "time": "7:30pm",
+            "location": "E2-180",
+         },
+         {
+            "name": "Dinner + Team Formation",
+            "time": "8:30pm",
+            "location": "E2-180",
+         },
+      ],
+   },
+   {
       "date": "Friday, November 10th, 2023",
       "events": [
          {
-            "name": "events will be announced soon!",
-            "time": "TBA",
-            "location": "TBA",
-            "description": "TBD",
-         },
-         /**
-         {
-            "name": "Ceremony",
-            "time": "1:00pm",
-            "location": "TBA",
-            "description": "TBD",
+            "name": "Ideation: Understanding and Designing for Accessibility",
+            "time": "9:00am",
+            "location": "E2-280",
+            "description": "Hosted with Tech4Good",
          },
          {
-            "name": "Workshop",
+            "name": "Introduction to Figma",
+            "time": "10:00am",
+            "location": "E2-280",
+            "description": "Hosted with Creative Tech Design (CTD)",
+         },
+         {
+            "name": "Industry Insights",
+            "time": "11:00am",
+            "location": "E2-280",
+            "description": "Hosted with Professor Leilani Gilpin",
+         },
+         {
+            "name": "Intro to Source Control and GitHub Copilot",
+            "time": "12:00pm",
+            "location": "E2-280",
+            "description": "Hosted with Dr. Emily Lovell",
+         },
+         {
+            "name": "Resume Review + Technical Interview Prep",
+            "time": "2:00pm",
+            "location": "E2-280",
+            "description": "Hosted with Girls Who Code (GWC)",
+         },
+         {
+            "name": "Intro to HMTL + CSS",
             "time": "3:00pm",
-            "location": "TBA",
-            "description": "TBD",
-         },
-         {
-            "name": "Workshop",
-            "time": "4:00pm",
-            "location": "TBA",
-            "description": "TBD",
-         },
-         */
-      ],
-   },
-   {
-      "date": "Saturday, November 11th, 2023",
-      "events": [
-         {
-            "name": "events will be announced soon!",
-            "time": "TBA",
-            "location": "TBA",
-            "description": "TBD",
+            "location": "E2-280",
+            "description": "Hosted with BluePrint",
          },
       ],
    },
    {
-      "date": "Sunday, November 12th, 2023",
+      "date": "Saturday, November 12th, 2023",
       "events": [
          {
-            "name": "events will be announced soon!",
-            "time": "TBA",
-            "location": "TBA",
-            "description": "TBD",
+            "name": "Hacking Ends",
+            "time": "10:00am",
+            "location": "E2-180",
+         },
+         {
+            "name": "Judges Begin!",
+            "time": "10:00am",
+            "location": "E2-180",
+         },
+         {
+            "name": "Closing Ceremony",
+            "time": "1:30pm",
+            "location": "E2-180",
          },
       ],
    }
@@ -95,7 +118,17 @@ function Calendar() {
                   {schedule[day].events.map((event) =>
                      <tr>
                         <td className="event-time">{event.time}</td>
-                        <td className="event-name">{event.name}</td>
+                        <td className="event-details">
+                           <div className='event-name'>
+                              <b>{event.name}</b>
+                           </div>
+                           <div>
+                              <ul>
+                                 <li> Located @ {event.location}</li>
+                                 {event.description ? <li > {event.description}</li> : ''}
+                              </ul>
+                           </div>
+                        </td>
                      </tr>
                   )}
                </tbody>

@@ -84,23 +84,37 @@ tr:last-child td:last-child { border-bottom-right-radius: 10px; }
    text-align: center;
    align-items: center;
 }
-.event-name {
-   padding: 20px;
+.event-details {
+   padding: 10px 10%;
    border-radius: 10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 10%;
+
+}
+.event-name {
+   justify-content: flex-start;
+   width: 20vw;
+}
+.event-details {
 }
 
-tr:nth-of-type(n+1) > .event-name {
+
+tr:nth-of-type(4n) > .event-details {
+   background-color: #D9DFFF;
+}
+
+tr:nth-of-type(4n+1) > .event-details {
    background-color: #F4C7C3;
 }
 
-tr:nth-of-type(n+2) > .event-name {
+tr:nth-of-type(4n+2) > .event-details {
    background-color: #FFE394;
 }
 
-tr:nth-of-type(n+3) > .event-name {
+tr:nth-of-type(4n+3) > .event-details {
    background-color: #D0FEFF;
 }
 
-tr:nth-of-type(n+4) > .event-name{
-   background-color: #D9DFFF;
-}

@@ -135,7 +135,7 @@ const teams = [
     'members': [
       {
         'name': 'Priya Charagondla',
-        'title': 'Sponsorship Team Lead',
+        'title': 'Design Team Lead',
         'picture': Priya,
       },
       {
