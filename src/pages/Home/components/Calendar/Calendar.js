@@ -119,15 +119,11 @@ function Calendar() {
                      <tr>
                         <td className="event-time">{event.time}</td>
                         <td className="event-details">
-                           <div className='event-name'>
-                              <b>{event.name}</b>
-                           </div>
-                           <div>
-                              <ul>
-                                 <li> Located @ {event.location}</li>
-                                 {event.description ? <li > {event.description}</li> : ''}
-                              </ul>
-                           </div>
+                           <div className='event-name'>{event.name}</div>
+                           <ul>
+                              <li>Located @ {event.location}</li>
+                              {event.description ? <li>{event.description}</li>: ''}
+                           </ul>
                         </td>
                      </tr>
                   )}
