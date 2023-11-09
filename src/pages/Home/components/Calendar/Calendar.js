@@ -28,36 +28,43 @@ const schedule = [
             "time": "9:00am",
             "location": "E2-280",
             "description": "Hosted with Tech4Good",
+            "link": "https://tech4good.soe.ucsc.edu/#/"
          },
          {
             "name": "Introduction to Figma",
             "time": "10:00am",
             "location": "E2-280",
             "description": "Hosted with Creative Tech Design (CTD)",
+            "link": "https://creativetechdesign.soe.ucsc.edu/"
          },
          {
             "name": "Industry Insights",
             "time": "11:00am",
             "location": "E2-280",
             "description": "Hosted with Professor Leilani Gilpin",
+            "link": "https://people.ucsc.edu/~lgilpin/"
+
          },
          {
             "name": "Intro to Source Control and GitHub Copilot",
             "time": "12:00pm",
             "location": "E2-280",
             "description": "Hosted with Dr. Emily Lovell",
+            "link": "https://education.github.com/discount_requests/application",
          },
          {
             "name": "Resume Review + Technical Interview Prep",
             "time": "2:00pm",
             "location": "E2-280",
             "description": "Hosted with Girls Who Code (GWC)",
+            "link": "https://gwc.soe.ucsc.edu/",
          },
          {
             "name": "Intro to HMTL + CSS",
             "time": "3:00pm",
             "location": "E2-280",
             "description": "Hosted with BluePrint",
+            "link": "https://www.linkedin.com/company/ucsc-blueprint/",
          },
       ],
    },
@@ -117,14 +124,21 @@ function Calendar() {
                   <th colspan="2">{schedule[day].date}</th>
                   {schedule[day].events.map((event) =>
                      <tr>
-                        <td className="event-time">{event.time}</td>
-                        <td className="event-details">
-                           <div className='event-name'>{event.name}</div>
-                           <ul>
-                              <li>Located @ {event.location}</li>
-                              {event.description ? <li>{event.description}</li>: ''}
-                           </ul>
-                        </td>
+                           <td className="event-time">{event.time}</td>
+                           <td className="event-details">
+                              <div className='event-name'>{event.name}</div>
+                              <ul>
+                                 <li> Located @ {event.location}</li>
+
+                                 {event.description ? 
+                                 
+                                    <li>
+                                       <a href={event.link} target="_blank" rel="noopener noreferrer">
+                                          {event.description}
+                                       </a>
+                                    </li>: ''}
+                              </ul>
+                           </td>
                      </tr>
                   )}
                </tbody>
