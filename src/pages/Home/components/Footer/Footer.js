@@ -24,7 +24,7 @@ function Footer() {
         </div>
         <div className="message">
           <div className="text">Made with <span role='img' aria-label='hearts'>💛💙</span> by <span role='img' aria-label='snails'>🍌🐌</span> in Santa Cruz.</div>
-          <div className="text">© 2022 GraceHacks. All rights reserved.</div>
+          <div className="text">© 2023 GraceHacks. All rights reserved.</div>
         </div>
       </div>
   );
